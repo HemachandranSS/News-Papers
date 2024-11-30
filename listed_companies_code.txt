@@ -1,0 +1,83 @@
+import time
+from datetime import datetime
+
+company_name = []
+company_link = []
+for i in range(1,195):
+   fetch('https://www.screener.in/screens/357649/all-listed-companies/?page='+str(i))
+   current_company_name = response.xpath("//td/a/text()").getall()
+   current_company_link = response.xpath("//td/a/@href").getall()
+   company_name.extend(current_company_name)
+   company_link.extend(current_company_link)
+   time.sleep(3)
+
+
+company_link = list(map(lambda a : "https://www.screener.in/"+a,company_link))
+res_dict = {}
+for i in range(0,len(company_link)):
+   res_dict[company_name[i]] = company_link[i]
+
+
+import json 
+# Convert and write JSON object to file
+with open("%s_listed_companies_with_screener_link.json" % (datetime.now().strftime('%d_%m_%Y')), "w") as outfile: 
+    json.dump(res_dict, outfile)
+
+--------------------------------------------------------------
+
+
+
+
+import json
+import time
+
+# Opening JSON file
+with open('30_11_2024_listed_companies_with_screener_link.json') as json_file:
+    data = json.load(json_file)
+
+keys = list(data.keys())
+values = list(data.values())
+
+
+i = 0
+res_list = []
+for name in keys:
+    
+    link = values[i]
+    try: 
+        fetch(link)
+
+        company_name = response.xpath("/html/body/main/div[3]/div[1]/div/h1/text()").get().strip()
+
+        company_link = response.xpath("/html/body/main/div[3]/div[2]/a[1]/@href").get().strip()
+
+        sector = response.xpath("/html/body/main/section[3]/div[1]/div[1]/p/a[1]/text()").get().strip()
+
+        industry = response.xpath("/html/body/main/section[3]/div[1]/div[1]/p/a[2]/text()").get().strip()
+
+        res_list.append({'company': {'name': company_name,'link': company_link},'name': name, 'link': link, 'sector': sector, 'industry': industry})
+
+        i += 1
+
+        time.sleep(3)
+    except:
+        res_list.append({'company':{'name': '','link': ''},'name': name, 'link': link, 'sector': '', 'industry': ''})
+        i += 1
+        time.sleep(3)
+        continue
+
+with open("30_11_2024_listed_companies_with_screener_link_sector.json", "w") as final:
+    json.dump(res_list, final)
+
+
+
+
+--------------------------------------------------------------------
+
+require 'json'
+data_hash = JSON.parse(File.read('30_11_2024_listed_companies_with_screener_link_sector.json'))
+industry_wise_grouping = data_hash.group_by{|arr| arr['sector']}
+json_string = industry_wise_grouping.to_json
+File.open("30_11_2024_listed_companies_with_screener_link_sector_by_sector.json", "w") do |file|
+  file.write(json_string)
+end
