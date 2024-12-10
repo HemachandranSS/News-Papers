@@ -78,9 +78,9 @@ with open("03_12_2024_listed_companies_with_screener_link_sector.json", "w") as 
 --------------------------------------------------------------------
 
 require 'json'
-data_hash = JSON.parse(File.read('30_11_2024_listed_companies_with_screener_link_sector.json'))
-industry_wise_grouping = data_hash.group_by{|arr| arr['sector']}
+data_hash = JSON.parse(File.read('03_12_2024_listed_companies_with_screener_link_sector.json'))
+industry_wise_grouping = data_hash.group_by{|arr| arr['industry']}
 json_string = industry_wise_grouping.to_json
-File.open("30_11_2024_listed_companies_with_screener_link_sector_by_sector.json", "w") do |file|
+File.open("03_12_2024_listed_companies_with_screener_link_sector_by_industry.json", "w") do |file|
   file.write(json_string)
 end
