@@ -3,7 +3,7 @@ from datetime import datetime
 
 company_name = []
 company_link = []
-for i in range(1,195):
+for i in range(1,196):
    fetch('https://www.screener.in/screens/357649/all-listed-companies/?page='+str(i))
    current_company_name = response.xpath("//td/a/text()").getall()
    current_company_link = response.xpath("//td/a/@href").getall()
@@ -32,7 +32,7 @@ import json
 import time
 
 # Opening JSON file
-with open('03_12_2024_listed_companies_with_screener_link.json') as json_file:
+with open('19_12_2024_listed_companies_with_screener_link.json') as json_file:
     data = json.load(json_file)
 
 keys = list(data.keys())
@@ -69,7 +69,7 @@ for name in keys:
         time.sleep(3)
         continue
 
-with open("03_12_2024_listed_companies_with_screener_link_sector.json", "w") as final:
+with open("19_12_2024_listed_companies_with_screener_link_sector.json", "w") as final:
     json.dump(res_list, final)
 
 
