@@ -1,0 +1,82 @@
+1. ETFs List - https://groww.in/v1/api/stocks_data/v1/etfs?page=0&size=196
+
+2. All Mutual Funds - 
+
+https://groww.in/v1/api/search/v1/derived/scheme?available_for_investment=true&doc_type=scheme&max_aum=&page=0&plan_type=Direct&q=&size=20&sort_by=0
+
+https://groww.in/v1/api/search/v1/derived/scheme?available_for_investment=true&doc_type=scheme&max_aum=&page=0&plan_type=Direct&q=&size=20&sort_by=0&sub_category=Multi%20Cap
+
+
+---------------------------------------------
+
+
+require 'httparty'
+require 'json'
+
+# Base API endpoint and parameters
+BASE_URL = "https://groww.in/v1/api/search/v1/derived/scheme"
+PARAMS = {
+  available_for_investment: true,
+  doc_type: "scheme",
+  max_aum: "",
+  page: 0, # Start with page 0
+  plan_type: "Direct",
+  q: "",
+  size: 20, # Number of records per page
+  sort_by: 0
+}
+
+all_records = []
+total_records = 1629 # Total number of records to fetch
+batch_size = PARAMS[:size]
+
+# Loop through all pages
+(total_records / batch_size.to_f).ceil.times do |page|
+  PARAMS[:page] = page
+  response = HTTParty.get(BASE_URL, query: PARAMS)
+  if response.code == 200
+    puts JSON.pretty_generate(JSON.parse(response.body))
+    data = JSON.parse(response.body)# Adjust this key based on the API response structure
+    all_records.concat(data['content'])
+    puts "Fetched page #{page}, Records fetched: #{data['content'].size}"
+  else
+    puts "Error fetching page #{page}: #{response.code} - #{response.body}"
+    break
+  end
+end
+
+# Save all records to a JSON file
+File.open("groww_all_mutual_fund_records.json", "w") do |file|
+  file.write(JSON.pretty_generate(all_records))
+end
+
+puts "Saved #{groww_all_mutual_fund_records.size} records to 'all_records.json'"
+
+
+-------------------------------------------------------------------------
+
+file_content = File.read(file_path)
+# Parse JSON
+funds_data = JSON.parse(file_content)
+result = funds_data
+  .group_by { |fund| fund['category'] } # First group by category
+  .transform_values do |category_group|
+    category_group
+      .group_by { |fund| fund['sub_category'] } # Group by sub_category within each category
+      .transform_values do |sub_category_group|
+        sub_category_group
+          .group_by { |fund| fund['risk'] } # Group by risk within each sub_category
+          .transform_values do |risk_group|
+            risk_group
+              .group_by { |fund| fund['plan_type'] } # Group by plan_type within each risk
+              .transform_values do |plan_type_group|
+                plan_type_group.sort_by { |fund| -(fund['aum'] || 0) } # Sort by aum in descending order
+              end
+          end
+      end
+  end
+
+
+  File.open("31_12_2024_groww_all_mutual_funds_group_by_category_sub_category_risk_plan_type_and_order_by_aum.json", "w") do |file|
+    file.write(JSON.pretty_generate(result))
+  end
