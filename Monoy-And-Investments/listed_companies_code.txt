@@ -84,3 +84,15 @@ json_string = industry_wise_grouping.to_json
 File.open("03_12_2024_listed_companies_with_screener_link_sector_by_industry.json", "w") do |file|
   file.write(json_string)
 end
+
+
+----------------------------------------------------------------------
+
+grouped_data = data_hash.group_by { |company| company['sector'] }
+grouped_data.each do |sector, companies_in_sector|
+  grouped_data[sector] = companies_in_sector.group_by { |company| company['industry'] }
+end
+
+File.open("03_12_2024_listed_companies_with_screener_link_grouped_by_sector_and_with_in_industry.json", "w") do |file|
+  file.write(grouped_data.to_json)
+end
