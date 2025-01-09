@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Equity Market Companies</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      .json-viewer {
+        line-height: 1.5;
+        margin: 20px;
+        border: 1px solid #ccc;
+        padding: 10px;
+        border-radius: 5px;
+        max-width: 100%;
+        overflow-x: auto;
+      }
+      .key {
+        font-weight: bold;
+        cursor: pointer;
+      }
+      .nested {
+        margin-left: 10px;
+        display: none;
+      } /* Reduced indentation */
+      .nested.open {
+        display: block;
+      }
+      #searchInput {
+        margin: 20px auto; /* Center the search box */
+        padding: 5px;
+        width: 250px;
+        display: block;
+      }
+      .category,
+      .sub-category,
+      .item {
+        margin: 2px 0;
+      } /* Reduced spacing */
+      .toggle-container {
+        cursor: pointer;
+        font-weight: bold;
+        display: block;
+        padding: 5px;
+      }
+      .key-value {
+        margin: 5px 0;
+      }
+      ul {
+        padding-left: 0; /* Removed padding from the list */
+        list-style-type: none; /* Remove bullets */
+      }
+      li {
+        display: block; /* Make each list item block-level */
+      }
+      .json-viewer {
+        word-wrap: break-word; /* Ensure text wraps inside the container */
+        white-space: pre-wrap; /* Preserve spaces and breaks */
+      }
+      .leaf-value {
+        font-weight: normal; /* Remove bold from leaf values */
+      }
+    </style>
+  </head>
+  <body>
+    <input type="text" id="searchInput" placeholder="Search..." />
+    <div id="jsonViewer" class="json-viewer"></div>
+
+    <script>
+      const jsonData = {};
+            // Recursively create the collapsible tree structure
+            function createTree(data) {
+        const treeContainer = document.createElement("ul");
+
+        for (const key in data) {
+          const value = data[key];
+          const li = document.createElement("li");
+          const isObject = typeof value === "object" && !Array.isArray(value);
+          const isArray = Array.isArray(value);
+
+          // Add collapsible behavior for nested objects/arrays
+          if (isObject || isArray) {
+            li.innerHTML = `<div class="toggle-container"><span class="toggle">${key}</span></div>`;
+            const nestedTree = createTree(value);
+            const nestedContainer = document.createElement("ul");
+            nestedContainer.classList.add("nested");
+            nestedContainer.appendChild(nestedTree);
+            li.appendChild(nestedContainer);
+          } else {
+            // Display key-value pairs directly (no collapsibility for literals)
+            const leafClass = "leaf-value";
+            li.innerHTML = `<span class="key">${key}:</span> <span class="${leafClass}">${createLink(
+              value
+            )}</span>`;
+          }
+
+          treeContainer.appendChild(li);
+        }
+
+        return treeContainer;
+      }
+
+      // Function to create anchor tags for URLs
+      function createLink(value) {
+        if (typeof value === "string" && value.startsWith("http")) {
+          return `<a href="${value}" target="_blank">${value}</a>`;
+        }
+        return value; // return the value as is if it's not a URL
+      }
+
+      // Toggle visibility of nested elements
+      function toggleVisibility(event) {
+        const toggleElement = event.target.closest(".toggle-container");
+        if (toggleElement) {
+          const nestedList = toggleElement.nextElementSibling;
+          if (nestedList && nestedList.classList.contains("nested")) {
+            nestedList.classList.toggle("open");
+          }
+        }
+      }
+
+      // Search functionality
+      const searchInput = document.getElementById("searchInput");
+      searchInput.addEventListener("input", () => {
+        const searchTerm = searchInput.value.toLowerCase();
+        const filteredData = filterJSON(jsonData, searchTerm);
+        renderJSON(filteredData, document.getElementById("jsonViewer"));
+      });
+
+      function filterJSON(data, searchTerm) {
+        const filteredData = {};
+
+        // Loop through data and filter based on searchTerm
+        for (const key in data) {
+          const value = data[key];
+          if (typeof value === "object" && !Array.isArray(value)) {
+            const filteredNested = filterJSON(value, searchTerm);
+            if (Object.keys(filteredNested).length > 0) {
+              filteredData[key] = filteredNested;
+            }
+          } else if (Array.isArray(value)) {
+            const filteredArray = value.filter((item) => {
+              return JSON.stringify(item).toLowerCase().includes(searchTerm);
+            });
+            if (filteredArray.length > 0) {
+              filteredData[key] = filteredArray;
+            }
+          } else if (
+            typeof value === "string" &&
+            value.toLowerCase().includes(searchTerm)
+          ) {
+            filteredData[key] = value;
+          }
+        }
+
+        return filteredData;
+      }
+
+      // Render the filtered JSON data
+      function renderJSON(jsonData, container) {
+        const tree = createTree(jsonData);
+        container.innerHTML = ""; // Clear previous content
+        container.appendChild(tree);
+      }
+
+      // Initial rendering
+      document
+        .getElementById("jsonViewer")
+        .addEventListener("click", toggleVisibility);
+      renderJSON(jsonData, document.getElementById("jsonViewer"));
+    </script>
+  </body>
+</html>

@@ -1,4 +1,4 @@
-1. ETFs List - https://groww.in/v1/api/stocks_data/v1/etfs?page=0&size=196
+1. ETFs List - https://groww.in/v1/api/stocks_data/v1/etfs?page=0&size=198
 
 2. All Mutual Funds - 
 
@@ -27,7 +27,7 @@ PARAMS = {
 }
 
 all_records = []
-total_records = 1629 # Total number of records to fetch
+total_records = 1634 # Total number of records to fetch
 batch_size = PARAMS[:size]
 
 # Loop through all pages
@@ -50,11 +50,11 @@ File.open("groww_all_mutual_fund_records.json", "w") do |file|
   file.write(JSON.pretty_generate(all_records))
 end
 
-puts "Saved #{groww_all_mutual_fund_records.size} records to 'all_records.json'"
+puts "Saved #{all_records.size} records to 'all_records.json'"
 
 
 -------------------------------------------------------------------------
-
+file_path = "groww_all_mutual_fund_records.json"
 file_content = File.read(file_path)
 # Parse JSON
 funds_data = JSON.parse(file_content)
@@ -77,6 +77,6 @@ result = funds_data
   end
 
 
-  File.open("31_12_2024_groww_all_mutual_funds_group_by_category_sub_category_risk_plan_type_and_order_by_aum.json", "w") do |file|
+  File.open("09_01_2025_groww_all_mutual_funds_group_by_category_sub_category_risk_plan_type_and_order_by_aum.json", "w") do |file|
     file.write(JSON.pretty_generate(result))
   end
