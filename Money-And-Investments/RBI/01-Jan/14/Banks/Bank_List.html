@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Equity Market Companies</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      .json-viewer {
+        line-height: 1.5;
+        margin: 20px;
+        border: 1px solid #ccc;
+        padding: 10px;
+        border-radius: 5px;
+        max-width: 100%;
+        overflow-x: auto;
+      }
+      .key {
+        font-weight: bold;
+        cursor: pointer;
+      }
+      .nested {
+        margin-left: 10px;
+        display: none;
+      } /* Reduced indentation */
+      .nested.open {
+        display: block;
+      }
+      #searchInput {
+        margin: 20px auto; /* Center the search box */
+        padding: 5px;
+        width: 250px;
+        display: block;
+      }
+      .category,
+      .sub-category,
+      .item {
+        margin: 2px 0;
+      } /* Reduced spacing */
+      .toggle-container {
+        cursor: pointer;
+        font-weight: bold;
+        display: block;
+        padding: 5px;
+      }
+      .key-value {
+        margin: 5px 0;
+      }
+      ul {
+        padding-left: 0; /* Removed padding from the list */
+        list-style-type: none; /* Remove bullets */
+      }
+      li {
+        display: block; /* Make each list item block-level */
+      }
+      .json-viewer {
+        word-wrap: break-word; /* Ensure text wraps inside the container */
+        white-space: pre-wrap; /* Preserve spaces and breaks */
+      }
+      .leaf-value {
+        font-weight: normal; /* Remove bold from leaf values */
+      }
+    </style>
+  </head>
+  <body>
+    <input type="text" id="searchInput" placeholder="Search..." />
+    <div id="jsonViewer" class="json-viewer"></div>
+
+    <script>
+      const jsonData = {
+    "Banks List": {
+        "SBI and Associates": "https://rbi.org.in/commonman/english/scripts/banksinindia.aspx#SBIA",
+        "Nationalised Banks": "https://rbi.org.in/commonman/english/scripts/banksinindia.aspx#NB",
+        "Private Sector Banks - Indian Banks": "https://rbi.org.in/commonman/english/scripts/banksinindia.aspx#IB",
+        "Private Sector Banks - Foreign Banks": "https://rbi.org.in/commonman/english/scripts/banksinindia.aspx#FB",
+        "Scheduled State Co-operative Banks": "https://rbidocs.rbi.org.in/rdocs/Content/pdfs/SCCB20141702.pdf",
+        "Non-Scheduled State Co-operative Banks": "https://rbidocs.rbi.org.in/rdocs/Content/pdfs/NSCB20141402.pdf",
+        "Co-operative Banks - Scheduled Urban Cooperative Banks": "https://rbidocs.rbi.org.in/rdocs/Content/pdfs/schedulecoop.pdf",
+        "Co-operative Banks - Non-Scheduled Urban Cooperative Banks": "https://rbidocs.rbi.org.in/rdocs/Content/pdfs/nonschedulecoop.pdf",
+        "Co-operative Banks - State Cooperative Banks": "https://rbi.org.in/commonman/english/scripts/banksinindia.aspx#SCB",
+        "Co-operative Banks - District Cooperative Banks": "https://rbidocs.rbi.org.in/rdocs/Content/pdfs/DCCB20141702.pdf",
+        "Regional Rural Banks": "https://rbi.org.in/commonman/english/scripts/banksinindia.aspx#rrb",
+        "Websites of Banks in India": "https://rbi.org.in/commonman/english/scripts/banksinindia.aspx#WSBI"
+    },
+    "Private Sector Banks": {
+        "Axis Bank Ltd.": "https://www.axisbank.com/",
+        "Bandhan Bank Ltd.": "https://www.bandhanbank.com/",
+        "CSB Bank Limited": "http://www.csb.co.in/",
+        "City Union Bank Ltd.": "https://www.cityunionbank.com/",
+        "DCB Bank Ltd.": "https://www.dcbbank.com/",
+        "Dhanlaxmi Bank Ltd.": "https://www.dhanbank.com/",
+        "Federal Bank Ltd.": "https://www.federalbank.co.in/",
+        "HDFC Bank Ltd": "https://www.hdfcbank.com/",
+        "ICICI Bank Ltd.": "https://www.icicibank.com/",
+        "IndusInd Bank Ltd": "https://www.indusind.com/",
+        "IDFC FIRST Bank Limited": "https://www.idfcbank.com/",
+        "Jammu & Kashmir Bank Ltd.": "https://www.jkbank.com/",
+        "Karnataka Bank Ltd.": "https://karnatakabank.com/",
+        "Karur Vysya Bank Ltd.": "http://www.kvb.co.in/",
+        "Kotak Mahindra Bank Ltd": "https://www.kotak.com/",
+        "Nainital bank Ltd.": "http://www.nainitalbank.co.in/",
+        "RBL Bank Ltd.": "https://www.rblbank.com/",
+        "South Indian Bank Ltd.": "https://www.southindianbank.com/",
+        "Tamilnad Mercantile Bank Ltd.": "http://www.tmb.in/",
+        "YES Bank Ltd.": "https://www.yesbank.in/",
+        "IDBI Bank Limited": "https://www.idbi.com/"
+    },
+    "Local Area Banks (LAB)": {
+        "Coastal Local Area Bank Ltd": "http://www.coastalareabank.com/",
+        "Krishna Bhima Samruddhi LAB Ltd": "http://www.kbsbankindia.com/"
+    },
+    "Small Finance Banks (SFB)": {
+        "Au Small Finance Bank Ltd.": "https://www.aubank.in/",
+        "Capital Small Finance Bank Ltd": "http://www.capitalbank.co.in/",
+        "Equitas Small Finance Bank Ltd": "https://www.equitasbank.com/",
+        "ESAF Small Finance Bank Ltd.": "https://www.esafbank.com/",
+        "Suryoday Small Finance Bank Ltd.": "https://www.suryodaybank.com/",
+        "Ujjivan Small Finance Bank Ltd.": "https://www.ujjivansfb.in/",
+        "Utkarsh Small Finance Bank Ltd.": "https://www.utkarsh.bank/",
+        "North East Small finance Bank Ltd": "https://nesfb.com/",
+        "Jana Small Finance Bank Ltd": "https://www.janabank.com/",
+        "Shivalik Small Finance Bank Ltd": "https://shivalikbank.com/",
+        "Unity Small Finance Bank Ltd": "https://theunitybank.com/"
+    },
+    "Payments Banks (PB)": {
+        "Airtel Payments Bank Ltd": "https://www.airtel.in/bank",
+        "India Post Payments Bank Ltd": "https://ippbonline.com/web/ippb",
+        "FINO Payments Bank Ltd": "https://www.finobank.com/",
+        "Paytm Payments Bank Ltd": "http://www.paytmbank.com/",
+        "Jio Payments Bank Ltd": "https://www.jiopaymentsbank.com/",
+        "NSDL Payments Bank Limited": "https://nsdlbank.com/"
+    },
+    "Public Sector Banks": {
+        "Bank of Baroda": "https://www.bankofbaroda.co.in/",
+        "Bank of India": "https://www.bankofindia.co.in/",
+        "Bank of Maharashtra": "https://www.bankofmaharashtra.in/",
+        "Canara Bank": "https://www.canarabank.com/",
+        "Central Bank of India": "https://www.centralbankofindia.co.in/",
+        "Indian Bank": "http://www.indianbank.in/",
+        "Indian Overseas Bank": "https://www.iob.in/",
+        "Punjab & Sind Bank": "https://punjabandsindbank.co.in/",
+        "Punjab National Bank": "https://www.pnbindia.in/",
+        "State Bank of India": "https://www.sbi.co.in/",
+        "UCO Bank": "https://www.ucobank.com/",
+        "Union Bank of India": "https://www.unionbankonline.co.in/"
+    },
+    "Financial Institutions": {
+        "National Bank for Agriculture and Rural Development": "http://www.nabard.org/",
+        "Export-Import Bank of India": "https://www.eximbankindia.in/",
+        "National Housing Bank": "https://nhb.org.in/",
+        "Small Industries Development Bank of India": "https://www.sidbi.in/"
+    },
+    "Regional Rural Banks": {
+        "Assam Gramin Vikash Bank": "http://www.agvbank.co.in/",
+        "Andhra Pradesh Grameena Vikas Bank": "https://www.apgvbank.in/",
+        "Andhra Pragathi Grameena Bank": "http://www.apgb.in/",
+        "Arunachal Pradesh Rural Bank": "https://www.apruralbank.com/",
+        "Aryavart Bank": "http://www.aryavart-rrb.com/",
+        "Bangiya Gramin Vikash Bank": "https://bgvb.in/",
+        "Baroda Gujarat Gramin Bank": "http://www.bggb.in/",
+        "Baroda Rajasthan Kshetriya Gramin Bank": "http://www.brkgb.com/",
+        "Baroda UP Bank": "http://www.barodaupbank.in/",
+        "Chaitanya Godavari GB": "http://www.cggb.in/",
+        "Chhattisgarh Rajya Gramin Bank": "http://www.cgbank.in/",
+        "Dakshin Bihar Gramin Bank": "http://www.dbgb.in/",
+        "Ellaquai Dehati Bank": "https://www.edb.org.in/",
+        "Himachal Pradesh Gramin Bank": "http://www.hpgb.in/",
+        "J&K Grameen Bank": "http://www.jkgb.in/",
+        "Jharkhand Rajya Gramin Bank": "http://www.jrgb.in/",
+        "Karnataka Gramin Bank": "http://www.karnatakagraminbank.com/",
+        "Karnataka Vikas Gramin Bank": "http://www.kvgbank.com/",
+        "Kerala Gramin Bank": "http://www.keralagbank.com/",
+        "Madhya Pradesh Gramin Bank": "https://www.mpgb.co.in/",
+        "Madhyanchal Gramin Bank": "http://www.mgbank.co.in/",
+        "Maharashtra Gramin Bank": "https://www.mahagramin.in/",
+        "Manipur Rural Bank": "http://www.manipurruralbank.com/",
+        "Meghalaya Rural Bank": "http://www.meghalayaruralbank.co.in/",
+        "Mizoram Rural Bank": "https://www.mizoramruralbank.in/",
+        "Nagaland Rural Bank": "http://www.nagalandruralbank.com/",
+        "Odisha Gramya Bank": "Paschim Banga Gramin Bank",
+        "Prathama U.P. Gramin Bank": "Puduvai Bharathiar Grama Bank",
+        "Punjab Gramin Bank": "http://www.pgb.org.in/",
+        "Rajasthan Marudhara Gramin Bank": "http://www.rmgb.in/",
+        "Saptagiri Grameena Bank": "http://www.saptagirigrameenabank.in/",
+        "Sarva Haryana Gramin Bank": "http://www.shgb.co.in/",
+        "Saurashtra Gramin Bank": "https://sgbrrb.org/",
+        "Tamil Nadu Grama Bank": "http://www.tamilnadugramabank.com/",
+        "Telangana Grameena Bank": "http://www.tgbhyd.in/",
+        "Tripura Gramin Bank": "http://www.tripuragraminbank.org/",
+        "Uttar Bihar Gramin Bank": "http://www.ubgb.in/",
+        "Utkal Grameen Bank": "http://www.utkalgrameenbank.co.in/",
+        "Uttarbanga Kshetriya Gramin Bank": "http://www.ubkgb.org/",
+        "Vidharbha Konkan Gramin Bank": "http://www.vkgb.co.in/",
+        "Uttarakhand Gramin Bank": "http://www.uttarakhandgraminbank.com/"
+    },
+    "foreign banks having banking presence in India": {
+        "AB Bank Ltd.": "http://abbl.com/mumbai-branch/",
+        "American Express Banking Corporation": "https://www.americanexpress.com/in/",
+        "Australia and New Zealand Banking Group Ltd.": "http://www.anz.com/india/en/Corporate/",
+        "Barclays Bank Plc.": "https://www.barclays.in/",
+        "Bank of America": "http://bofa-india.com/",
+        "Bank of Bahrain and Kuwait B.S.C.": "https://www.bbkindia.com/",
+        "Bank of Ceylon": "http://www.bankofceylon.in/",
+        "Bank of China Limited": "https://www.bankofchina.com/in/en/aboutus/",
+        "Bank of Nova Scotia": "http://www.scotiabank.com/global/en/0,,6176,00.html",
+        "BNP Paribas": "http://www.bnpparibas.co.in/en/",
+        "Citibank N.A.": "https://www.citibank.co.in/",
+        "Cooperatieve Rabobank U.A./ Coöperatieve Centrale Raiffeisen-Boerenleenbank B.A.": "https://www.rabobank.com/en/locate-us/asia-pacific/india/cooperatieve-rabobank-ua.html",
+        "Credit Agricole Corporate and Investment Bank": "https://www.ca-cib.com/our-global-presence/asia-pacific/india",
+        "CTBC Bank Co., Ltd.": "http://www.chinatrustindia.com/",
+        "DBS Bank India Limited": "https://www.dbs.com/india/default.page",
+        "Deutsche Bank A.G.": "http://www.deutschebank.co.in",
+        "Doha Bank Q.P.S.C": "http://dohabank.co.in/",
+        "Emirates NBD Bank P.J.S.C": "https://www.emiratesnbd.co.in/",
+        "First Abu Dhabi Bank PJSC": "https://www.bankfab.com/en-in",
+        "FirstRand Bank Limited": "https://www.firstrand.co.in/",
+        "Hong Kong and Shanghai Banking Corporation Limited": "https://www.hsbc.co.in/1/2/homepage",
+        "Industrial and Commercial Bank of China": "http://www.icbcindia.com/",
+        "Industrial Bank of Korea": "https://in.globalibk.com/iview/03/CMIBMAN0000",
+        "J.P. Morgan Chase Bank N.A.": "https://www.jpmorgan.com/IN/en/about-us",
+        "JSC VTB Bank": "http://www.vtbindia.com/",
+        "KEB Hana Bank": "https://global.1qbank.com/lounge/chennai/et/main.html",
+        "Kookmin Bank": "https://www.kbfg.com/Eng/about/global/asia/india.jsp",
+        "Mashreq bank P.S.C": "https://www.mashreqbank.com/uae/en/international-banking/network/india",
+        "Mizuho Bank Ltd.": "https://www.mizuhobank.com/india/index.html",
+        "MUFG Bank, Ltd.": "http://www.bk.mufg.jp/global/globalnetwork/asiaoceania/mumbai.html",
+        "Nong Hyup Bank": "https://banking.nonghyup.com/nhbank.html",
+        "NatWest Markets Plc": "https://www.natwestmarkets.in/index.html",
+        "PT Bank Maybank Indonesia TBK": "https://www.maybank.co.in/",
+        "Qatar National Bank (Q.P.S.C.)": "https://www.qnb.com/sites/qnb/qnbindia/page/en/en-home.html",
+        "Sberbank": "http://www.sberbank.co.in/",
+        "SBM Bank (India) Limited": "https://www.sbmbank.co.in/",
+        "Shinhan Bank": "https://in.shinhanglobal.com/",
+        "Societe Generale": "https://www.societegenerale.asia/en/country-details/country/india-2/",
+        "Sonali Bank Ltd.": "http://www.sonalibank.in/",
+        "Standard Chartered Bank": "https://www.sc.com/in/",
+        "Sumitomo Mitsui Banking Corporation": "http://www.smbc.co.jp/global/india/",
+        "UBS AG": "https://www.ubs.com/global/en/our-firm/governance/ubs-ag.html",
+        "United Overseas Bank Limited": "https://www.uobgroup.com/in/",
+        "Woori Bank": "https://go.wooribank.com/in/ib/main/IbMain.do"
+    }
+};
+            // Recursively create the collapsible tree structure
+            function createTree(data) {
+        const treeContainer = document.createElement("ul");
+
+        for (const key in data) {
+          const value = data[key];
+          const li = document.createElement("li");
+          const isObject = typeof value === "object" && !Array.isArray(value);
+          const isArray = Array.isArray(value);
+
+          // Add collapsible behavior for nested objects/arrays
+          if (isObject || isArray) {
+            li.innerHTML = `<div class="toggle-container"><span class="toggle">${key}</span></div>`;
+            const nestedTree = createTree(value);
+            const nestedContainer = document.createElement("ul");
+            nestedContainer.classList.add("nested");
+            nestedContainer.appendChild(nestedTree);
+            li.appendChild(nestedContainer);
+          } else {
+            // Display key-value pairs directly (no collapsibility for literals)
+            const leafClass = "leaf-value";
+            li.innerHTML = `<span class="key">${key}:</span> <span class="${leafClass}">${createLink(
+              value
+            )}</span>`;
+          }
+
+          treeContainer.appendChild(li);
+        }
+
+        return treeContainer;
+      }
+
+      // Function to create anchor tags for URLs
+      function createLink(value) {
+        if (typeof value === "string" && value.startsWith("http")) {
+          return `<a href="${value}" target="_blank">${value}</a>`;
+        }
+        return value; // return the value as is if it's not a URL
+      }
+
+      // Toggle visibility of nested elements
+      function toggleVisibility(event) {
+        const toggleElement = event.target.closest(".toggle-container");
+        if (toggleElement) {
+          const nestedList = toggleElement.nextElementSibling;
+          if (nestedList && nestedList.classList.contains("nested")) {
+            nestedList.classList.toggle("open");
+          }
+        }
+      }
+
+      // Search functionality
+      const searchInput = document.getElementById("searchInput");
+      searchInput.addEventListener("input", () => {
+        const searchTerm = searchInput.value.toLowerCase();
+        const filteredData = filterJSON(jsonData, searchTerm);
+        renderJSON(filteredData, document.getElementById("jsonViewer"));
+      });
+
+      function filterJSON(data, searchTerm) {
+        const filteredData = {};
+
+        // Loop through data and filter based on searchTerm
+        for (const key in data) {
+          const value = data[key];
+          if (typeof value === "object" && !Array.isArray(value)) {
+            const filteredNested = filterJSON(value, searchTerm);
+            if (Object.keys(filteredNested).length > 0) {
+              filteredData[key] = filteredNested;
+            }
+          } else if (Array.isArray(value)) {
+            const filteredArray = value.filter((item) => {
+              return JSON.stringify(item).toLowerCase().includes(searchTerm);
+            });
+            if (filteredArray.length > 0) {
+              filteredData[key] = filteredArray;
+            }
+          } else if (
+            typeof value === "string" &&
+            value.toLowerCase().includes(searchTerm)
+          ) {
+            filteredData[key] = value;
+          }
+        }
+
+        return filteredData;
+      }
+
+      // Render the filtered JSON data
+      function renderJSON(jsonData, container) {
+        const tree = createTree(jsonData);
+        container.innerHTML = ""; // Clear previous content
+        container.appendChild(tree);
+      }
+
+      // Initial rendering
+      document
+        .getElementById("jsonViewer")
+        .addEventListener("click", toggleVisibility);
+      renderJSON(jsonData, document.getElementById("jsonViewer"));
+    </script>
+  </body>
+</html>
