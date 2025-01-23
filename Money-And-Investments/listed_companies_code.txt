@@ -32,45 +32,55 @@ import json
 import time
 
 # Opening JSON file
-with open('09_01_2025_listed_companies_with_screener_link.json') as json_file:
+with open('23_01_2025_listed_companies_with_screener_link.json') as json_file:
     data = json.load(json_file)
 
 keys = list(data.keys())
 values = list(data.values())
 
-
 i = 0
 res_list = []
 for name in keys:
-    
     link = values[i]
     try: 
         fetch(link)
 
         company_name = response.xpath("/html/body/main/div[3]/div[1]/div/h1/text()").get().strip()
-
         company_link = response.xpath("/html/body/main/div[3]/div[2]/a[1]/@href").get().strip()
-
         sector = response.xpath("/html/body/main/section[3]/div[1]/div[1]/p/a[1]/text()").get().strip()
-
         industry = response.xpath("/html/body/main/section[3]/div[1]/div[1]/p/a[2]/text()").get().strip()
 
-        #res_list.append({'company': {'name': company_name,'link': company_link},'name': name, 'link': link, 'sector': sector, 'industry': industry})
+        google_link = "https://www.google.com/search?q={name}".format(name=company_name)
         
-        res_list.append({'company_name': company_name,'company_link': company_link,'name': name, 'link': link, 'sector': sector, 'industry': industry})
-        
+        res_list.append({
+            'company_name': company_name,
+            'company_link': company_link,
+            'google_link': google_link,
+            'name': name,
+            'link': link,
+            'sector': sector,
+            'industry': industry
+        })
 
         i += 1
-
         time.sleep(3)
     except:
-        res_list.append({'company_name': '','company_link': '','name': name, 'link': link, 'sector': '', 'industry': ''})
+        res_list.append({
+            'company_name': '',
+            'company_link': '',
+            'google_link': '',
+            'name': name,
+            'link': link,
+            'sector': '',
+            'industry': ''
+        })
         i += 1
         time.sleep(3)
         continue
 
-with open("09_01_2025_listed_companies_with_screener_link_sector.json", "w") as final:
+with open("23_01_2025_listed_companies_with_google_screener_link.json", "w") as final:
     json.dump(res_list, final)
+
 
 
 
@@ -78,15 +88,26 @@ with open("09_01_2025_listed_companies_with_screener_link_sector.json", "w") as 
 --------------------------------------------------------------------
 
 require 'json'
-data_hash = JSON.parse(File.read('09_01_2025_listed_companies_with_screener_link_sector.json'))
+data_hash = JSON.parse(File.read('23_01_2025_listed_companies_with_screener_link.json'))
 industry_wise_grouping = data_hash.group_by{|arr| arr['sector']}
 json_string = industry_wise_grouping.to_json
-File.open("09_01_2025_listed_companies_with_screener_link_sector_by_sector.json", "w") do |file|
+File.open("23_01_2025_listed_companies_with_screener_link_sector_by_sector.json", "w") do |file|
   file.write(json_string)
 end
 
 
 ----------------------------------------------------------------------
+
+require 'json'
+data_hash = JSON.parse(File.read('23_01_2025_listed_companies_with_screener_link.json'))
+industry_wise_grouping = data_hash.group_by{|arr| arr['industry']}
+json_string = industry_wise_grouping.to_json
+File.open("23_01_2025_listed_companies_with_screener_link_sector_by_industry.json", "w") do |file|
+  file.write(json_string)
+end
+
+
+-----------------------------------------------------------------------------------
 
 grouped_data = data_hash.group_by { |company| company['sector'] }
 grouped_data.each do |sector, companies_in_sector|
