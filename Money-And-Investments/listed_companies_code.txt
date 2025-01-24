@@ -88,7 +88,7 @@ with open("23_01_2025_listed_companies_with_google_screener_link.json", "w") as 
 --------------------------------------------------------------------
 
 require 'json'
-data_hash = JSON.parse(File.read('23_01_2025_listed_companies_with_screener_link.json'))
+data_hash = JSON.parse(File.read('23_01_2025_listed_companies_with_google_screener_link.json'))
 industry_wise_grouping = data_hash.group_by{|arr| arr['sector']}
 json_string = industry_wise_grouping.to_json
 File.open("23_01_2025_listed_companies_with_screener_link_sector_by_sector.json", "w") do |file|
@@ -99,7 +99,7 @@ end
 ----------------------------------------------------------------------
 
 require 'json'
-data_hash = JSON.parse(File.read('23_01_2025_listed_companies_with_screener_link.json'))
+data_hash = JSON.parse(File.read('23_01_2025_listed_companies_with_google_screener_link.json'))
 industry_wise_grouping = data_hash.group_by{|arr| arr['industry']}
 json_string = industry_wise_grouping.to_json
 File.open("23_01_2025_listed_companies_with_screener_link_sector_by_industry.json", "w") do |file|
