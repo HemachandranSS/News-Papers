@@ -117,3 +117,20 @@ end
 File.open("09_01_2025_listed_companies_with_screener_link_grouped_by_sector_and_with_in_industry.json", "w") do |file|
   file.write(grouped_data.to_json)
 end
+
+---------------------------------------------------------------
+
+
+grouped_data = data_hash.group_by { |item| item["zone"] }
+                    .transform_values do |state_data|
+  state_data.group_by { |item| item["state"] }
+             .transform_values do |location_data|
+    location_data.group_by { |item| item["location"] }
+                 .transform_values { |institutions| institutions.map { |i| i["name"] } }
+  end
+end
+
+
+File.open("29_01_2025_top-B-schools-in-india_grouped.json", "w") do |file|
+  file.write(grouped_data.to_json)
+end
