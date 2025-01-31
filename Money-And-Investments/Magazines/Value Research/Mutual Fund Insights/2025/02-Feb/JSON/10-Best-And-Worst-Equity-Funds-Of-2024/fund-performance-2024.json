@@ -1,0 +1,222 @@
+{
+  "diversified_equity": {
+    "top_performers": [
+      {
+        "fund_name": "Motilal Oswal Midcap",
+        "category": "Mid cap",
+        "return": 55.8
+      },
+      {
+        "fund_name": "Motilal Oswal ELSS Tax Saver",
+        "category": "ELSS",
+        "return": 49.4
+      },
+      {
+        "fund_name": "Motilal Oswal Large and Midcap",
+        "category": "Large & MidCap",
+        "return": 48.7
+      },
+      {
+        "fund_name": "Motilal Oswal Small Cap",
+        "category": "Small cap",
+        "return": 47.8
+      },
+      {
+        "fund_name": "Invesco India Focused",
+        "category": "Flexi cap",
+        "return": 45.0
+      },
+      {
+        "fund_name": "Invesco India Mid Cap",
+        "category": "Mid cap",
+        "return": 44.8
+      },
+      {
+        "fund_name": "Motilal Oswal Flexi Cap",
+        "category": "Flexi cap",
+        "return": 44.6
+      },
+      {
+        "fund_name": "Bandhan Small Cap",
+        "category": "Small cap",
+        "return": 44.5
+      },
+      {
+        "fund_name": "HSBC Midcap",
+        "category": "Mid cap",
+        "return": 40.7
+      },
+      {
+        "fund_name": "Edelweiss Mid Cap",
+        "category": "Mid cap",
+        "return": 40.1
+      }
+    ],
+    "worst_performers": [
+      {
+        "fund_name": "Quant Active",
+        "category": "Multi cap",
+        "return": 12.6
+      },
+      {
+        "fund_name": "HDFC Large Cap",
+        "category": "Large cap",
+        "return": 12.5
+      },
+      {
+        "fund_name": "SBI Ret. Benefit - Aggressive Plan",
+        "category": "Flexi cap",
+        "return": 12.5
+      },
+      {
+        "fund_name": "UTI Large Cap",
+        "category": "Large cap",
+        "return": 12.3
+      },
+      {
+        "fund_name": "Taurus Mid Cap",
+        "category": "Mid cap",
+        "return": 11.6
+      },
+      {
+        "fund_name": "Nippon India Focused Equity",
+        "category": "Flexi cap",
+        "return": 11.4
+      },
+      {
+        "fund_name": "PGIM India Large Cap",
+        "category": "Large cap",
+        "return": 11.1
+      },
+      {
+        "fund_name": "Quant ELSS Tax Saver",
+        "category": "ELSS",
+        "return": 10.1
+      },
+      {
+        "fund_name": "Samco ELSS Tax Saver",
+        "category": "ELSS",
+        "return": 10.0
+      },
+      {
+        "fund_name": "Samco Flexi Cap",
+        "category": "Flexi cap",
+        "return": 5.1
+      }
+    ]
+  },
+  "sectoral_thematic_international": {
+    "top_performers": [
+      {
+        "fund_name": "Mirae Asset NYSE FANG+ ETF",
+        "category": "International",
+        "return": 57.6
+      },
+      {
+        "fund_name": "LIC MF Infrastructure Fund",
+        "category": "Sectoral-Infra.",
+        "return": 49.4
+      },
+      {
+        "fund_name": "HDFC Pharma And Healthcare Fund",
+        "category": "Sectoral-Pharma",
+        "return": 47.4
+      },
+      {
+        "fund_name": "ICICI Pru Pharma Healthcare & Diagnostics",
+        "category": "Sectoral-Pharma",
+        "return": 44.5
+      },
+      {
+        "fund_name": "Union Innovation & Opportunities",
+        "category": "Thematic",
+        "return": 42.3
+      },
+      {
+        "fund_name": "HDFC Defence",
+        "category": "Thematic",
+        "return": 42.1
+      },
+      {
+        "fund_name": "LIC MF Healthcare",
+        "category": "Sectoral-Pharma",
+        "return": 41.4
+      },
+      {
+        "fund_name": "UTI Healthcare",
+        "category": "Sectoral-Pharma",
+        "return": 40.6
+      },
+      {
+        "fund_name": "SBI Healthcare Opportunities",
+        "category": "Sectoral-Pharma",
+        "return": 40.3
+      },
+      {
+        "fund_name": "Bandhan Infrastructure Fund",
+        "category": "Sectoral-Infra.",
+        "return": 40.3
+      }
+    ],
+    "worst_performers": [
+      {
+        "fund_name": "SBI Nifty Private Bank ETF",
+        "category": "Sectoral-Banking",
+        "return": 0.4
+      },
+      {
+        "fund_name": "ICICI Prudential Nifty FMCG ETF",
+        "category": "Thematic",
+        "return": 0.1
+      },
+      {
+        "fund_name": "Franklin India Feeder Templtn Europn Opp",
+        "category": "International",
+        "return": -1.4
+      },
+      {
+        "fund_name": "Kotak International REIT FOF",
+        "category": "International",
+        "return": -3.2
+      },
+      {
+        "fund_name": "Mirae Asset Glob Elec & Aut Veh ETFs FoF",
+        "category": "International",
+        "return": -4.3
+      },
+      {
+        "fund_name": "Invesco Ind-Invesco Pan European Eqt FoF",
+        "category": "International",
+        "return": -6.6
+      },
+      {
+        "fund_name": "DSP Global Clean Energy Fund of Fund",
+        "category": "International",
+        "return": -6.6
+      },
+      {
+        "fund_name": "DSP World Mining Fund of Fund",
+        "category": "International",
+        "return": -7.8
+      },
+      {
+        "fund_name": "Mahindra Manulife Asia Pacific REITs FoF",
+        "category": "International",
+        "return": -9.6
+      },
+      {
+        "fund_name": "HSBC Brazil Fund",
+        "category": "International",
+        "return": -28.4
+      }
+    ]
+  },
+  "metadata": {
+    "date": "December 23, 2024",
+    "notes": [
+      "Returns are year-to-date",
+      "FoFs have been excluded from regular equity funds",
+      "Only actively managed funds considered for equity worst performers"
+    ]
+  }
+}

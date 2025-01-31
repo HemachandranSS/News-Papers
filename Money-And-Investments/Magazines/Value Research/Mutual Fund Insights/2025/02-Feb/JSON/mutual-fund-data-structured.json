@@ -1,0 +1,597 @@
+{
+  "Aditya Birla Sun Life Frontline Equity": {
+    "SIP returns (%)": {
+      "Rating": "3/5",
+      "3Y": "18.3",
+      "5Y": "19.5"
+    },
+    "Risk measures": {
+      "Risk grade": "Below avg.",
+      "Alpha": "0.9",
+      "Sharpe ratio": "0.7"
+    },
+    "Portfolio": {
+      "Avg. no of stocks": "84",
+      "Turnover": "40",
+      "Expense ratio": "1.01",
+      "Assets": "29,323"
+    }
+  },
+  "Axis Bluechip": {
+    "SIP returns (%)": {
+      "Rating": "1/5",
+      "3Y": "14.7",
+      "5Y": "14.6"
+    },
+    "Risk measures": {
+      "Risk grade": "Avg.",
+      "Alpha": "-4.1",
+      "Sharpe ratio": "0.3"
+    },
+    "Portfolio": {
+      "Avg. no of stocks": "49",
+      "Turnover": "51",
+      "Expense ratio": "0.69",
+      "Assets": "33,547"
+    }
+  },
+  "Bajaj Finserv Large Cap": {
+    "SIP returns (%)": {
+      "Rating": "Unrated",
+      "3Y": "-",
+      "5Y": "-"
+    },
+    "Risk measures": {
+      "Risk grade": "-",
+      "Alpha": "-",
+      "Sharpe ratio": "-"
+    },
+    "Portfolio": {
+      "Avg. no of stocks": "-",
+      "Turnover": "-",
+      "Expense ratio": "0.61",
+      "Assets": "1,294"
+    }
+  },
+  "Bandhan Large Cap": {
+    "SIP returns (%)": {
+      "Rating": "4/5",
+      "3Y": "21.1",
+      "5Y": "20.4"
+    },
+    "Risk measures": {
+      "Risk grade": "Below avg.",
+      "Alpha": "1.1",
+      "Sharpe ratio": "0.7"
+    },
+    "Portfolio": {
+      "Avg. no of stocks": "53",
+      "Turnover": "120",
+      "Expense ratio": "0.92",
+      "Assets": "1,760"
+    }
+  },
+  "Bank of India Bluechip": {
+    "SIP returns (%)": {
+      "Rating": "3/5",
+      "3Y": "19.4",
+      "5Y": "-"
+    },
+    "Risk measures": {
+      "Risk grade": "Above avg.",
+      "Alpha": "-0.1",
+      "Sharpe ratio": "0.6"
+    },
+    "Portfolio": {
+      "Avg. no of stocks": "45",
+      "Turnover": "53",
+      "Expense ratio": "1.03",
+      "Assets": "197"
+    }
+  },
+  "Baroda BNP Paribas Large Cap": {
+    "SIP returns (%)": {
+      "Rating": "4/5",
+      "3Y": "21.6",
+      "5Y": "21.0"
+    },
+    "Risk measures": {
+      "Risk grade": "Low",
+      "Alpha": "3.5",
+      "Sharpe ratio": "0.9"
+    },
+    "Portfolio": {
+      "Avg. no of stocks": "54",
+      "Turnover": "61",
+      "Expense ratio": "0.82",
+      "Assets": "2,403"
+    }
+  },
+  "Canara Robeco Bluechip Equity": {
+    "SIP returns (%)": {
+      "Rating": "4/5",
+      "3Y": "19.6",
+      "5Y": "19.6"
+    },
+    "Risk measures": {
+      "Risk grade": "Low",
+      "Alpha": "1.4",
+      "Sharpe ratio": "0.7"
+    },
+    "Portfolio": {
+      "Avg. no of stocks": "53",
+      "Turnover": "27",
+      "Expense ratio": "0.51",
+      "Assets": "14,824"
+    }
+  },
+  "DSP Top 100 Equity": {
+    "SIP returns (%)": {
+      "Rating": "3/5",
+      "3Y": "22.2",
+      "5Y": "20.2"
+    },
+    "Risk measures": {
+      "Risk grade": "Avg.",
+      "Alpha": "2.8",
+      "Sharpe ratio": "0.8"
+    },
+    "Portfolio": {
+      "Avg. no of stocks": "32",
+      "Turnover": "39",
+      "Expense ratio": "1.10",
+      "Assets": "4,530"
+    }
+  },
+  "Edelweiss Large Cap": {
+    "SIP returns (%)": {
+      "Rating": "4/5",
+      "3Y": "19.6",
+      "5Y": "20.2"
+    },
+    "Risk measures": {
+      "Risk grade": "Below avg.",
+      "Alpha": "2.2",
+      "Sharpe ratio": "0.8"
+    },
+    "Portfolio": {
+      "Avg. no of stocks": "80",
+      "Turnover": "76",
+      "Expense ratio": "0.61",
+      "Assets": "1,100"
+    }
+  },
+  "Franklin India Bluechip": {
+    "SIP returns (%)": {
+      "Rating": "3/5",
+      "3Y": "17.7",
+      "5Y": "18.4"
+    },
+    "Risk measures": {
+      "Risk grade": "Below avg.",
+      "Alpha": "-0.8",
+      "Sharpe ratio": "0.5"
+    },
+    "Portfolio": {
+      "Avg. no of stocks": "42",
+      "Turnover": "78",
+      "Expense ratio": "1.13",
+      "Assets": "7,847"
+    }
+  },
+  "Groww Large Cap": {
+    "SIP returns (%)": {
+      "Rating": "3/5",
+      "3Y": "17.5",
+      "5Y": "17.6"
+    },
+    "Risk measures": {
+      "Risk grade": "Avg.",
+      "Alpha": "0.6",
+      "Sharpe ratio": "0.6"
+    },
+    "Portfolio": {
+      "Avg. no of stocks": "36",
+      "Turnover": "161",
+      "Expense ratio": "1.03",
+      "Assets": "127"
+    }
+  },
+  "HDFC Large Cap": {
+    "SIP returns (%)": {
+      "Rating": "4/5",
+      "3Y": "19.1",
+      "5Y": "21.1"
+    },
+    "Risk measures": {
+      "Risk grade": "Avg.",
+      "Alpha": "3.8",
+      "Sharpe ratio": "0.9"
+    },
+    "Portfolio": {
+      "Avg. no of stocks": "46",
+      "Turnover": "15",
+      "Expense ratio": "1.01",
+      "Assets": "36,587"
+    }
+  },
+  "HSBC Large Cap": {
+    "SIP returns (%)": {
+      "Rating": "3/5",
+      "3Y": "20.1",
+      "5Y": "19.6"
+    },
+    "Risk measures": {
+      "Risk grade": "Avg.",
+      "Alpha": "1.1",
+      "Sharpe ratio": "0.7"
+    },
+    "Portfolio": {
+      "Avg. no of stocks": "39",
+      "Turnover": "47",
+      "Expense ratio": "1.20",
+      "Assets": "1,946"
+    }
+  },
+  "ICICI Prudential Bluechip": {
+    "SIP returns (%)": {
+      "Rating": "5/5",
+      "3Y": "20.7",
+      "5Y": "21.8"
+    },
+    "Risk measures": {
+      "Risk grade": "Low",
+      "Alpha": "3.9",
+      "Sharpe ratio": "0.9"
+    },
+    "Portfolio": {
+      "Avg. no of stocks": "66",
+      "Turnover": "21",
+      "Expense ratio": "0.91",
+      "Assets": "63,938"
+    }
+  },
+  "Invesco India Largecap": {
+    "SIP returns (%)": {
+      "Rating": "4/5",
+      "3Y": "22.5",
+      "5Y": "21.7"
+    },
+    "Risk measures": {
+      "Risk grade": "Below avg.",
+      "Alpha": "1.7",
+      "Sharpe ratio": "0.7"
+    },
+    "Portfolio": {
+      "Avg. no of stocks": "49",
+      "Turnover": "83",
+      "Expense ratio": "0.75",
+      "Assets": "1,317"
+    }
+  },
+  "ITI Large Cap": {
+    "SIP returns (%)": {
+      "Rating": "3/5",
+      "3Y": "19.2",
+      "5Y": "-"
+    },
+    "Risk measures": {
+      "Risk grade": "Avg.",
+      "Alpha": "0.8",
+      "Sharpe ratio": "0.6"
+    },
+    "Portfolio": {
+      "Avg. no of stocks": "56",
+      "Turnover": "89",
+      "Expense ratio": "0.61",
+      "Assets": "377"
+    }
+  },
+  "JM Large Cap": {
+    "SIP returns (%)": {
+      "Rating": "5/5",
+      "3Y": "20.8",
+      "5Y": "20.1"
+    },
+    "Risk measures": {
+      "Risk grade": "Low",
+      "Alpha": "2.9",
+      "Sharpe ratio": "0.8"
+    },
+    "Portfolio": {
+      "Avg. no of stocks": "40",
+      "Turnover": "191",
+      "Expense ratio": "0.66",
+      "Assets": "495"
+    }
+  },
+  "Kotak Bluechip": {
+    "SIP returns (%)": {
+      "Rating": "4/5",
+      "3Y": "19.1",
+      "5Y": "19.9"
+    },
+    "Risk measures": {
+      "Risk grade": "Low",
+      "Alpha": "1.2",
+      "Sharpe ratio": "0.7"
+    },
+    "Portfolio": {
+      "Avg. no of stocks": "62",
+      "Turnover": "31",
+      "Expense ratio": "0.61",
+      "Assets": "9,498"
+    }
+  },
+  "LIC MF Large Cap": {
+    "SIP returns (%)": {
+      "Rating": "3/5",
+      "3Y": "15.5",
+      "5Y": "16.1"
+    },
+    "Risk measures": {
+      "Risk grade": "Avg.",
+      "Alpha": "-2.0",
+      "Sharpe ratio": "0.4"
+    },
+    "Portfolio": {
+      "Avg. no of stocks": "60",
+      "Turnover": "83",
+      "Expense ratio": "1.01",
+      "Assets": "1,474"
+    }
+  },
+  "Mahindra Manulife Large Cap": {
+    "SIP returns (%)": {
+      "Rating": "3/5",
+      "3Y": "17.2",
+      "5Y": "18.9"
+    },
+    "Risk measures": {
+      "Risk grade": "Below avg.",
+      "Alpha": "0.3",
+      "Sharpe ratio": "0.6"
+    },
+    "Portfolio": {
+      "Avg. no of stocks": "41",
+      "Turnover": "86",
+      "Expense ratio": "0.66",
+      "Assets": "595"
+    }
+  },
+  "Mirae Asset Large Cap": {
+    "SIP returns (%)": {
+      "Rating": "3/5",
+      "3Y": "15.4",
+      "5Y": "17.0"
+    },
+    "Risk measures": {
+      "Risk grade": "Below avg.",
+      "Alpha": "-1.2",
+      "Sharpe ratio": "0.5"
+    },
+    "Portfolio": {
+      "Avg. no of stocks": "70",
+      "Turnover": "46",
+      "Expense ratio": "0.59",
+      "Assets": "39,555"
+    }
+  },
+  "Motilal Oswal Large Cap": {
+    "SIP returns (%)": {
+      "Rating": "Unrated",
+      "3Y": "-",
+      "5Y": "-"
+    },
+    "Risk measures": {
+      "Risk grade": "-",
+      "Alpha": "-",
+      "Sharpe ratio": "-"
+    },
+    "Portfolio": {
+      "Avg. no of stocks": "36",
+      "Turnover": "40",
+      "Expense ratio": "0.77",
+      "Assets": "1,422"
+    }
+  },
+  "Nippon India Large Cap": {
+    "SIP returns (%)": {
+      "Rating": "5/5",
+      "3Y": "23.6",
+      "5Y": "24.9"
+    },
+    "Risk measures": {
+      "Risk grade": "Below avg.",
+      "Alpha": "6.7",
+      "Sharpe ratio": "1.1"
+    },
+    "Portfolio": {
+      "Avg. no of stocks": "62",
+      "Turnover": "17",
+      "Expense ratio": "0.66",
+      "Assets": "35,313"
+    }
+  },
+  "PGIM India Large Cap": {
+    "SIP returns (%)": {
+      "Rating": "2/5",
+      "3Y": "14.9",
+      "5Y": "15.9"
+    },
+    "Risk measures": {
+      "Risk grade": "Avg.",
+      "Alpha": "-1.5",
+      "Sharpe ratio": "0.5"
+    },
+    "Portfolio": {
+      "Avg. no of stocks": "39",
+      "Turnover": "49",
+      "Expense ratio": "0.87",
+      "Assets": "594"
+    }
+  },
+  "Quant Focused": {
+    "SIP returns (%)": {
+      "Rating": "5/5",
+      "3Y": "20.0",
+      "5Y": "23.4"
+    },
+    "Risk measures": {
+      "Risk grade": "Avg.",
+      "Alpha": "3.5",
+      "Sharpe ratio": "0.8"
+    },
+    "Portfolio": {
+      "Avg. no of stocks": "20",
+      "Turnover": "-",
+      "Expense ratio": "0.68",
+      "Assets": "1,118"
+    }
+  },
+  "Quant Large Cap": {
+    "SIP returns (%)": {
+      "Rating": "Unrated",
+      "3Y": "-",
+      "5Y": "-"
+    },
+    "Risk measures": {
+      "Risk grade": "-",
+      "Alpha": "-",
+      "Sharpe ratio": "-"
+    },
+    "Portfolio": {
+      "Avg. no of stocks": "23",
+      "Turnover": "-",
+      "Expense ratio": "0.46",
+      "Assets": "2,543"
+    }
+  },
+  "SBI Bluechip": {
+    "SIP returns (%)": {
+      "Rating": "3/5",
+      "3Y": "16.5",
+      "5Y": "18.4"
+    },
+    "Risk measures": {
+      "Risk grade": "Below avg.",
+      "Alpha": "0.5",
+      "Sharpe ratio": "0.6"
+    },
+    "Portfolio": {
+      "Avg. no of stocks": "50",
+      "Turnover": "22",
+      "Expense ratio": "0.81",
+      "Assets": "50,502"
+    }
+  },
+  "Sundaram Large Cap": {
+    "SIP returns (%)": {
+      "Rating": "3/5",
+      "3Y": "16.4",
+      "5Y": "-"
+    },
+    "Risk measures": {
+      "Risk grade": "Below avg.",
+      "Alpha": "0.0",
+      "Sharpe ratio": "0.6"
+    },
+    "Portfolio": {
+      "Avg. no of stocks": "54",
+      "Turnover": "28",
+      "Expense ratio": "0.61",
+      "Assets": "3,452"
+    }
+  },
+  "Tata Large Cap": {
+    "SIP returns (%)": {
+      "Rating": "3/5",
+      "3Y": "17.9",
+      "5Y": "19.4"
+    },
+    "Risk measures": {
+      "Risk grade": "Avg.",
+      "Alpha": "0.5",
+      "Sharpe ratio": "0.6"
+    },
+    "Portfolio": {
+      "Avg. no of stocks": "54",
+      "Turnover": "34",
+      "Expense ratio": "1.03",
+      "Assets": "2,436"
+    }
+  },
+  "Taurus Large Cap": {
+    "SIP returns (%)": {
+      "Rating": "2/5",
+      "3Y": "19.0",
+      "5Y": "18.2"
+    },
+    "Risk measures": {
+      "Risk grade": "Above avg.",
+      "Alpha": "0.7",
+      "Sharpe ratio": "0.6"
+    },
+    "Portfolio": {
+      "Avg. no of stocks": "35",
+      "Turnover": "69",
+      "Expense ratio": "2.45",
+      "Assets": "50"
+    }
+  },
+  "Union Largecap": {
+    "SIP returns (%)": {
+      "Rating": "3/5",
+      "3Y": "16.1",
+      "5Y": "17.4"
+    },
+    "Risk measures": {
+      "Risk grade": "Avg.",
+      "Alpha": "-1.3",
+      "Sharpe ratio": "0.5"
+    },
+    "Portfolio": {
+      "Avg. no of stocks": "52",
+      "Turnover": "196",
+      "Expense ratio": "1.58",
+      "Assets": "438"
+    }
+  },
+  "UTI Large Cap": {
+    "SIP returns (%)": {
+      "Rating": "3/5",
+      "3Y": "14.9",
+      "5Y": "16.8"
+    },
+    "Risk measures": {
+      "Risk grade": "Avg.",
+      "Alpha": "-2.6",
+      "Sharpe ratio": "0.4"
+    },
+    "Portfolio": {
+      "Avg. no of stocks": "56",
+      "Turnover": "38",
+      "Expense ratio": "0.94",
+      "Assets": "12,860"
+    }
+  },
+  "WhiteOak Capital Large Cap": {
+    "SIP returns (%)": {
+      "Rating": "Unrated",
+      "3Y": "-",
+      "5Y": "-"
+    },
+    "Risk measures": {
+      "Risk grade": "-",
+      "Alpha": "-",
+      "Sharpe ratio": "-"
+    },
+    "Portfolio": {
+      "Avg. no of stocks": "70",
+      "Turnover": "131",
+      "Expense ratio": "0.64",
+      "Assets": "661"
+    }
+  }
+}
+      

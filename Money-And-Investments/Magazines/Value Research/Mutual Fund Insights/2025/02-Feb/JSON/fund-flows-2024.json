@@ -1,0 +1,272 @@
+{
+  "popular_categories": {
+    "top_5": [
+      {
+        "category": "Sectoral / Thematic",
+        "flows": 138960
+      },
+      {
+        "category": "Index funds / ETFs",
+        "flows": 126450
+      },
+      {
+        "category": "Flexi cap",
+        "flows": 37980
+      },
+      {
+        "category": "Multi cap",
+        "flows": 38770
+      },
+      {
+        "category": "Large & MidCap",
+        "flows": 37250
+      }
+    ],
+    "bottom_5": [
+      {
+        "category": "ELSS",
+        "flows": 2560
+      },
+      {
+        "category": "Retirement",
+        "flows": 1530
+      },
+      {
+        "category": "FoFs (Overseas/Domestic)",
+        "flows": 990
+      },
+      {
+        "category": "Solution oriented: Children's",
+        "flows": 80
+      },
+      {
+        "category": "Focused",
+        "flows": -2410
+      }
+    ]
+  },
+  "top_10_popular_funds": [
+    {
+      "fund_name": "Parag Parikh Flexi Cap",
+      "flows": 20020
+    },
+    {
+      "fund_name": "SBI Contra",
+      "flows": 15630
+    },
+    {
+      "fund_name": "Nippon India ETF Nifty 50 BeES",
+      "flows": 14210
+    },
+    {
+      "fund_name": "HDFC Manufacturing",
+      "flows": 12370,
+      "note": "Launched in 2024"
+    },
+    {
+      "fund_name": "Motilal Oswal Midcap",
+      "flows": 11700
+    },
+    {
+      "fund_name": "Nippon India Large Cap",
+      "flows": 10910
+    },
+    {
+      "fund_name": "SBI Energy Opportunities",
+      "flows": 10510,
+      "note": "Launched in 2024"
+    },
+    {
+      "fund_name": "Quant Small Cap",
+      "flows": 10170
+    },
+    {
+      "fund_name": "ICICI Pru Energy Opportunities",
+      "flows": 10100,
+      "note": "Launched in 2024"
+    },
+    {
+      "fund_name": "ICICI Pru Nifty 50 ETF",
+      "flows": 9590
+    }
+  ],
+  "top_10_least_popular_funds": [
+    {
+      "fund_name": "Axis Bluechip",
+      "flows": -4390
+    },
+    {
+      "fund_name": "Axis ELSS Tax Saver",
+      "flows": -4060
+    },
+    {
+      "fund_name": "Mirae Asset Large Cap",
+      "flows": -3970
+    },
+    {
+      "fund_name": "UTI Flexi Cap",
+      "flows": -3710
+    },
+    {
+      "fund_name": "Axis Focused",
+      "flows": -3270
+    },
+    {
+      "fund_name": "CPSE ETF",
+      "flows": -2330
+    },
+    {
+      "fund_name": "Mirae Asset Focused",
+      "flows": -2320
+    },
+    {
+      "fund_name": "SBI Focused Equity",
+      "flows": -2140
+    },
+    {
+      "fund_name": "SBI BSE Sensex ETF",
+      "flows": -1490
+    },
+    {
+      "fund_name": "Kotak Flexicap",
+      "flows": -1410
+    }
+  ],
+  "top_nfo_collections": [
+    {
+      "fund_name": "HDFC Manufacturing",
+      "flows": 9560
+    },
+    {
+      "fund_name": "ICICI Pru Energy Opp.",
+      "flows": 8530
+    },
+    {
+      "fund_name": "SBI Innovative Opp.",
+      "flows": 7840
+    },
+    {
+      "fund_name": "SBI Energy Opp.",
+      "flows": 6550
+    },
+    {
+      "fund_name": "SBI Automotive Opp.",
+      "flows": 6140
+    },
+    {
+      "fund_name": "Axis Consumption",
+      "flows": 4460
+    },
+    {
+      "fund_name": "Franklin India Multi Cap",
+      "flows": 3950
+    },
+    {
+      "fund_name": "Aditya Birla Sun Life Quant",
+      "flows": 2420
+    },
+    {
+      "fund_name": "Kotak Special Opp.",
+      "flows": 2360
+    },
+    {
+      "fund_name": "Motilal Oswal Nifty India Defence Index",
+      "flows": 2330
+    }
+  ],
+  "amc_popularity": {
+    "top_performers": [
+      {
+        "amc": "ICICI Prudential",
+        "net_flows": 86110,
+        "number_of_schemes": 84
+      },
+      {
+        "amc": "SBI",
+        "net_flows": 71530,
+        "number_of_schemes": 44
+      },
+      {
+        "amc": "Nippon India",
+        "net_flows": 62440,
+        "number_of_schemes": 51
+      },
+      {
+        "amc": "HDFC",
+        "net_flows": 56690,
+        "number_of_schemes": 54
+      },
+      {
+        "amc": "Quant",
+        "net_flows": 35100,
+        "number_of_schemes": 21
+      }
+    ],
+    "worst_performers": [
+      {
+        "amc": "Axis",
+        "net_flows": -5440,
+        "number_of_schemes": 36
+      },
+      {
+        "amc": "Aditya Birla Sun Life",
+        "net_flows": -1560,
+        "number_of_schemes": 45
+      },
+      {
+        "amc": "PGIM India",
+        "net_flows": -960,
+        "number_of_schemes": 12
+      },
+      {
+        "amc": "Samco",
+        "net_flows": -160,
+        "number_of_schemes": 5
+      },
+      {
+        "amc": "Sundaram",
+        "net_flows": -40,
+        "number_of_schemes": 16
+      }
+    ]
+  },
+  "category_wise_top_performers": {
+    "large_cap": [
+      {
+        "fund_name": "Nippon India Large Cap",
+        "net_flows": 10910,
+        "returns": 24.4
+      },
+      {
+        "fund_name": "ICICI Prudential Bluechip",
+        "net_flows": 6680,
+        "returns": 22.8
+      },
+      {
+        "fund_name": "Quant Large Cap",
+        "net_flows": 2060,
+        "returns": 20.1
+      },
+      {
+        "fund_name": "HDFC Large Cap",
+        "net_flows": 2020,
+        "returns": 17.0
+      },
+      {
+        "fund_name": "Bajaj Finserv Large Cap",
+        "net_flows": 1340,
+        "returns": -3.9,
+        "note": "Launched in 2024"
+      }
+    ]
+  },
+  "metadata": {
+    "data_date": "December 15, 2024",
+    "notes": [
+      "All flow values in ₹ crore",
+      "Based on Value Research estimates",
+      "Data for open-ended equity funds only",
+      "NFO collection data until November 25, 2024"
+    ]
+  }
+}
