@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .search-container {
+            margin-bottom: 20px;
+            display: flex;
+            gap: 10px;
+        }
+        #searchInput {
+            padding: 8px;
+            width: 300px;
+            font-size: 16px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        #searchButton {
+            padding: 8px 16px;
+            background-color: #0066cc;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        #searchButton:hover {
+            background-color: #0052a3;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #f5f5f5;
+            font-weight: bold;
+        }
+        tr:hover {
+            background-color: #f8f8f8;
+        }
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .loader {
+            display: none;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Search stocks...">
+        <button id="searchButton">Search</button>
+    </div>
+    <div id="loader" class="loader">Loading...</div>
+    <table id="stocksTable">
+        <thead>
+            <tr>
+                <th>Company Name</th>
+                <th>Rating</th>
+                <th>Sector</th>
+                <th>Close Price (₹)</th>
+                <th>Market Cap (Cr)</th>
+                <th>Rank</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+    <script>
+        const searchInput = document.getElementById('searchInput');
+        const searchButton = document.getElementById('searchButton');
+        const loader = document.getElementById('loader');
+
+        // Replace with a proxy that works for your case
+        const proxyUrl = 'https://api.allorigins.win/raw?url=';
+        
+        function generateStockLink(security_id, slug) {
+            return `https://www.valueresearchonline.com/stocks/${security_id}/${slug}`;
+        }
+
+        function populateTable(data) {
+            const tbody = document.querySelector('#stocksTable tbody');
+            tbody.innerHTML = '';
+            
+            if (Array.isArray(data)) {
+                data.forEach(stock => {
+                    const row = document.createElement('tr');
+                    row.innerHTML = `
+                        <td><a href="${generateStockLink(stock.security_id, stock.slug)}" target="_blank">${stock.label}</a></td>
+                        <td>${stock.rating}</td>
+                        <td>${stock.sector_name}</td>
+                        <td>${stock.closeprice.toFixed(2)}</td>
+                        <td>${(stock.market_cap).toFixed(2)}</td>
+                        <td>${stock.rank}</td>
+                    `;
+                    tbody.appendChild(row);
+                });
+            } else {
+                tbody.innerHTML = '<tr><td colspan="6">No data available</td></tr>';
+            }
+        }
+
+        async function fetchStockData(searchTerm) {
+            if (!searchTerm.trim()) {
+                alert('Please enter a search term');
+                return;
+            }
+
+            try {
+                loader.style.display = 'block';
+                const apiUrl = `https://search.valueresearchonline.com/api/autocomplete-securities-stocks/?ver=8&sfl=false&lang=en&term=${encodeURIComponent(searchTerm)}`;
+                
+                const response = await fetch(proxyUrl + encodeURIComponent(apiUrl));
+                const data = await response.json();
+                populateTable(data);
+            } catch (error) {
+                console.error('Error fetching stock data:', error);
+                document.querySelector('#stocksTable tbody').innerHTML = 
+                    '<tr><td colspan="6">Error fetching data. Please try again later.</td></tr>';
+            } finally {
+                loader.style.display = 'none';
+            }
+        }
+
+        // Search button click handler
+        searchButton.addEventListener('click', () => {
+            fetchStockData(searchInput.value);
+        });
+
+        // Enter key press handler
+        searchInput.addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                fetchStockData(searchInput.value);
+            }
+        });
+
+        // Initial load with 'tata' search
+        fetchStockData('tata');
+    </script>
+</body>
+</html>
