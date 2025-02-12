@@ -1,0 +1,184 @@
+{
+    "IT_Companies_Q3FY25": [
+        {
+            "company_name": "Tata Consultancy Services",
+            "market_cap_crore": 1486672.16,
+            "net_sales": {
+                "Q3FY25": 63973.0,
+                "Q3FY24": 60583.0,
+                "Q2FY25": 64259.0,
+                "YoY_Growth": 5.6,
+                "QoQ_Growth": -0.45
+            },
+            "net_profit": {
+                "Q3FY25": 12444.0,
+                "Q3FY24": 11097.0,
+                "Q2FY25": 11955.0,
+                "YoY_Growth": 12.14,
+                "QoQ_Growth": 4.09
+            }
+        },
+        {
+            "company_name": "Infosys",
+            "market_cap_crore": 780648.41,
+            "net_sales": {
+                "Q3FY25": 41764.0,
+                "Q3FY24": 38821.0,
+                "Q2FY25": 40986.0,
+                "YoY_Growth": 7.58,
+                "QoQ_Growth": 1.9
+            },
+            "net_profit": {
+                "Q3FY25": 6822.0,
+                "Q3FY24": 6113.0,
+                "Q2FY25": 6516.0,
+                "YoY_Growth": 11.6,
+                "QoQ_Growth": 4.7
+            }
+        },
+        {
+            "company_name": "HCL Technologies",
+            "market_cap_crore": 468161.5,
+            "net_sales": {
+                "Q3FY25": 29890.0,
+                "Q3FY24": 28446.0,
+                "Q2FY25": 28862.0,
+                "YoY_Growth": 5.08,
+                "QoQ_Growth": 3.56
+            },
+            "net_profit": {
+                "Q3FY25": 4594.0,
+                "Q3FY24": 4351.0,
+                "Q2FY25": 4237.0,
+                "YoY_Growth": 5.58,
+                "QoQ_Growth": 8.43
+            }
+        },
+        {
+            "company_name": "Wipro",
+            "market_cap_crore": 326691.3,
+            "net_sales": {
+                "Q3FY25": 22318.8,
+                "Q3FY24": 22205.1,
+                "Q2FY25": 22301.6,
+                "YoY_Growth": 0.51,
+                "QoQ_Growth": 0.08
+            },
+            "net_profit": {
+                "Q3FY25": 3366.2,
+                "Q3FY24": 2701.0,
+                "Q2FY25": 3226.3,
+                "YoY_Growth": 24.63,
+                "QoQ_Growth": 4.34
+            }
+        },
+        {
+            "company_name": "LTIMindtree",
+            "market_cap_crore": 175329.93,
+            "net_sales": {
+                "Q3FY25": 9660.9,
+                "Q3FY24": 9016.6,
+                "Q2FY25": 9432.9,
+                "YoY_Growth": 7.15,
+                "QoQ_Growth": 2.42
+            },
+            "net_profit": {
+                "Q3FY25": 1086.7,
+                "Q3FY24": 1169.3,
+                "Q2FY25": 1251.6,
+                "YoY_Growth": -7.06,
+                "QoQ_Growth": -13.18
+            }
+        },
+        {
+            "company_name": "Tech Mahindra",
+            "market_cap_crore": 163901.13,
+            "net_sales": {
+                "Q3FY25": 13285.6,
+                "Q3FY24": 13101.3,
+                "Q2FY25": 13313.2,
+                "YoY_Growth": 1.41,
+                "QoQ_Growth": -0.21
+            },
+            "net_profit": {
+                "Q3FY25": 982.2,
+                "Q3FY24": 518.9,
+                "Q2FY25": 1256.9,
+                "YoY_Growth": 89.29,
+                "QoQ_Growth": -21.86
+            }
+        },
+        {
+            "company_name": "Persistent Systems",
+            "market_cap_crore": 92959.93,
+            "net_sales": {
+                "Q3FY25": 3062.28,
+                "Q3FY24": 2498.22,
+                "Q2FY25": 2897.15,
+                "YoY_Growth": 22.58,
+                "QoQ_Growth": 5.7
+            },
+            "net_profit": {
+                "Q3FY25": 372.99,
+                "Q3FY24": 286.13,
+                "Q2FY25": 325.0,
+                "YoY_Growth": 30.36,
+                "QoQ_Growth": 14.77
+            }
+        },
+        {
+            "company_name": "PB Fintech",
+            "market_cap_crore": 79306.84,
+            "net_sales": {
+                "Q3FY25": 1291.62,
+                "Q3FY24": 870.89,
+                "Q2FY25": 1167.23,
+                "YoY_Growth": 48.31,
+                "QoQ_Growth": 10.66
+            },
+            "net_profit": {
+                "Q3FY25": 71.6,
+                "Q3FY24": 38.59,
+                "Q2FY25": 50.57,
+                "YoY_Growth": 85.54,
+                "QoQ_Growth": 41.59
+            }
+        },
+        {
+            "company_name": "Oracle Financial Services Software",
+            "market_cap_crore": 79243.55,
+            "net_sales": {
+                "Q3FY25": 1715.2,
+                "Q3FY24": 1823.6,
+                "Q2FY25": 1673.9,
+                "YoY_Growth": -5.94,
+                "QoQ_Growth": 2.47
+            },
+            "net_profit": {
+                "Q3FY25": 541.3,
+                "Q3FY24": 740.8,
+                "Q2FY25": 577.7,
+                "YoY_Growth": -26.93,
+                "QoQ_Growth": -6.3
+            }
+        },
+        {
+            "company_name": "L&T Technology Services",
+            "market_cap_crore": 57626.55,
+            "net_sales": {
+                "Q3FY25": 2653.0,
+                "Q3FY24": 2421.8,
+                "Q2FY25": 2572.9,
+                "YoY_Growth": 9.55,
+                "QoQ_Growth": 3.11
+            },
+            "net_profit": {
+                "Q3FY25": 319.5,
+                "Q3FY24": 336.8,
+                "Q2FY25": 320.0,
+                "YoY_Growth": -5.14,
+                "QoQ_Growth": -0.16
+            }
+        }
+    ]
+}

@@ -1,0 +1,184 @@
+{
+    "Pharmaceuticals_Q3FY25": [
+        {
+            "company_name": "Sun Pharmaceutical Industries",
+            "market_cap_crore": 418228.08,
+            "net_sales": {
+                "Q3FY25": 13675.46,
+                "Q3FY24": 12380.7,
+                "Q2FY25": 13291.39,
+                "YoY_Growth": 10.46,
+                "QoQ_Growth": 2.89
+            },
+            "net_profit": {
+                "Q3FY25": 2917.54,
+                "Q3FY24": 2568.03,
+                "Q2FY25": 3030.67,
+                "YoY_Growth": 13.61,
+                "QoQ_Growth": -3.73
+            }
+        },
+        {
+            "company_name": "Cipla",
+            "market_cap_crore": 119474.38,
+            "net_sales": {
+                "Q3FY25": 7072.97,
+                "Q3FY24": 6603.81,
+                "Q2FY25": 7051.02,
+                "YoY_Growth": 7.1,
+                "QoQ_Growth": 0.31
+            },
+            "net_profit": {
+                "Q3FY25": 1583.72,
+                "Q3FY24": 1068.51,
+                "Q2FY25": 1306.02,
+                "YoY_Growth": 48.22,
+                "QoQ_Growth": 21.26
+            }
+        },
+        {
+            "company_name": "Torrent Pharmaceuticals",
+            "market_cap_crore": 110306.14,
+            "net_sales": {
+                "Q3FY25": 2809,
+                "Q3FY24": 2732,
+                "Q2FY25": 2889,
+                "YoY_Growth": 2.82,
+                "QoQ_Growth": -2.77
+            },
+            "net_profit": {
+                "Q3FY25": 503,
+                "Q3FY24": 443,
+                "Q2FY25": 453,
+                "YoY_Growth": 13.54,
+                "QoQ_Growth": 11.04
+            }
+        },
+        {
+            "company_name": "Max Healthcare Institute",
+            "market_cap_crore": 103265.79,
+            "net_sales": {
+                "Q3FY25": 1868.31,
+                "Q3FY24": 1334.97,
+                "Q2FY25": 1707.46,
+                "YoY_Growth": 39.95,
+                "QoQ_Growth": 9.42
+            },
+            "net_profit": {
+                "Q3FY25": 238.8,
+                "Q3FY24": 289.34,
+                "Q2FY25": 281.81,
+                "YoY_Growth": -17.47,
+                "QoQ_Growth": -15.26
+            }
+        },
+        {
+            "company_name": "Dr. Reddy's Laboratories",
+            "market_cap_crore": 101599.46,
+            "net_sales": {
+                "Q3FY25": 8381.2,
+                "Q3FY24": 7236.8,
+                "Q2FY25": 8038.2,
+                "YoY_Growth": 15.81,
+                "QoQ_Growth": 4.27
+            },
+            "net_profit": {
+                "Q3FY25": 1400,
+                "Q3FY24": 1378.2,
+                "Q2FY25": 1335.8,
+                "YoY_Growth": 1.58,
+                "QoQ_Growth": 4.81
+            }
+        },
+        {
+            "company_name": "Mankind Pharma",
+            "market_cap_crore": 100540.49,
+            "net_sales": {
+                "Q3FY25": 3230,
+                "Q3FY24": 2606.95,
+                "Q2FY25": 3076.51,
+                "YoY_Growth": 23.9,
+                "QoQ_Growth": 4.99
+            },
+            "net_profit": {
+                "Q3FY25": 381.08,
+                "Q3FY24": 455.21,
+                "Q2FY25": 656.31,
+                "YoY_Growth": -16.28,
+                "QoQ_Growth": -41.94
+            }
+        },
+        {
+            "company_name": "Biocon",
+            "market_cap_crore": 43527.75,
+            "net_sales": {
+                "Q3FY25": 3821.4,
+                "Q3FY24": 3953.7,
+                "Q2FY25": 3590.4,
+                "YoY_Growth": -3.35,
+                "QoQ_Growth": 6.43
+            },
+            "net_profit": {
+                "Q3FY25": 81.1,
+                "Q3FY24": 777.4,
+                "Q2FY25": 27.1,
+                "YoY_Growth": -89.57,
+                "QoQ_Growth": 199.26
+            }
+        },
+        {
+            "company_name": "Ajanta Pharma",
+            "market_cap_crore": 33706.28,
+            "net_sales": {
+                "Q3FY25": 1146.13,
+                "Q3FY24": 1105.15,
+                "Q2FY25": 1186.64,
+                "YoY_Growth": 3.71,
+                "QoQ_Growth": -3.41
+            },
+            "net_profit": {
+                "Q3FY25": 232.88,
+                "Q3FY24": 210.03,
+                "Q2FY25": 216.48,
+                "YoY_Growth": 10.88,
+                "QoQ_Growth": 7.58
+            }
+        },
+        {
+            "company_name": "Laurus Labs",
+            "market_cap_crore": 31484.26,
+            "net_sales": {
+                "Q3FY25": 1415.05,
+                "Q3FY24": 1194.92,
+                "Q2FY25": 1223.7,
+                "YoY_Growth": 18.42,
+                "QoQ_Growth": 15.64
+            },
+            "net_profit": {
+                "Q3FY25": 90.61,
+                "Q3FY24": 25.17,
+                "Q2FY25": 17.72,
+                "YoY_Growth": 259.99,
+                "QoQ_Growth": 411.34
+            }
+        },
+        {
+            "company_name": "Piramal Pharma",
+            "market_cap_crore": 30876.67,
+            "net_sales": {
+                "Q3FY25": 2204.22,
+                "Q3FY24": 1958.57,
+                "Q2FY25": 2241.75,
+                "YoY_Growth": 12.54,
+                "QoQ_Growth": -1.67
+            },
+            "net_profit": {
+                "Q3FY25": -13.37,
+                "Q3FY24": -3.84,
+                "Q2FY25": 5.33,
+                "YoY_Growth": -248.18,
+                "QoQ_Growth": -350.84
+            }
+        }
+    ]
+}

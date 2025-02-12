@@ -1,0 +1,184 @@
+{
+    "Automotive_Q3FY25": [
+        {
+            "company_name": "Maruti Suzuki India",
+            "market_cap_crore": 386979.26,
+            "net_sales": {
+                "Q3FY25": 38764.30,
+                "Q3FY24": 33512.80,
+                "Q2FY25": 37449.20,
+                "YoY_Growth": 15.67,
+                "QoQ_Growth": 3.51
+            },
+            "net_profit": {
+                "Q3FY25": 3659.80,
+                "Q3FY24": 3150.30,
+                "Q2FY25": 3055.20,
+                "YoY_Growth": 16.17,
+                "QoQ_Growth": 19.79
+            }
+        },
+        {
+            "company_name": "Tata Motors",
+            "market_cap_crore": 263568.54,
+            "net_sales": {
+                "Q3FY25": 113575.00,
+                "Q3FY24": 110577.00,
+                "Q2FY25": 101450.00,
+                "YoY_Growth": 2.71,
+                "QoQ_Growth": 11.95
+            },
+            "net_profit": {
+                "Q3FY25": 5616.00,
+                "Q3FY24": 6952.00,
+                "Q2FY25": 3368.00,
+                "YoY_Growth": -19.22,
+                "QoQ_Growth": 66.75
+            }
+        },
+        {
+            "company_name": "Bajaj Auto",
+            "market_cap_crore": 247170.91,
+            "net_sales": {
+                "Q3FY25": 13168.88,
+                "Q3FY24": 12165.33,
+                "Q2FY25": 13247.28,
+                "YoY_Growth": 8.25,
+                "QoQ_Growth": -0.59
+            },
+            "net_profit": {
+                "Q3FY25": 2195.65,
+                "Q3FY24": 2032.62,
+                "Q2FY25": 1965.74,
+                "YoY_Growth": 8.02,
+                "QoQ_Growth": 11.70
+            }
+        },
+        {
+            "company_name": "Hyundai Motor India",
+            "market_cap_crore": 136364.71,
+            "net_sales": {
+                "Q3FY25": 16647.99,
+                "Q3FY24": 16874.71,
+                "Q2FY25": 16876.17,
+                "YoY_Growth": -1.34,
+                "QoQ_Growth": -1.35
+            },
+            "net_profit": {
+                "Q3FY25": 1160.73,
+                "Q3FY24": 1425.22,
+                "Q2FY25": 1337.79,
+                "YoY_Growth": -18.56,
+                "QoQ_Growth": -13.23
+            }
+        },
+        {
+            "company_name": "TVS Motor Company",
+            "market_cap_crore": 116750.28,
+            "net_sales": {
+                "Q3FY25": 11134.63,
+                "Q3FY24": 10113.94,
+                "Q2FY25": 11301.68,
+                "YoY_Growth": 10.09,
+                "QoQ_Growth": -1.48
+            },
+            "net_profit": {
+                "Q3FY25": 630.55,
+                "Q3FY24": 522.37,
+                "Q2FY25": 606.96,
+                "YoY_Growth": 20.71,
+                "QoQ_Growth": 3.89
+            }
+        },
+        {
+            "company_name": "Bosch",
+            "market_cap_crore": 84750.12,
+            "net_sales": {
+                "Q3FY25": 4465.70,
+                "Q3FY24": 4205.20,
+                "Q2FY25": 4394.30,
+                "YoY_Growth": 6.19,
+                "QoQ_Growth": 1.62
+            },
+            "net_profit": {
+                "Q3FY25": 458.10,
+                "Q3FY24": 518.00,
+                "Q2FY25": 535.90,
+                "YoY_Growth": -11.56,
+                "QoQ_Growth": -14.52
+            }
+        },
+        {
+            "company_name": "Balkrishna Industries",
+            "market_cap_crore": 53516.00,
+            "net_sales": {
+                "Q3FY25": 2560.33,
+                "Q3FY24": 2274.41,
+                "Q2FY25": 2419.74,
+                "YoY_Growth": 12.57,
+                "QoQ_Growth": 5.81
+            },
+            "net_profit": {
+                "Q3FY25": 449.48,
+                "Q3FY24": 305.42,
+                "Q2FY25": 346.94,
+                "YoY_Growth": 47.17,
+                "QoQ_Growth": 29.56
+            }
+        },
+        {
+            "company_name": "Exide Industries",
+            "market_cap_crore": 31828.25,
+            "net_sales": {
+                "Q3FY25": 4016.72,
+                "Q3FY24": 3979.83,
+                "Q2FY25": 4450.00,
+                "YoY_Growth": 0.93,
+                "QoQ_Growth": -9.74
+            },
+            "net_profit": {
+                "Q3FY25": 158.34,
+                "Q3FY24": 202.78,
+                "Q2FY25": 233.65,
+                "YoY_Growth": -21.92,
+                "QoQ_Growth": -32.23
+            }
+        },
+        {
+            "company_name": "Sona BLW Precision Forgings",
+            "market_cap_crore": 31343.91,
+            "net_sales": {
+                "Q3FY25": 867.91,
+                "Q3FY24": 781.80,
+                "Q2FY25": 922.19,
+                "YoY_Growth": 11.01,
+                "QoQ_Growth": -5.89
+            },
+            "net_profit": {
+                "Q3FY25": 150.71,
+                "Q3FY24": 133.60,
+                "Q2FY25": 143.58,
+                "YoY_Growth": 12.81,
+                "QoQ_Growth": 4.97
+            }
+        },
+        {
+            "company_name": "Sundram Fasteners",
+            "market_cap_crore": 21941.60,
+            "net_sales": {
+                "Q3FY25": 1441.12,
+                "Q3FY24": 1367.25,
+                "Q2FY25": 1486.04,
+                "YoY_Growth": 5.40,
+                "QoQ_Growth": -3.02
+            },
+            "net_profit": {
+                "Q3FY25": 130.73,
+                "Q3FY24": 129.44,
+                "Q2FY25": 143.84,
+                "YoY_Growth": 1.00,
+                "QoQ_Growth": -9.11
+            }
+        }
+    ]
+}

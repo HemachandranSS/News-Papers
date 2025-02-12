@@ -1,0 +1,184 @@
+{
+    "Financial_Services_Q3FY25": [
+        {
+            "company_name": "Bajaj Finance",
+            "market_cap_crore": 488880.1,
+            "net_sales": {
+                "Q3FY25": 18035.11,
+                "Q3FY24": 14163.6,
+                "Q2FY25": 17090.27,
+                "YoY_Growth": 27.33,
+                "QoQ_Growth": 5.53
+            },
+            "net_profit": {
+                "Q3FY25": 4305.17,
+                "Q3FY24": 3637.3,
+                "Q2FY25": 4010.29,
+                "YoY_Growth": 18.36,
+                "QoQ_Growth": 7.35
+            }
+        },
+        {
+            "company_name": "Bajaj Finserv",
+            "market_cap_crore": 277364.16,
+            "net_sales": {
+                "Q3FY25": 32041.81,
+                "Q3FY24": 29038.43,
+                "Q2FY25": 33703.74,
+                "YoY_Growth": 10.34,
+                "QoQ_Growth": -4.93
+            },
+            "net_profit": {
+                "Q3FY25": 4408.79,
+                "Q3FY24": 4043.54,
+                "Q2FY25": 4176.7,
+                "YoY_Growth": 9.03,
+                "QoQ_Growth": 5.56
+            }
+        },
+        {
+            "company_name": "JIO Financial Services",
+            "market_cap_crore": 153685.94,
+            "net_sales": {
+                "Q3FY25": 438.35,
+                "Q3FY24": 413.61,
+                "Q2FY25": 693.5,
+                "YoY_Growth": 5.98,
+                "QoQ_Growth": -36.79
+            },
+            "net_profit": {
+                "Q3FY25": 235.7,
+                "Q3FY24": 227.71,
+                "Q2FY25": 463.36,
+                "YoY_Growth": 3.51,
+                "QoQ_Growth": -49.13
+            }
+        },
+        {
+            "company_name": "Bajaj Holdings & Investment",
+            "market_cap_crore": 128517.29,
+            "net_sales": {
+                "Q3FY25": 126.33,
+                "Q3FY24": 108.05,
+                "Q2FY25": 279.07,
+                "YoY_Growth": 16.92,
+                "QoQ_Growth": -54.73
+            },
+            "net_profit": {
+                "Q3FY25": 87.71,
+                "Q3FY24": 66.94,
+                "Q2FY25": 188.99,
+                "YoY_Growth": 31.03,
+                "QoQ_Growth": -53.59
+            }
+        },
+        {
+            "company_name": "Cholamandalam Investment and Finance",
+            "market_cap_crore": 108061.21,
+            "net_sales": {
+                "Q3FY25": 6732.98,
+                "Q3FY24": 5007.42,
+                "Q2FY25": 6255.12,
+                "YoY_Growth": 34.46,
+                "QoQ_Growth": 7.64
+            },
+            "net_profit": {
+                "Q3FY25": 1087.14,
+                "Q3FY24": 872.13,
+                "Q2FY25": 967.13,
+                "YoY_Growth": 24.65,
+                "QoQ_Growth": 12.41
+            }
+        },
+        {
+            "company_name": "Shriram Finance",
+            "market_cap_crore": 102250.38,
+            "net_sales": {
+                "Q3FY25": 10698.31,
+                "Q3FY24": 8922.39,
+                "Q2FY25": 10089.54,
+                "YoY_Growth": 19.9,
+                "QoQ_Growth": 6.03
+            },
+            "net_profit": {
+                "Q3FY25": 3232.07,
+                "Q3FY24": 1818.33,
+                "Q2FY25": 2071.26,
+                "YoY_Growth": 77.75,
+                "QoQ_Growth": 56.04
+            }
+        },
+        {
+            "company_name": "HDFC Asset Management",
+            "market_cap_crore": 82660.1,
+            "net_sales": {
+                "Q3FY25": 934.63,
+                "Q3FY24": 671.32,
+                "Q2FY25": 887.21,
+                "YoY_Growth": 39.22,
+                "QoQ_Growth": 5.34
+            },
+            "net_profit": {
+                "Q3FY25": 641.36,
+                "Q3FY24": 487.92,
+                "Q2FY25": 576.61,
+                "YoY_Growth": 31.45,
+                "QoQ_Growth": 11.23
+            }
+        },
+        {
+            "company_name": "Housing & Urban Development",
+            "market_cap_crore": 45973.63,
+            "net_sales": {
+                "Q3FY25": 2760.23,
+                "Q3FY24": 2012.66,
+                "Q2FY25": 2517.72,
+                "YoY_Growth": 37.14,
+                "QoQ_Growth": 9.63
+            },
+            "net_profit": {
+                "Q3FY25": 735.03,
+                "Q3FY24": 519.19,
+                "Q2FY25": 688.62,
+                "YoY_Growth": 41.57,
+                "QoQ_Growth": 6.74
+            }
+        },
+        {
+            "company_name": "360 One Wam",
+            "market_cap_crore": 39139.21,
+            "net_sales": {
+                "Q3FY25": 759.83,
+                "Q3FY24": 629.78,
+                "Q2FY25": 862.76,
+                "YoY_Growth": 20.65,
+                "QoQ_Growth": -11.93
+            },
+            "net_profit": {
+                "Q3FY25": 276.47,
+                "Q3FY24": 192.11,
+                "Q2FY25": 245.49,
+                "YoY_Growth": 43.91,
+                "QoQ_Growth": 12.62
+            }
+        },
+        {
+            "company_name": "Motilal Oswal Financial Services",
+            "market_cap_crore": 38236.97,
+            "net_sales": {
+                "Q3FY25": 1998.63,
+                "Q3FY24": 1791.27,
+                "Q2FY25": 2837.83,
+                "YoY_Growth": 11.58,
+                "QoQ_Growth": -29.57
+            },
+            "net_profit": {
+                "Q3FY25": 566,
+                "Q3FY24": 661.49,
+                "Q2FY25": 1121.8,
+                "YoY_Growth": -14.44,
+                "QoQ_Growth": -49.55
+            }
+        }
+    ]
+}

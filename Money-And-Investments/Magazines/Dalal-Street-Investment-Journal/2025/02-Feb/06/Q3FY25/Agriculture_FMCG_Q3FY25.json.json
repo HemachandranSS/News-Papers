@@ -1,0 +1,184 @@
+{
+    "Agriculture_And_FMCG_Q3FY25": [
+        {
+            "company_name": "Hindustan Unilever",
+            "market_cap_crore": 580654.49,
+            "net_sales": {
+                "Q3FY25": 15818,
+                "Q3FY24": 15567,
+                "Q2FY25": 15926,
+                "YoY_Growth": 1.61,
+                "QoQ_Growth": -0.68
+            },
+            "net_profit": {
+                "Q3FY25": 2988,
+                "Q3FY24": 2509,
+                "Q2FY25": 2601,
+                "YoY_Growth": 19.09,
+                "QoQ_Growth": 14.88
+            }
+        },
+        {
+            "company_name": "Godrej Consumer Products",
+            "market_cap_crore": 114709.88,
+            "net_sales": {
+                "Q3FY25": 3768.43,
+                "Q3FY24": 3659.64,
+                "Q2FY25": 3666.33,
+                "YoY_Growth": 2.97,
+                "QoQ_Growth": 2.78
+            },
+            "net_profit": {
+                "Q3FY25": 498.31,
+                "Q3FY24": 581.06,
+                "Q2FY25": 491.31,
+                "YoY_Growth": -14.24,
+                "QoQ_Growth": 1.42
+            }
+        },
+        {
+            "company_name": "Tata Consumer Products",
+            "market_cap_crore": 101379.93,
+            "net_sales": {
+                "Q3FY25": 4443.56,
+                "Q3FY24": 3803.92,
+                "Q2FY25": 4214.45,
+                "YoY_Growth": 16.82,
+                "QoQ_Growth": 5.44
+            },
+            "net_profit": {
+                "Q3FY25": 299.75,
+                "Q3FY24": 315.53,
+                "Q2FY25": 359.34,
+                "YoY_Growth": -5,
+                "QoQ_Growth": -16.58
+            }
+        },
+        {
+            "company_name": "Dabur India",
+            "market_cap_crore": 93826.36,
+            "net_sales": {
+                "Q3FY25": 3355.25,
+                "Q3FY24": 3255.06,
+                "Q2FY25": 3028.59,
+                "YoY_Growth": 3.08,
+                "QoQ_Growth": 10.79
+            },
+            "net_profit": {
+                "Q3FY25": 515.32,
+                "Q3FY24": 506.84,
+                "Q2FY25": 417.28,
+                "YoY_Growth": 1.67,
+                "QoQ_Growth": 23.5
+            }
+        },
+        {
+            "company_name": "Marico",
+            "market_cap_crore": 86872.36,
+            "net_sales": {
+                "Q3FY25": 2794,
+                "Q3FY24": 2422,
+                "Q2FY25": 2664,
+                "YoY_Growth": 15.36,
+                "QoQ_Growth": 4.88
+            },
+            "net_profit": {
+                "Q3FY25": 406,
+                "Q3FY24": 386,
+                "Q2FY25": 433,
+                "YoY_Growth": 5.18,
+                "QoQ_Growth": -6.24
+            }
+        },
+        {
+            "company_name": "Adani Wilmar",
+            "market_cap_crore": 34629.94,
+            "net_sales": {
+                "Q3FY25": 16859.31,
+                "Q3FY24": 12828.36,
+                "Q2FY25": 14460.45,
+                "YoY_Growth": 31.42,
+                "QoQ_Growth": 16.59
+            },
+            "net_profit": {
+                "Q3FY25": 393.16,
+                "Q3FY24": 206.03,
+                "Q2FY25": 281.92,
+                "YoY_Growth": 90.83,
+                "QoQ_Growth": 39.46
+            }
+        },
+        {
+            "company_name": "Emami",
+            "market_cap_crore": 25692.39,
+            "net_sales": {
+                "Q3FY25": 1049.48,
+                "Q3FY24": 996.32,
+                "Q2FY25": 890.59,
+                "YoY_Growth": 5.34,
+                "QoQ_Growth": 17.84
+            },
+            "net_profit": {
+                "Q3FY25": 283.48,
+                "Q3FY24": 261.68,
+                "Q2FY25": 215.61,
+                "YoY_Growth": 8.33,
+                "QoQ_Growth": 31.48
+            }
+        },
+        {
+            "company_name": "Godrej Agrovet",
+            "market_cap_crore": 14005.28,
+            "net_sales": {
+                "Q3FY25": 2449.63,
+                "Q3FY24": 2345.21,
+                "Q2FY25": 2448.75,
+                "YoY_Growth": 4.45,
+                "QoQ_Growth": 0.04
+            },
+            "net_profit": {
+                "Q3FY25": 96.15,
+                "Q3FY24": 70.33,
+                "Q2FY25": 83.74,
+                "YoY_Growth": 36.71,
+                "QoQ_Growth": 14.82
+            }
+        },
+        {
+            "company_name": "LT Foods",
+            "market_cap_crore": 13553.28,
+            "net_sales": {
+                "Q3FY25": 2274.81,
+                "Q3FY24": 1941.73,
+                "Q2FY25": 2107.79,
+                "YoY_Growth": 17.15,
+                "QoQ_Growth": 7.92
+            },
+            "net_profit": {
+                "Q3FY25": 141.38,
+                "Q3FY24": 140.97,
+                "Q2FY25": 141.77,
+                "YoY_Growth": 0.29,
+                "QoQ_Growth": -0.27
+            }
+        },
+        {
+            "company_name": "Sheela Foam",
+            "market_cap_crore": 9968.63,
+            "net_sales": {
+                "Q3FY25": 967.11,
+                "Q3FY24": 878.89,
+                "Q2FY25": 812.72,
+                "YoY_Growth": 10.04,
+                "QoQ_Growth": 19
+            },
+            "net_profit": {
+                "Q3FY25": 18.3,
+                "Q3FY24": 38.46,
+                "Q2FY25": 9.23,
+                "YoY_Growth": -52.42,
+                "QoQ_Growth": 98.27
+            }
+        }
+    ]
+}

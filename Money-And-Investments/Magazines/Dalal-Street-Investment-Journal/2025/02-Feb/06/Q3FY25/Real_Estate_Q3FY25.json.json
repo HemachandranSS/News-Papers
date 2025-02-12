@@ -1,0 +1,184 @@
+{
+    "Real_Estate_Q3FY25": [
+        {
+            "company_name": "DLF",
+            "market_cap_crore": 184435.48,
+            "net_sales": {
+                "Q3FY25": 1528.71,
+                "Q3FY24": 1521.25,
+                "Q2FY25": 1975.02,
+                "YoY_Growth": 0.49,
+                "QoQ_Growth": -22.60
+            },
+            "net_profit": {
+                "Q3FY25": 440.40,
+                "Q3FY24": 376.50,
+                "Q2FY25": 1043.41,
+                "YoY_Growth": 16.97,
+                "QoQ_Growth": -57.79
+            }
+        },
+        {
+            "company_name": "Macrotech Developers",
+            "market_cap_crore": 120078.43,
+            "net_sales": {
+                "Q3FY25": 4083.00,
+                "Q3FY24": 2930.60,
+                "Q2FY25": 2625.70,
+                "YoY_Growth": 39.32,
+                "QoQ_Growth": 55.50
+            },
+            "net_profit": {
+                "Q3FY25": 944.50,
+                "Q3FY24": 511.90,
+                "Q2FY25": 423.70,
+                "YoY_Growth": 84.51,
+                "QoQ_Growth": 122.92
+            }
+        },
+        {
+            "company_name": "Oberoi Realty",
+            "market_cap_crore": 65901.09,
+            "net_sales": {
+                "Q3FY25": 1411.08,
+                "Q3FY24": 1053.64,
+                "Q2FY25": 1319.89,
+                "YoY_Growth": 33.92,
+                "QoQ_Growth": 6.91
+            },
+            "net_profit": {
+                "Q3FY25": 615.66,
+                "Q3FY24": 357.96,
+                "Q2FY25": 586.95,
+                "YoY_Growth": 71.99,
+                "QoQ_Growth": 4.89
+            }
+        },
+        {
+            "company_name": "Prestige Estates Projects",
+            "market_cap_crore": 58708.53,
+            "net_sales": {
+                "Q3FY25": 1654.50,
+                "Q3FY24": 1795.80,
+                "Q2FY25": 2304.40,
+                "YoY_Growth": -7.87,
+                "QoQ_Growth": -28.20
+            },
+            "net_profit": {
+                "Q3FY25": 39.20,
+                "Q3FY24": 181.00,
+                "Q2FY25": 245.70,
+                "YoY_Growth": -78.34,
+                "QoQ_Growth": -84.05
+            }
+        },
+        {
+            "company_name": "The Phoenix Mills",
+            "market_cap_crore": 58707.11,
+            "net_sales": {
+                "Q3FY25": 975.13,
+                "Q3FY24": 986.09,
+                "Q2FY25": 917.97,
+                "YoY_Growth": -1.11,
+                "QoQ_Growth": 6.23
+            },
+            "net_profit": {
+                "Q3FY25": 350.93,
+                "Q3FY24": 343.99,
+                "Q2FY25": 290.64,
+                "YoY_Growth": 2.02,
+                "QoQ_Growth": 20.74
+            }
+        },
+        {
+            "company_name": "Brigade Enterprises",
+            "market_cap_crore": 28593.05,
+            "net_sales": {
+                "Q3FY25": 1463.94,
+                "Q3FY24": 1173.77,
+                "Q2FY25": 1072.16,
+                "YoY_Growth": 24.72,
+                "QoQ_Growth": 36.54
+            },
+            "net_profit": {
+                "Q3FY25": 235.52,
+                "Q3FY24": 55.79,
+                "Q2FY25": 115.08,
+                "YoY_Growth": 322.15,
+                "QoQ_Growth": 104.66
+            }
+        },
+        {
+            "company_name": "Equinox India Developments",
+            "market_cap_crore": 17211.02,
+            "net_sales": {
+                "Q3FY25": 278.50,
+                "Q3FY24": 100.55,
+                "Q2FY25": 245.97,
+                "YoY_Growth": 176.98,
+                "QoQ_Growth": 13.23
+            },
+            "net_profit": {
+                "Q3FY25": 22.39,
+                "Q3FY24": -38.50,
+                "Q2FY25": 24.27,
+                "YoY_Growth": 158.16,
+                "QoQ_Growth": -7.75
+            }
+        },
+        {
+            "company_name": "Ganesh Housing Corporation",
+            "market_cap_crore": 11286.86,
+            "net_sales": {
+                "Q3FY25": 257.01,
+                "Q3FY24": 181.43,
+                "Q2FY25": 237.22,
+                "YoY_Growth": 41.66,
+                "QoQ_Growth": 8.34
+            },
+            "net_profit": {
+                "Q3FY25": 160.84,
+                "Q3FY24": 100.56,
+                "Q2FY25": 158.48,
+                "YoY_Growth": 59.95,
+                "QoQ_Growth": 1.49
+            }
+        },
+        {
+            "company_name": "Sunteck Realty",
+            "market_cap_crore": 6975.81,
+            "net_sales": {
+                "Q3FY25": 161.76,
+                "Q3FY24": 42.45,
+                "Q2FY25": 169.05,
+                "YoY_Growth": 281.07,
+                "QoQ_Growth": -4.31
+            },
+            "net_profit": {
+                "Q3FY25": 42.63,
+                "Q3FY24": -10.28,
+                "Q2FY25": 34.68,
+                "YoY_Growth": 514.64,
+                "QoQ_Growth": 22.94
+            }
+        },
+        {
+            "company_name": "Mahindra Lifespace Developers",
+            "market_cap_crore": 6483.37,
+            "net_sales": {
+                "Q3FY25": 167.28,
+                "Q3FY24": 81.99,
+                "Q2FY25": 7.61,
+                "YoY_Growth": 104.02,
+                "QoQ_Growth": 2098.16
+            },
+            "net_profit": {
+                "Q3FY25": -32.43,
+                "Q3FY24": -25.42,
+                "Q2FY25": -50.39,
+                "YoY_Growth": -27.58,
+                "QoQ_Growth": 35.64
+            }
+        }
+    ]
+}

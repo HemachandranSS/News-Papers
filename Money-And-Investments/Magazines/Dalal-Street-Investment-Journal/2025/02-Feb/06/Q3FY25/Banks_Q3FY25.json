@@ -1,0 +1,184 @@
+{
+    "Banks_Q3FY25": [
+        {
+            "company_name": "HDFC Bank",
+            "market_cap_crore": 1299959.68,
+            "interest_income": {
+                "Q3FY25": 85040.17,
+                "Q3FY24": 78008.17,
+                "Q2FY25": 83001.72,
+                "YoY_Growth": 9.01,
+                "QoQ_Growth": 2.46
+            },
+            "net_profit": {
+                "Q3FY25": 18340.11,
+                "Q3FY24": 17718.0,
+                "Q2FY25": 18627.44,
+                "YoY_Growth": 3.51,
+                "QoQ_Growth": -1.54
+            }
+        },
+        {
+            "company_name": "ICICI Bank",
+            "market_cap_crore": 885018.2,
+            "interest_income": {
+                "Q3FY25": 47037.12,
+                "Q3FY24": 40865.23,
+                "Q2FY25": 46325.78,
+                "YoY_Growth": 15.1,
+                "QoQ_Growth": 1.54
+            },
+            "net_profit": {
+                "Q3FY25": 13828.61,
+                "Q3FY24": 11255.19,
+                "Q2FY25": 13860.8,
+                "YoY_Growth": 22.86,
+                "QoQ_Growth": -0.23
+            }
+        },
+        {
+            "company_name": "Kotak Mahindra Bank",
+            "market_cap_crore": 378283.0,
+            "interest_income": {
+                "Q3FY25": 16633.14,
+                "Q3FY24": 14494.96,
+                "Q2FY25": 16426.97,
+                "YoY_Growth": 14.75,
+                "QoQ_Growth": 1.26
+            },
+            "net_profit": {
+                "Q3FY25": 4639.63,
+                "Q3FY24": 4202.39,
+                "Q2FY25": 4997.78,
+                "YoY_Growth": 10.4,
+                "QoQ_Growth": -7.17
+            }
+        },
+        {
+            "company_name": "Axis Bank Ltd.",
+            "market_cap_crore": 305372.95,
+            "interest_income": {
+                "Q3FY25": 32162.2,
+                "Q3FY24": 28865.2,
+                "Q2FY25": 31601.05,
+                "YoY_Growth": 11.42,
+                "QoQ_Growth": 1.78
+            },
+            "net_profit": {
+                "Q3FY25": 6763.1,
+                "Q3FY24": 6493.36,
+                "Q2FY25": 7408.9,
+                "YoY_Growth": 4.15,
+                "QoQ_Growth": -8.72
+            }
+        },
+        {
+            "company_name": "Punjab National Bank",
+            "market_cap_crore": 116251.12,
+            "interest_income": {
+                "Q3FY25": 31894.8,
+                "Q3FY24": 27851.71,
+                "Q2FY25": 30447.42,
+                "YoY_Growth": 14.52,
+                "QoQ_Growth": 4.75
+            },
+            "net_profit": {
+                "Q3FY25": 4648.6,
+                "Q3FY24": 2252.67,
+                "Q2FY25": 4431.99,
+                "YoY_Growth": 106.36,
+                "QoQ_Growth": 4.89
+            }
+        },
+        {
+            "company_name": "Bank Of Baroda",
+            "market_cap_crore": 110356.87,
+            "interest_income": {
+                "Q3FY25": 32569.84,
+                "Q3FY24": 30041.75,
+                "Q2FY25": 31886.92,
+                "YoY_Growth": 8.42,
+                "QoQ_Growth": 2.14
+            },
+            "net_profit": {
+                "Q3FY25": 5116.82,
+                "Q3FY24": 4748.32,
+                "Q2FY25": 5455.04,
+                "YoY_Growth": 7.76,
+                "QoQ_Growth": -6.2
+            }
+        },
+        {
+            "company_name": "Indian Overseas Bank",
+            "market_cap_crore": 96326.69,
+            "interest_income": {
+                "Q3FY25": 7115.88,
+                "Q3FY24": 6179.84,
+                "Q2FY25": 6853.94,
+                "YoY_Growth": 15.15,
+                "QoQ_Growth": 3.82
+            },
+            "net_profit": {
+                "Q3FY25": 875.27,
+                "Q3FY24": 724.14,
+                "Q2FY25": 779.62,
+                "YoY_Growth": 20.87,
+                "QoQ_Growth": 12.27
+            }
+        },
+        {
+            "company_name": "Union Bank Of India",
+            "market_cap_crore": 88129.98,
+            "interest_income": {
+                "Q3FY25": 27134.77,
+                "Q3FY24": 25520.92,
+                "Q2FY25": 26886.58,
+                "YoY_Growth": 6.32,
+                "QoQ_Growth": 0.92
+            },
+            "net_profit": {
+                "Q3FY25": 4597.17,
+                "Q3FY24": 3610.4,
+                "Q2FY25": 4721.83,
+                "YoY_Growth": 27.33,
+                "QoQ_Growth": -2.64
+            }
+        },
+        {
+            "company_name": "IDBI Bank Ltd.",
+            "market_cap_crore": 87180.48,
+            "interest_income": {
+                "Q3FY25": 7819.25,
+                "Q3FY24": 6548.98,
+                "Q2FY25": 7445.01,
+                "YoY_Growth": 19.4,
+                "QoQ_Growth": 5.03
+            },
+            "net_profit": {
+                "Q3FY25": 1929.09,
+                "Q3FY24": 1480.81,
+                "Q2FY25": 1848.73,
+                "YoY_Growth": 30.27,
+                "QoQ_Growth": 4.35
+            }
+        },
+        {
+            "company_name": "Canara Bank",
+            "market_cap_crore": 84629.18,
+            "interest_income": {
+                "Q3FY25": 30750.73,
+                "Q3FY24": 28492.24,
+                "Q2FY25": 30181.85,
+                "YoY_Growth": 7.93,
+                "QoQ_Growth": 1.88
+            },
+            "net_profit": {
+                "Q3FY25": 4161.0,
+                "Q3FY24": 3738.26,
+                "Q2FY25": 4100.32,
+                "YoY_Growth": 11.31,
+                "QoQ_Growth": 1.48
+            }
+        }
+    ]
+}
