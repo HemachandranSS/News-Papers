@@ -1,0 +1,121 @@
+{
+  "totalSpending": {
+    "description": "Combined total expenditure of central and state government after COVID-19",
+    "note": "Values in figures in ₹ lakh crore",
+    "timeline": {
+      "2014-15": {
+        "stateGovernment": 12,
+        "centralGovernment": 10
+      },
+      "2025-26": {
+        "stateGovernment": 62,
+        "centralGovernment": 48
+      }
+    }
+  },
+  "sectorAllocations": {
+    "description": "Major central spending by sector (excluding finance and defence)",
+    "sectors": [
+      {
+        "name": "Road Transport and Highways",
+        "allocation": 6.0
+      },
+      {
+        "name": "Railways",
+        "allocation": 5.5
+      },
+      {
+        "name": "Consumer Affairs, Food, PDS",
+        "allocation": 4.8
+      },
+      {
+        "name": "Rural Development",
+        "allocation": 4.2
+      },
+      {
+        "name": "Chemicals and Fertilisers",
+        "allocation": 3.5
+      },
+      {
+        "name": "Agriculture",
+        "allocation": 2.8
+      },
+      {
+        "name": "Human Resource Development",
+        "allocation": 2.5
+      },
+      {
+        "name": "Health and Family Welfare",
+        "allocation": 2.2
+      },
+      {
+        "name": "Jal Shakti",
+        "allocation": 2.0
+      },
+      {
+        "name": "Housing and Urban Affairs",
+        "allocation": 1.8
+      }
+    ]
+  },
+  "topSchemes": {
+    "description": "Centre's spending on major schemes over past 10 years till FY26 (in ₹ lakh crore)",
+    "schemes": [
+      {
+        "name": "MGNREGA",
+        "spent": 7.95
+      },
+      {
+        "name": "Pradhan Mantri Awas Yojana (PMAY)",
+        "spent": 5.19
+      },
+      {
+        "name": "National Rural Drinking Water Mission",
+        "spent": 3.65
+      },
+      {
+        "name": "National Health Mission (NHM)",
+        "spent": 3.35
+      },
+      {
+        "name": "National Education Mission",
+        "spent": 3.20
+      },
+      {
+        "name": "Pradhan Mantri Gram Sadak Yojana",
+        "spent": 1.66
+      },
+      {
+        "name": "National Social Assistance Programme",
+        "spent": 1.24
+      },
+      {
+        "name": "Urban Rejuvenation Mission: AMRUT",
+        "spent": 1.13
+      }
+    ]
+  },
+  "keyMetrics": {
+    "subsidyShare": {
+      "value": 8.4,
+      "description": "Percentage share of subsidies in total budget outlay for FY26",
+      "previousValue": {
+        "year": "FY21",
+        "value": 21.6,
+        "amount": "₹7.58 lakh crore"
+      }
+    },
+    "socialSectorSpending": {
+      "uttarPradesh": {
+        "amount": 2.75,
+        "percentageOfGSDP": 10.8,
+        "description": "Uttar Pradesh's expenditure on social sector in FY24"
+      }
+    },
+    "capexTarget": {
+      "amount": 11.21,
+      "description": "Government's capex target for FY26",
+      "increase": "10% increase from revised estimates of ₹10.18 lakh crore for FY25"
+    }
+  }
+}

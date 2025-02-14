@@ -1,0 +1,316 @@
+{
+  "metadata": {
+    "title": "THE TAKE-HOME MATH",
+    "notes": [
+      "For higher earners, the cut means an additional ₹10,400 per month in disposable income",
+      "Under the new regime, a person earning ₹25 lakh annually will pay ₹3.43 lakh in total tax, compared to ₹4.57 lakh in 2024"
+    ],
+    "source": "Compiled by BankBazaar.com"
+  },
+  "salaryData": [
+    {
+      "income": 500000,
+      "taxes": {
+        "oldRegime": 0,
+        "newRegime2024": 0,
+        "newRegime2025": 0
+      },
+      "takeHome": {
+        "2024": 41667,
+        "2025": 41667
+      },
+      "savings": {
+        "monthly": 0,
+        "percentage": 0
+      }
+    },
+    {
+      "income": 750000,
+      "taxes": {
+        "oldRegime": 54600,
+        "newRegime2024": 0,
+        "newRegime2025": 0
+      },
+      "takeHome": {
+        "2024": 62500,
+        "2025": 62500
+      },
+      "savings": {
+        "monthly": 0,
+        "percentage": 0
+      }
+    },
+    {
+      "income": 1000000,
+      "taxes": {
+        "oldRegime": 106600,
+        "newRegime2024": 44200,
+        "newRegime2025": 0
+      },
+      "takeHome": {
+        "2024": 79650,
+        "2025": 83333
+      },
+      "savings": {
+        "monthly": 3683,
+        "percentage": 4.6
+      }
+    },
+    {
+      "income": 1200000,
+      "taxes": {
+        "oldRegime": 163800,
+        "newRegime2024": 71500,
+        "newRegime2025": 0
+      },
+      "takeHome": {
+        "2024": 94042,
+        "2025": 100000
+      },
+      "savings": {
+        "monthly": 5958,
+        "percentage": 6.3
+      }
+    },
+    {
+      "income": 1500000,
+      "taxes": {
+        "oldRegime": 257400,
+        "newRegime2024": 130000,
+        "newRegime2025": 97500
+      },
+      "takeHome": {
+        "2024": 114167,
+        "2025": 116875
+      },
+      "savings": {
+        "monthly": 2708,
+        "percentage": 2.4
+      }
+    },
+    {
+      "income": 2000000,
+      "taxes": {
+        "oldRegime": 413400,
+        "newRegime2024": 278200,
+        "newRegime2025": 192400
+      },
+      "takeHome": {
+        "2024": 143483,
+        "2025": 150633
+      },
+      "savings": {
+        "monthly": 7150,
+        "percentage": 5
+      }
+    },
+    {
+      "income": 2500000,
+      "taxes": {
+        "oldRegime": 569400,
+        "newRegime2024": 434200,
+        "newRegime2025": 319800
+      },
+      "takeHome": {
+        "2024": 172150,
+        "2025": 181683
+      },
+      "savings": {
+        "monthly": 9533,
+        "percentage": 5.5
+      }
+    },
+    {
+      "income": 3000000,
+      "taxes": {
+        "oldRegime": 725400,
+        "newRegime2024": 590200,
+        "newRegime2025": 475800
+      },
+      "takeHome": {
+        "2024": 200817,
+        "2025": 210350
+      },
+      "savings": {
+        "monthly": 9533,
+        "percentage": 4.7
+      }
+    },
+    {
+      "income": 4500000,
+      "taxes": {
+        "oldRegime": 1193400,
+        "newRegime2024": 1058200,
+        "newRegime2025": 943800
+      },
+      "takeHome": {
+        "2024": 286817,
+        "2025": 296350
+      },
+      "savings": {
+        "monthly": 9533,
+        "percentage": 3.3
+      }
+    },
+    {
+      "income": 5000000,
+      "taxes": {
+        "oldRegime": 1349400,
+        "newRegime2024": 1214200,
+        "newRegime2025": 1099800
+      },
+      "takeHome": {
+        "2024": 315483,
+        "2025": 325017
+      },
+      "savings": {
+        "monthly": 9533,
+        "percentage": 3
+      }
+    },
+    {
+      "income": 6000000,
+      "taxes": {
+        "oldRegime": 1827540,
+        "newRegime2024": 1678200,
+        "newRegime2025": 1552980
+      },
+      "takeHome": {
+        "2024": 360150,
+        "2025": 370585
+      },
+      "savings": {
+        "monthly": 10435,
+        "percentage": 2.9
+      }
+    },
+    {
+      "income": 7000000,
+      "taxes": {
+        "oldRegime": 2170740,
+        "newRegime2024": 2022020,
+        "newRegime2025": 1896180
+      },
+      "takeHome": {
+        "2024": 414832,
+        "2025": 425318
+      },
+      "savings": {
+        "monthly": 10435,
+        "percentage": 2.5
+      }
+    },
+    {
+      "income": 8000000,
+      "taxes": {
+        "oldRegime": 2513940,
+        "newRegime2024": 2365220,
+        "newRegime2025": 2239380
+      },
+      "takeHome": {
+        "2024": 469565,
+        "2025": 480052
+      },
+      "savings": {
+        "monthly": 10435,
+        "percentage": 2.2
+      }
+    },
+    {
+      "income": 9000000,
+      "taxes": {
+        "oldRegime": 2857140,
+        "newRegime2024": 2708420,
+        "newRegime2025": 2582580
+      },
+      "takeHome": {
+        "2024": 524298,
+        "2025": 534785
+      },
+      "savings": {
+        "monthly": 10435,
+        "percentage": 2
+      }
+    },
+    {
+      "income": 10000000,
+      "taxes": {
+        "oldRegime": 3200340,
+        "newRegime2024": 3051620,
+        "newRegime2025": 2925780
+      },
+      "takeHome": {
+        "2024": 579032,
+        "2025": 589518
+      },
+      "savings": {
+        "monthly": 10435,
+        "percentage": 1.8
+      }
+    },
+    {
+      "income": 20000000,
+      "taxes": {
+        "oldRegime": 6933810,
+        "newRegime2024": 6778330,
+        "newRegime2025": 6646770
+      },
+      "takeHome": {
+        "2024": 1101806,
+        "2025": 1112769
+      },
+      "savings": {
+        "monthly": 10963,
+        "percentage": 1
+      }
+    },
+    {
+      "income": 30000000,
+      "taxes": {
+        "oldRegime": 11436750,
+        "newRegime2024": 11267750,
+        "newRegime2025": 11124750
+      },
+      "takeHome": {
+        "2024": 1561021,
+        "2025": 1572938
+      },
+      "savings": {
+        "monthly": 11917,
+        "percentage": 0.8
+      }
+    },
+    {
+      "income": 40000000,
+      "taxes": {
+        "oldRegime": 15436750,
+        "newRegime2024": 15167750,
+        "newRegime2025": 15024750
+      },
+      "takeHome": {
+        "2024": 2069354,
+        "2025": 2081271
+      },
+      "savings": {
+        "monthly": 11917,
+        "percentage": 0.6
+      }
+    },
+    {
+      "income": 50000000,
+      "taxes": {
+        "oldRegime": 19236750,
+        "newRegime2024": 19067750,
+        "newRegime2025": 18924750
+      },
+      "takeHome": {
+        "2024": 2577688,
+        "2025": 2589604
+      },
+      "savings": {
+        "monthly": 11917,
+        "percentage": 0.5
+      }
+    }
+  ]
+}
