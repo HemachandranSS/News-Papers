@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OOP Languages Comparison</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            width: 90%;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+        }
+        h2 {
+            color: #333;
+            background: linear-gradient(to right, #4CAF50, #2E7D32);
+            padding: 15px;
+            border-radius: 10px;
+            color: white;
+            font-size: 24px;
+            text-transform: uppercase;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        th {
+            background: #4CAF50;
+            color: white;
+            font-size: 18px;
+            text-transform: uppercase;
+        }
+        tr:nth-child(even) {
+            background-color: #e8f5e9;
+        }
+        tr:nth-child(odd) {
+            background-color: #f9f9f9;
+        }
+        tr:hover {
+            background-color: #c8e6c9;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Comparison of Object-Oriented Programming Languages</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Language</th>
+                    <th>Multiple Inheritance</th>
+                    <th>Method Conflict Handling</th>
+                    <th>Diamond Problem Handling</th>
+                    <th>Primary Use Cases</th>
+                    <th>Example Syntax</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Ruby</strong></td>
+                    <td>❌ Not Supported</td>
+                    <td>Uses mixins and modules</td>
+                    <td>Avoids by not supporting multiple inheritance</td>
+                    <td>Web development, scripting</td>
+                    <td><code>module MyModule; end</code></td>
+                </tr>
+                <tr>
+                    <td><strong>Python</strong></td>
+                    <td>✅ Supported</td>
+                    <td>Uses Method Resolution Order (MRO)</td>
+                    <td>Resolves with C3 Linearization (MRO)</td>
+                    <td>Data Science, AI, Web Development</td>
+                    <td><code>class A: pass</code></td>
+                </tr>
+                <tr>
+                    <td><strong>Java</strong></td>
+                    <td>❌ Not Supported for Classes</td>
+                    <td>Supports multiple inheritance via interfaces</td>
+                    <td>Interfaces avoid state conflicts, requiring explicit resolution</td>
+                    <td>Enterprise applications, Android Development</td>
+                    <td><code>interface MyInterface {}</code></td>
+                </tr>
+                <tr>
+                    <td><strong>C++</strong></td>
+                    <td>✅ Supported</td>
+                    <td>Uses virtual inheritance to resolve conflicts</td>
+                    <td>Virtual base classes help avoid duplication issues</td>
+                    <td>Game development, System programming</td>
+                    <td><code>class A : virtual public B {}</code></td>
+                </tr>
+                <tr>
+                    <td><strong>C#</strong></td>
+                    <td>❌ Not Supported for Classes</td>
+                    <td>Supports multiple interfaces</td>
+                    <td>Explicit method implementation prevents conflicts</td>
+                    <td>Windows applications, Game Development</td>
+                    <td><code>interface IMyInterface {}</code></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

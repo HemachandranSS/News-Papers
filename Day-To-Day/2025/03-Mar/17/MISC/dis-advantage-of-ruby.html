@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruby vs Other Server-Side Languages (Disadvantages)</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        th, td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        th {
+            background-color: #ff4c4c;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+        .ruby { background-color: #ffebcc; }
+        .python { background-color: #cce5ff; }
+        .node { background-color: #ccffcc; }
+        .php { background-color: #ffcccc; }
+        .java { background-color: #e6e6e6; }
+        .csharp { background-color: #d9ccff; }
+    </style>
+</head>
+<body>
+
+<h1>🚫 Disadvantages of Ruby Compared to Other Server-Side Languages</h1>
+
+<table>
+    <tr>
+        <th>Feature</th>
+        <th>Ruby (Rails) 🟥</th>
+        <th>Python (Django) 🐍</th>
+        <th>Node.js (Express) 🟢</th>
+        <th>PHP (Laravel) 🟦</th>
+        <th>Java (Spring Boot) ☕</th>
+        <th>C# (.NET Core) 🔵</th>
+    </tr>
+    <tr class="ruby">
+        <td><b>Performance</b></td>
+        <td>❌ Slower than compiled languages</td>
+        <td>⚠️ Slightly better, but still interpreted</td>
+        <td>✅ Fast (V8 engine optimized)</td>
+        <td>⚠️ Faster than Ruby, but not ideal</td>
+        <td>✅ Very fast (JVM compiled)</td>
+        <td>✅ Fast (compiled & optimized)</td>
+    </tr>
+    <tr class="python">
+        <td><b>Scalability</b></td>
+        <td>❌ Not ideal for high-scale applications</td>
+        <td>⚠️ Moderate scalability</td>
+        <td>✅ Highly scalable (event-driven)</td>
+        <td>⚠️ Scales with additional configuration</td>
+        <td>✅ Enterprise-grade scalability</td>
+        <td>✅ Strong scalability for enterprises</td>
+    </tr>
+    <tr class="node">
+        <td><b>Memory Usage</b></td>
+        <td>❌ High memory consumption</td>
+        <td>⚠️ Moderate memory usage</td>
+        <td>✅ Lower memory usage than Ruby</td>
+        <td>⚠️ Moderate memory footprint</td>
+        <td>✅ Efficient memory management</td>
+        <td>✅ Optimized memory usage</td>
+    </tr>
+    <tr class="php">
+        <td><b>Hosting & Deployment</b></td>
+        <td>❌ Limited hosting options</td>
+        <td>✅ Many hosting services available</td>
+        <td>✅ Easy deployment with containers</td>
+        <td>✅ Supported by most shared hosting</td>
+        <td>⚠️ Requires dedicated servers</td>
+        <td>⚠️ Best with Azure & Windows</td>
+    </tr>
+    <tr class="java">
+        <td><b>Learning Curve</b></td>
+        <td>❌ Steep (metaprogramming & conventions)</td>
+        <td>⚠️ Moderate, but syntax is readable</td>
+        <td>✅ Easy for JavaScript developers</td>
+        <td>✅ Easier than Ruby</td>
+        <td>❌ Very steep (lots of boilerplate)</td>
+        <td>❌ Complex for beginners</td>
+    </tr>
+    <tr class="csharp">
+        <td><b>Long-Term Popularity</b></td>
+        <td>⚠️ Declining popularity</td>
+        <td>✅ Strong & growing usage</td>
+        <td>✅ Very popular in modern web apps</td>
+        <td>⚠️ Stable, but less modern use</td>
+        <td>✅ Industry standard</td>
+        <td>✅ Backed by Microsoft</td>
+    </tr>
+    <tr class="ruby">
+        <td><b>Concurrency Support</b></td>
+        <td>❌ Weak multithreading support</td>
+        <td>⚠️ Moderate (GIL limits performance)</td>
+        <td>✅ Excellent (event-driven & async)</td>
+        <td>⚠️ Good, but not as strong as Node</td>
+        <td>✅ Strong (JVM threading)</td>
+        <td>✅ Strong (multi-threading supported)</td>
+    </tr>
+    <tr class="python">
+        <td><b>Job Market & Demand</b></td>
+        <td>⚠️ Fewer job opportunities</td>
+        <td>✅ Strong job market</td>
+        <td>✅ High demand</td>
+        <td>✅ Plenty of PHP roles</td>
+        <td>✅ Widely used in enterprises</td>
+        <td>✅ Strong enterprise demand</td>
+    </tr>
+</table>
+
+</body>
+</html>
