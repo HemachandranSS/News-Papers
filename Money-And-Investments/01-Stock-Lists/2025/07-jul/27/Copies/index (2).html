@@ -1,0 +1,1191 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Equity Market Companies</title>
+      <style>
+         @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+         :root {
+         --primary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+         --secondary-gradient: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+         --success-gradient: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+         --glass-bg: rgba(255, 255, 255, 0.15);
+         --glass-border: rgba(255, 255, 255, 0.2);
+         --shadow-light: 0 8px 32px rgba(0, 0, 0, 0.1);
+         --shadow-heavy: 0 12px 40px rgba(0, 0, 0, 0.15);
+         --text-primary: #1a202c;
+         --text-secondary: #4a5568;
+         --accent-color: rgb(199, 240, 19);
+         }
+         * {
+         margin: 0;
+         padding: 0;
+         box-sizing: border-box;
+         }
+         body {
+         font-family: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+         margin: 0;
+         background: linear-gradient(
+         135deg,
+         #66e6ea 0%,
+         #a24b96 50%,
+         #f093fb 100%
+         );
+         background-attachment: fixed;
+         min-height: 100vh;
+         color: var(--text-primary);
+         }
+         .container {
+         max-width: 1400px;
+         margin: 0 auto;
+         padding: 20px;
+         }
+         .search-box {
+         padding: 30px;
+         background: var(--glass-bg);
+         backdrop-filter: blur(20px);
+         border: 1px solid var(--glass-border);
+         border-radius: 20px;
+         box-shadow: var(--shadow-light);
+         margin-bottom: 30px;
+         animation: slideInDown 0.6s ease-out;
+         }
+         @keyframes slideInDown {
+         from {
+         opacity: 0;
+         transform: translateY(-30px);
+         }
+         to {
+         opacity: 1;
+         transform: translateY(0);
+         }
+         }
+         input {
+         width: 70%;
+         padding: 15px 20px;
+         font-size: 16px;
+         border: none;
+         border-radius: 15px;
+         background: rgba(255, 255, 255, 0.9);
+         box-shadow: inset 0 2px 10px rgba(0, 0, 0, 0.1);
+         margin-right: 15px;
+         transition: all 0.3s ease;
+         outline: none;
+         }
+         input:focus {
+         transform: translateY(-2px);
+         box-shadow: inset 0 2px 10px rgba(0, 0, 0, 0.1),
+         0 5px 20px rgba(102, 126, 234, 0.3);
+         }
+         button {
+         padding: 15px 30px;
+         background: var(--primary-gradient);
+         color: white;
+         border: none;
+         border-radius: 15px;
+         cursor: pointer;
+         font-weight: 600;
+         font-size: 16px;
+         transition: all 0.3s ease;
+         box-shadow: var(--shadow-light);
+         }
+         button:hover {
+         transform: translateY(-3px);
+         box-shadow: var(--shadow-heavy);
+         }
+         .stock-table {
+         width: 100%;
+         border-collapse: collapse;
+         background: var(--glass-bg);
+         backdrop-filter: blur(20px);
+         border: 1px solid var(--glass-border);
+         box-shadow: var(--shadow-light);
+         border-radius: 20px;
+         overflow: hidden;
+         animation: fadeInUp 0.8s ease-out;
+         }
+         @keyframes fadeInUp {
+         from {
+         opacity: 0;
+         transform: translateY(30px);
+         }
+         to {
+         opacity: 1;
+         transform: translateY(0);
+         }
+         }
+         .stock-table th {
+         background: var(--primary-gradient);
+         color: white;
+         padding: 20px;
+         text-align: left;
+         font-weight: 600;
+         text-transform: uppercase;
+         letter-spacing: 0.5px;
+         }
+         .stock-table td {
+         padding: 18px 20px;
+         border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+         transition: all 0.3s ease;
+         }
+         .stock-table tr:hover {
+         background: rgba(255, 255, 255, 0.1);
+         transform: scale(1.01);
+         }
+         .positive {
+         color: #48bb78;
+         font-weight: 600;
+         }
+         .negative {
+         color: #f56565;
+         font-weight: 600;
+         }
+         .time {
+         color: var(--text-secondary);
+         font-size: 0.9em;
+         }
+         #loading,
+         #error {
+         text-align: center;
+         padding: 40px;
+         background: var(--glass-bg);
+         backdrop-filter: blur(20px);
+         border-radius: 20px;
+         margin: 20px 0;
+         }
+         /* FANTABULOUS JSON VIEWER STYLES */
+         .json-viewer {
+         background: var(--glass-bg);
+         backdrop-filter: blur(25px);
+         border: 1px solid var(--glass-border);
+         border-radius: 25px;
+         padding: 30px;
+         margin: 30px 20px;
+         box-shadow: var(--shadow-heavy);
+         overflow-x: auto;
+         overflow-y: hidden;
+         white-space: nowrap;
+         position: relative;
+         animation: jsonFadeIn 1s ease-out;
+         }
+         @keyframes jsonFadeIn {
+         from {
+         opacity: 0;
+         transform: scale(0.95);
+         }
+         to {
+         opacity: 1;
+         transform: scale(1);
+         }
+         }
+         .json-viewer::before {
+         content: "";
+         position: absolute;
+         top: -50%;
+         left: -50%;
+         width: 200%;
+         height: 200%;
+         background: conic-gradient(
+         from 0deg,
+         transparent,
+         rgba(102, 126, 234, 0.1),
+         transparent
+         );
+         animation: rotate 10s linear infinite;
+         pointer-events: none;
+         z-index: -1;
+         }
+         @keyframes rotate {
+         100% {
+         transform: rotate(360deg);
+         }
+         }
+         #searchInput2 {
+         margin: 30px auto;
+         padding: 15px 25px;
+         width: 350px;
+         display: block;
+         border: none;
+         border-radius: 25px;
+         background: rgba(255, 255, 255, 0.9);
+         box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+         font-size: 16px;
+         transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+         outline: none;
+         }
+         #searchInput2:focus {
+         transform: translateY(-5px) scale(1.05);
+         box-shadow: 0 15px 35px rgba(102, 126, 234, 0.3);
+         background: rgba(255, 255, 255, 1);
+         }
+         .key {
+         font-weight: 600;
+         cursor: pointer;
+         color: var(--accent-color);
+         transition: all 0.3s ease;
+         position: relative;
+         display: inline-block;
+         }
+         .key:hover {
+         color: #f093fb;
+         transform: translateX(5px);
+         }
+         .key::after {
+         content: "";
+         position: absolute;
+         bottom: -2px;
+         left: 0;
+         width: 0;
+         height: 2px;
+         background: var(--secondary-gradient);
+         transition: width 0.3s ease;
+         }
+         .key:hover::after {
+         width: 100%;
+         }
+         .nested {
+         margin-left: 25px;
+         display: none;
+         border-left: 3px solid transparent;
+         border-image: var(--primary-gradient) 1;
+         padding-left: 20px;
+         position: relative;
+         transition: all 0.4s ease;
+         }
+         .nested.open {
+         display: block;
+         animation: expandDown 0.4s ease-out;
+         }
+         @keyframes expandDown {
+         from {
+         opacity: 0;
+         max-height: 0;
+         transform: translateX(-20px);
+         }
+         to {
+         opacity: 1;
+         max-height: 1000px;
+         transform: translateX(0);
+         }
+         }
+         .toggle-container {
+         cursor: pointer;
+         font-weight: 600;
+         display: block;
+         padding: 12px 20px;
+         margin: 8px 0;
+         border-radius: 15px;
+         background: rgba(255, 255, 255, 0.05);
+         border: 1px solid rgba(255, 255, 255, 0.1);
+         transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+         position: relative;
+         overflow: hidden;
+         }
+         .toggle-container::before {
+         content: "";
+         position: absolute;
+         top: 0;
+         left: -100%;
+         width: 100%;
+         height: 100%;
+         background: linear-gradient(
+         90deg,
+         transparent,
+         rgba(255, 255, 255, 0.1),
+         transparent
+         );
+         transition: left 0.6s ease;
+         }
+         .toggle-container:hover::before {
+         left: 100%;
+         }
+         .toggle-container:hover {
+         background: rgba(255, 255, 255, 0.1);
+         transform: translateY(-2px);
+         box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+         border-color: rgba(102, 126, 234, 0.3);
+         }
+         .toggle::before {
+         content: "▶";
+         display: inline-block;
+         margin-right: 10px;
+         transition: transform 0.3s ease;
+         color: var(--accent-color);
+         font-size: 0.8em;
+         }
+         .nested.open + .toggle-container .toggle::before,
+         .toggle-container:has(+ .nested.open) .toggle::before {
+         transform: rotate(90deg);
+         }
+         .key-value {
+         margin: 10px 0;
+         padding: 10px 15px;
+         background: rgba(255, 255, 255, 0.03);
+         border-radius: 10px;
+         border-left: 4px solid transparent;
+         border-image: var(--success-gradient) 1;
+         transition: all 0.3s ease;
+         }
+         .key-value:hover {
+         background: rgba(255, 255, 255, 0.08);
+         transform: translateX(5px);
+         }
+         ul {
+         min-width: max-content;
+         padding-left: 0;
+         list-style-type: none;
+         }
+         li {
+         display: block;
+         margin: 5px 0;
+         transition: all 0.3s ease;
+         }
+         .leaf-value {
+         font-weight: 400;
+         color: var(--text-secondary);
+         background: rgba(255, 255, 255, 0.1);
+         padding: 6px 12px;
+         border-radius: 8px;
+         display: inline-block;
+         margin-left: 10px;
+         transition: all 0.3s ease;
+         }
+         .leaf-value:hover {
+         background: rgba(255, 255, 255, 0.2);
+         transform: scale(1.05);
+         }
+         /* Links styling */
+         a {
+         color: var(--accent-color);
+         text-decoration: none;
+         position: relative;
+         transition: all 0.3s ease;
+         }
+         a:hover {
+         color: #f093fb;
+         }
+         a::after {
+         content: "";
+         position: absolute;
+         bottom: -2px;
+         left: 0;
+         width: 0;
+         height: 2px;
+         background: var(--secondary-gradient);
+         transition: width 0.3s ease;
+         }
+         a:hover::after {
+         width: 100%;
+         }
+         /* Scrollbar styling */
+         ::-webkit-scrollbar {
+         width: 8px;
+         }
+         ::-webkit-scrollbar-track {
+         background: rgba(255, 255, 255, 0.1);
+         border-radius: 10px;
+         }
+         ::-webkit-scrollbar-thumb {
+         background: var(--primary-gradient);
+         border-radius: 10px;
+         }
+         ::-webkit-scrollbar-thumb:hover {
+         background: var(--secondary-gradient);
+         }
+         /* Responsive design */
+         @media (max-width: 768px) {
+         .container {
+         padding: 15px;
+         }
+         input {
+         width: 100%;
+         margin-bottom: 15px;
+         }
+         button {
+         width: 100%;
+         }
+         #searchInput2 {
+         width: 90%;
+         }
+         .json-viewer {
+         margin: 20px 10px;
+         padding: 20px;
+         }
+         }
+         /* Pulse animation for loading */
+         @keyframes pulse {
+         0%,
+         100% {
+         opacity: 1;
+         }
+         50% {
+         opacity: 0.5;
+         }
+         }
+         #loading {
+         animation: pulse 1.5s ease-in-out infinite;
+         }
+         /*----------------------*/
+         /* Suggestion Box Styles */
+         .suggestion-container {
+         position: relative;
+         display: inline-block;
+         width: 100%;
+         }
+         .suggestions {
+         position: absolute;
+         top: 100%;
+         left: 0;
+         right: 0;
+         background: rgba(255, 255, 255, 0.95);
+         backdrop-filter: blur(20px);
+         border: 1px solid var(--glass-border);
+         border-radius: 15px;
+         box-shadow: var(--shadow-heavy);
+         max-height: 300px;
+         overflow-y: auto;
+         z-index: 1000;
+         display: none;
+         animation: slideDown 0.3s ease-out;
+         }
+         @keyframes slideDown {
+         from {
+         opacity: 0;
+         transform: translateY(-10px);
+         }
+         to {
+         opacity: 1;
+         transform: translateY(0);
+         }
+         }
+         .suggestion-item {
+         padding: 12px 16px;
+         cursor: pointer;
+         border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+         transition: all 0.3s ease;
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         }
+         .suggestion-item:hover,
+         .suggestion-item.highlighted {
+         background: var(--primary-gradient);
+         color: white;
+         transform: translateX(5px);
+         }
+         .suggestion-item:last-child {
+         border-bottom: none;
+         }
+         .suggestion-text {
+         font-weight: 500;
+         }
+         .suggestion-sector {
+         font-size: 0.8em;
+         opacity: 0.7;
+         background: rgba(255, 255, 255, 0.2);
+         padding: 2px 8px;
+         border-radius: 10px;
+         }
+         .suggestion-item:hover .suggestion-sector {
+         background: rgba(255, 255, 255, 0.3);
+         }
+         .search-container {
+         position: relative;
+         width: 70%;
+         display: inline-block;
+         }
+         .json-search-container {
+         position: relative;
+         width: 350px;
+         margin: 30px auto;
+         display: block;
+         }
+         /* Responsive adjustments */
+         @media (max-width: 768px) {
+         .search-container {
+         width: 100%;
+         }
+         .json-search-container {
+         width: 90%;
+         }
+         }
+         /*-- CSS for the clear button */
+         .clear-btn {
+         background: var(--secondary-gradient) !important;
+         margin-left: 10px;
+         }
+         .clear-btn:hover {
+         transform: translateY(-3px);
+         box-shadow: var(--shadow-heavy);
+         filter: brightness(1.1);
+         }
+         /* Responsive design for buttons */
+         @media (max-width: 768px) {
+         .search-box {
+         text-align: center;
+         }
+         button {
+         width: 48%;
+         margin: 5px 1%;
+         }
+         .clear-btn {
+         margin-left: 0 !important;
+         }
+         }
+
+         .json-search-container {
+   position: relative;
+   width: 100%;
+   max-width: 800px;
+   margin: 30px auto;
+   display: flex;
+   align-items: center;
+   gap: 15px;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+#searchInput2 {
+   flex: 1;
+   min-width: 280px;
+   padding: 15px 25px;
+   border: none;
+   border-radius: 25px;
+   background: rgba(255, 255, 255, 0.9);
+   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+   font-size: 16px;
+   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+   outline: none;
+}
+
+#searchInput2:focus {
+   transform: translateY(-5px) scale(1.05);
+   box-shadow: 0 15px 35px rgba(102, 126, 234, 0.3);
+   background: rgba(255, 255, 255, 1);
+}
+
+#expandAllBtn, #collapseAllBtn {
+   padding: 15px 20px;
+   font-size: 14px;
+   border-radius: 15px;
+   cursor: pointer;
+   background: var(--primary-gradient);
+   color: white;
+   border: none;
+   font-weight: 600;
+   transition: all 0.3s ease;
+   box-shadow: var(--shadow-light);
+   white-space: nowrap;
+}
+
+#expandAllBtn:hover, #collapseAllBtn:hover {
+   background: var(--secondary-gradient);
+   transform: translateY(-3px);
+   box-shadow: var(--shadow-heavy);
+}
+
+/* Remove the old button-group styles */
+.button-group {
+   display: none;
+}
+
+/* Update suggestions positioning */
+#suggestions2 {
+   position: absolute;
+   top: 100%;
+   left: 0;
+   right: 0;
+   background: rgba(255, 255, 255, 0.95);
+   backdrop-filter: blur(20px);
+   border: 1px solid var(--glass-border);
+   border-radius: 15px;
+   box-shadow: var(--shadow-heavy);
+   max-height: 300px;
+   overflow-y: auto;
+   z-index: 1000;
+   display: none;
+   animation: slideDown 0.3s ease-out;
+   margin-top: 5px;
+}
+
+/* Responsive design for the new layout */
+@media (max-width: 768px) {
+   .json-search-container {
+      flex-direction: column;
+      gap: 10px;
+      padding: 0 15px;
+   }
+   
+   #searchInput2 {
+      width: 100%;
+      min-width: unset;
+   }
+   
+   #expandAllBtn, #collapseAllBtn {
+      width: 48%;
+      padding: 12px 16px;
+   }
+}
+
+      </style>
+   </head>
+   <body>
+      <div class="container">
+         <div class="search-container"></div>
+         <div class="search-box">
+            <input
+               type="text"
+               id="searchInput1"
+               placeholder="Search for stocks..."
+               />
+            <div id="suggestions1" class="suggestions"></div>
+            <button onclick="searchStocks()">Search</button>
+            <button onclick="clearStockTable()" class="clear-btn">Clear</button>
+         </div>
+      </div>
+      <div id="loading" style="display: none">Loading...</div>
+      <div id="error" style="display: none"></div>
+      <table class="stock-table" id="stockTable" style="display: none">
+         <thead>
+            <tr>
+               <th>Company</th>
+               <th>LTP</th>
+               <th>Change</th>
+               <th>Change %</th>
+               <th>Volume</th>
+               <th>Last Updated</th>
+            </tr>
+         </thead>
+         <tbody id="stockBody"></tbody>
+      </table>
+      </div>
+      <!-- Enhanced JSON Viewer Section -->
+      <div class="json-search-container">
+        <input
+           type="text"
+           id="searchInput2"
+           placeholder="Search Listed Company Name..."
+           autocomplete="off"
+           />
+        <button id="expandAllBtn">Expand All</button>
+        <button id="collapseAllBtn">Collapse All</button>
+        <div id="suggestions2" class="suggestions"></div>
+     </div>
+      <div id="jsonViewer" class="json-viewer"></div>
+      <script>
+         const jsonData = {};
+         // Recursively create the collapsible tree structure
+         function createTree(data) {
+           const treeContainer = document.createElement("ul");
+         
+           for (const key in data) {
+             const value = data[key];
+             const li = document.createElement("li");
+             const isObject = typeof value === "object" && !Array.isArray(value);
+             const isArray = Array.isArray(value);
+         
+             // Add collapsible behavior for nested objects/arrays
+             if (isObject || isArray) {
+               li.innerHTML = `<div class="toggle-container"><span class="toggle">${key}</span></div>`;
+               const nestedTree = createTree(value);
+               const nestedContainer = document.createElement("ul");
+               nestedContainer.classList.add("nested");
+               nestedContainer.appendChild(nestedTree);
+               li.appendChild(nestedContainer);
+             } else {
+               // Display key-value pairs directly (no collapsibility for literals)
+               const leafClass = "leaf-value";
+               li.innerHTML = `<span class="key">${key}:</span> <span class="${leafClass}">${createLink(
+                 value
+               )}</span>`;
+             }
+         
+             treeContainer.appendChild(li);
+           }
+         
+           return treeContainer;
+         }
+         
+         // Function to create anchor tags for URLs
+         function createLink(value) {
+           if (typeof value === "string" && value.startsWith("http")) {
+             return `<a href="${value}" target="_blank">${value}</a>`;
+           }
+           return value; // return the value as is if it's not a URL
+         }
+         
+         function expandAllInTree(container) {
+           const nestedLists = container.querySelectorAll(".nested");
+           nestedLists.forEach((nested) => {
+             nested.classList.add("open");
+           });
+         }
+         
+         function collapseAllInTree(container) {
+           const nestedLists = container.querySelectorAll(".nested");
+           nestedLists.forEach((nested) => {
+             nested.classList.remove("open");
+           });
+         }
+         
+         document.getElementById("expandAllBtn").addEventListener("click", () => {
+           expandAllInTree(document.getElementById("jsonViewer"));
+         });
+         
+         document
+           .getElementById("collapseAllBtn")
+           .addEventListener("click", () => {
+             collapseAllInTree(document.getElementById("jsonViewer"));
+           });
+         
+         // Recursively open all nested children
+         function expandAllNested(nestedElement) {
+           const toggleContainers =
+             nestedElement.querySelectorAll(".toggle-container");
+           toggleContainers.forEach((toggle) => {
+             const nestedChild = toggle.nextElementSibling;
+             if (nestedChild && nestedChild.classList.contains("nested")) {
+               nestedChild.classList.add("open");
+             }
+           });
+         }
+         
+         // Toggle visibility and expand all nested items if opening
+         function toggleVisibility(event) {
+           const toggleElement = event.target.closest(".toggle-container");
+           if (toggleElement) {
+             const nestedList = toggleElement.nextElementSibling;
+             if (nestedList && nestedList.classList.contains("nested")) {
+               const isOpening = !nestedList.classList.contains("open");
+         
+               // Toggle current visibility
+               nestedList.classList.toggle("open");
+         
+               // If expanding, recursively expand all children
+               if (isOpening) {
+                 setTimeout(() => {
+                   expandAllNested(nestedList);
+                 }, 10);
+               }
+             }
+           }
+         }
+         
+         // Search functionality
+         const searchInput = document.getElementById("searchInput2");
+         searchInput.addEventListener("input", () => {
+           const searchTerm = searchInput.value.toLowerCase();
+           const filteredData = filterJSON(jsonData, searchTerm);
+           renderJSON(filteredData, document.getElementById("jsonViewer"));
+         });
+         
+         function filterJSON(data, searchTerm) {
+           const filteredData = {};
+         
+           // Loop through data and filter based on searchTerm
+           for (const key in data) {
+             const value = data[key];
+             if (typeof value === "object" && !Array.isArray(value)) {
+               const filteredNested = filterJSON(value, searchTerm);
+               if (Object.keys(filteredNested).length > 0) {
+                 filteredData[key] = filteredNested;
+               }
+             } else if (Array.isArray(value)) {
+               const filteredArray = value.filter((item) => {
+                 return JSON.stringify(item).toLowerCase().includes(searchTerm);
+               });
+               if (filteredArray.length > 0) {
+                 filteredData[key] = filteredArray;
+               }
+             } else if (
+               typeof value === "string" &&
+               value.toLowerCase().includes(searchTerm)
+             ) {
+               filteredData[key] = value;
+             }
+           }
+         
+           return filteredData;
+         }
+         
+         // Render the filtered JSON data
+         function renderJSON(jsonData, container) {
+           const tree = createTree(jsonData);
+           container.innerHTML = ""; // Clear previous content
+           container.appendChild(tree);
+         }
+         
+         // Initial rendering
+         document
+           .getElementById("jsonViewer")
+           .addEventListener("click", toggleVisibility);
+         renderJSON(jsonData, document.getElementById("jsonViewer"));
+         
+         //BL Get API
+         const searchInput1 = document.getElementById("searchInput1");
+         const stockTable = document.getElementById("stockTable");
+         const stockBody = document.getElementById("stockBody");
+         const loading = document.getElementById("loading");
+         const error = document.getElementById("error");
+         
+         searchInput1.addEventListener("keypress", (e) => {
+           if (e.key === "Enter") searchStocks();
+         });
+         
+         async function searchStocks() {
+           const query = searchInput1.value.trim();
+           if (!query) return;
+         
+           loading.style.display = "block";
+           error.style.display = "none";
+           stockTable.style.display = "none";
+         
+           try {
+             const response = await fetch(
+               `https://blstocks.thehindubusinessline.com/companiesinfo/search?query=${query}`
+             );
+             const data = await response.json();
+             displayStocks(data.companiesDetails || []);
+           } catch (err) {
+             error.style.display = "block";
+             error.textContent = "Failed to fetch stock data";
+           } finally {
+             loading.style.display = "none";
+           }
+         }
+         
+         function displayStocks(stocks) {
+           if (!stocks.length) {
+             error.style.display = "block";
+             error.textContent = "No stocks found";
+             return;
+           }
+         
+           stockBody.innerHTML = stocks
+             .map(
+               (stock) => `
+           <tr>
+               <td><a href="${stock.url}" target="_blank">${stock.title}</a></td>
+               <td>₹${stock.LTP?.toFixed(2) || "N/A"}</td>
+               <td class="${
+                 stock.CHANGE ? (stock.CHANGE >= 0 ? "positive" : "negative") : ""
+               }">
+                   ${
+                     stock.CHANGE
+                       ? (stock.CHANGE >= 0 ? "+" : "") + stock.CHANGE.toFixed(2)
+                       : "N/A"
+                   }
+               </td>
+               <td class="${
+                 stock.change_PERC
+                   ? stock.change_PERC >= 0
+                     ? "positive"
+                     : "negative"
+                   : ""
+               }">
+                   ${
+                     stock.change_PERC
+                       ? (stock.change_PERC >= 0 ? "+" : "") +
+                         stock.change_PERC.toFixed(2) +
+                         "%"
+                       : "N/A"
+                   }
+               </td>
+               <td>${stock.VOLUME?.toLocaleString() || "N/A"}</td>
+               <td class="time">${
+                 stock.Upd_Time
+                   ? new Date(stock.Upd_Time).toLocaleTimeString()
+                   : "N/A"
+               }</td>
+           </tr>
+         `
+             )
+             .join("");
+         
+           stockTable.style.display = "table";
+         }
+         
+         
+         
+         // Suggestion functionality
+         class SuggestionBox {
+         constructor(inputId, suggestionsId, dataSource, onSelect) {
+         this.input = document.getElementById(inputId);
+         this.suggestionsContainer = document.getElementById(suggestionsId);
+         this.dataSource = dataSource;
+         this.onSelect = onSelect;
+         this.currentIndex = -1;
+         this.suggestions = [];
+         
+         this.init();
+         }
+         
+         init() {
+         this.input.addEventListener('input', (e) => this.handleInput(e));
+         this.input.addEventListener('keydown', (e) => this.handleKeydown(e));
+         this.input.addEventListener('blur', (e) => this.handleBlur(e));
+         this.input.addEventListener('focus', (e) => this.handleFocus(e));
+         
+         // Close suggestions when clicking outside
+         document.addEventListener('click', (e) => {
+         if (!this.input.contains(e.target) && !this.suggestionsContainer.contains(e.target)) {
+           this.hideSuggestions();
+         }
+         });
+         }
+         
+         handleInput(e) {
+         const query = e.target.value.trim();
+         if (query.length < 1) {
+         this.hideSuggestions();
+         return;
+         }
+         
+         this.suggestions = this.getSuggestions(query);
+         this.showSuggestions();
+         }
+         
+         handleKeydown(e) {
+         if (!this.suggestionsContainer.style.display || this.suggestionsContainer.style.display === 'none') {
+         return;
+         }
+         
+         switch (e.key) {
+         case 'ArrowDown':
+           e.preventDefault();
+           this.navigateDown();
+           break;
+         case 'ArrowUp':
+           e.preventDefault();
+           this.navigateUp();
+           break;
+         case 'Enter':
+           e.preventDefault();
+           this.selectCurrent();
+           break;
+         case 'Escape':
+           this.hideSuggestions();
+           break;
+         }
+         }
+         
+         handleBlur(e) {
+         // Delay hiding to allow clicking on suggestions
+         setTimeout(() => {
+         if (!this.suggestionsContainer.matches(':hover')) {
+           this.hideSuggestions();
+         }
+         }, 200);
+         }
+         
+         handleFocus(e) {
+         if (this.input.value.trim().length > 0) {
+         this.suggestions = this.getSuggestions(this.input.value.trim());
+         this.showSuggestions();
+         }
+         }
+         
+         getSuggestions(query) {
+         const suggestions = [];
+         const queryLower = query.toLowerCase();
+         
+         // Search through all companies in all sectors
+         for (const sector in this.dataSource) {
+         const companies = this.dataSource[sector];
+         companies.forEach(company => {
+           const companyName = company['Company Name'] || '';
+           const nseSymbol = company['NSE Symbol'] || '';
+           const bseSymbol = company['BSE Symbol'] || '';
+           
+           if (
+             companyName.toLowerCase().includes(queryLower) ||
+             nseSymbol.toLowerCase().includes(queryLower) ||
+             bseSymbol.toString().includes(query) ||
+             sector.toLowerCase().includes(queryLower)
+           ) {
+             suggestions.push({
+               ...company,
+               sector: sector,
+               matchType: this.getMatchType(query, company, sector)
+             });
+           }
+         });
+         }
+         
+         // Sort suggestions by relevance
+         return suggestions.sort((a, b) => {
+         if (a.matchType !== b.matchType) {
+           return a.matchType - b.matchType;
+         }
+         return a['Company Name'].localeCompare(b['Company Name']);
+         }).slice(0, 8); // Limit to 8 suggestions
+         }
+         
+         getMatchType(query, company, sector) {
+         const queryLower = query.toLowerCase();
+         const companyName = company['Company Name'].toLowerCase();
+         const nseSymbol = (company['NSE Symbol'] || '').toLowerCase();
+         
+         if (companyName.startsWith(queryLower)) return 1; // Company name starts with query
+         if (nseSymbol.startsWith(queryLower)) return 2; // NSE symbol starts with query
+         if (companyName.includes(queryLower)) return 3; // Company name contains query
+         if (nseSymbol.includes(queryLower)) return 4; // NSE symbol contains query
+         return 5; // Other matches
+         }
+         
+         showSuggestions() {
+         if (this.suggestions.length === 0) {
+         this.hideSuggestions();
+         return;
+         }
+         
+         this.suggestionsContainer.innerHTML = this.suggestions.map((suggestion, index) => 
+         `<div class="suggestion-item" data-index="${index}">
+           <div class="suggestion-text">${suggestion['Company Name']}</div>
+           <div class="suggestion-sector">${suggestion.sector}</div>
+         </div>`
+         ).join('');
+         
+         // Add click event listeners
+         this.suggestionsContainer.querySelectorAll('.suggestion-item').forEach((item, index) => {
+         item.addEventListener('click', () => {
+           this.selectSuggestion(index);
+         });
+         });
+         
+         this.suggestionsContainer.style.display = 'block';
+         this.currentIndex = -1;
+         }
+         
+         hideSuggestions() {
+         this.suggestionsContainer.style.display = 'none';
+         this.currentIndex = -1;
+         }
+         
+         navigateDown() {
+         const items = this.suggestionsContainer.querySelectorAll('.suggestion-item');
+         if (items.length === 0) return;
+         
+         if (this.currentIndex < items.length - 1) {
+         this.currentIndex++;
+         } else {
+         this.currentIndex = 0;
+         }
+         this.highlightItem();
+         }
+         
+         navigateUp() {
+         const items = this.suggestionsContainer.querySelectorAll('.suggestion-item');
+         if (items.length === 0) return;
+         
+         if (this.currentIndex > 0) {
+         this.currentIndex--;
+         } else {
+         this.currentIndex = items.length - 1;
+         }
+         this.highlightItem();
+         }
+         
+         highlightItem() {
+         const items = this.suggestionsContainer.querySelectorAll('.suggestion-item');
+         items.forEach((item, index) => {
+         item.classList.toggle('highlighted', index === this.currentIndex);
+         });
+         }
+         
+         selectCurrent() {
+         if (this.currentIndex >= 0 && this.currentIndex < this.suggestions.length) {
+         this.selectSuggestion(this.currentIndex);
+         }
+         }
+         
+         selectSuggestion(index) {
+         const suggestion = this.suggestions[index];
+         this.input.value = suggestion['Company Name'];
+         this.hideSuggestions();
+         
+         if (this.onSelect) {
+         this.onSelect(suggestion);
+         }
+         }
+         }
+         
+         // Initialize suggestion boxes when DOM is loaded
+         document.addEventListener('DOMContentLoaded', function() {
+         // Stock search suggestions
+         const stockSuggestions = new SuggestionBox('searchInput1', 'suggestions1', jsonData, (suggestion) => {
+         // Optionally trigger search automatically
+         searchStocks();
+         });
+         
+         // JSON viewer search suggestions
+         const jsonSuggestions = new SuggestionBox('searchInput2', 'suggestions2', jsonData, (suggestion) => {
+         // Filter JSON data based on selected company
+         const filteredData = {};
+         for (const sector in jsonData) {
+         const companies = jsonData[sector].filter(company => 
+           company['Company Name'] === suggestion['Company Name']
+         );
+         if (companies.length > 0) {
+           filteredData[sector] = companies;
+         }
+         }
+         renderJSON(filteredData, document.getElementById('jsonViewer'));
+         });
+         });
+         
+         // Update the existing searchStocks function to work with suggestions
+         const originalSearchStocks = searchStocks;
+         searchStocks = function() {
+         const query = document.getElementById('searchInput1').value.trim();
+         if (!query) return;
+         
+         // Check if the query matches a company from our JSON data
+         let matchedCompany = null;
+         for (const sector in jsonData) {
+         const companies = jsonData[sector];
+         matchedCompany = companies.find(company => 
+         company['Company Name'].toLowerCase() === query.toLowerCase() ||
+         company['NSE Symbol'] === query.toUpperCase() ||
+         company['BSE Symbol'].toString() === query
+         );
+         if (matchedCompany) break;
+         }
+         
+         // If we have a matched company, we could enhance the search with additional info
+         if (matchedCompany) {
+         console.log('Found company in our database:', matchedCompany);
+         // You could show additional company info here
+         }
+         
+         // Call the original search function
+         originalSearchStocks();
+         };
+         
+         
+         // Clear Stock Table
+         
+         function clearStockTable() {
+         // Hide the stock table
+         stockTable.style.display = "none";
+         
+         // Clear the search input
+         searchInput1.value = "";
+         
+         // Hide any error messages
+         error.style.display = "none";
+         
+         // Clear the table body content
+         stockBody.innerHTML = "";
+         
+         // Add a subtle animation effect
+         searchInput1.focus();
+         searchInput1.style.transform = "scale(1.02)";
+         setTimeout(() => {
+         searchInput1.style.transform = "scale(1)";
+         }, 200);
+         }
+      </script>
+   </body>
+</html>
