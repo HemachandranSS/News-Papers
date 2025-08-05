@@ -37575,35 +37575,40 @@
 ;
          // Recursively create the collapsible tree structure
          function createTree(data) {
-           const treeContainer = document.createElement("ul");
-         
-           for (const key in data) {
-             const value = data[key];
-             const li = document.createElement("li");
-             const isObject = typeof value === "object" && !Array.isArray(value);
-             const isArray = Array.isArray(value);
-         
-             // Add collapsible behavior for nested objects/arrays
-             if (isObject || isArray) {
-               li.innerHTML = `<div class="toggle-container"><span class="toggle">${key}</span></div>`;
-               const nestedTree = createTree(value);
-               const nestedContainer = document.createElement("ul");
-               nestedContainer.classList.add("nested");
-               nestedContainer.appendChild(nestedTree);
-               li.appendChild(nestedContainer);
-             } else {
-               // Display key-value pairs directly (no collapsibility for literals)
-               const leafClass = "leaf-value";
-               li.innerHTML = `<span class="key">${key}:</span> <span class="${leafClass}">${createLink(
-                 value
-               )}</span>`;
-             }
-         
-             treeContainer.appendChild(li);
-           }
-         
-           return treeContainer;
-         }
+  if (data === null || data === undefined || typeof data !== "object") {
+    return document.createTextNode(String(data));
+  }
+
+  const treeContainer = document.createElement("ul");
+
+  Object.keys(data).forEach((key, index) => {
+    const value = data[key];
+
+    // If it's an array, show index + 1
+    const displayKey = Array.isArray(data) ? (index + 1).toString() : key;
+
+    const li = document.createElement("li");
+    const isObject = typeof value === "object" && value !== null && !Array.isArray(value);
+    const isArray = Array.isArray(value);
+
+    if (isObject || isArray) {
+      li.innerHTML = `<div class="toggle-container"><span class="toggle">${displayKey}</span></div>`;
+      const nestedTree = createTree(value);
+      const nestedContainer = document.createElement("ul");
+      nestedContainer.classList.add("nested");
+      nestedContainer.appendChild(nestedTree);
+      li.appendChild(nestedContainer);
+    } else {
+      li.innerHTML = `<span class="key">${displayKey}:</span> <span class="leaf-value">${createLink(value)}</span>`;
+    }
+
+    treeContainer.appendChild(li);
+  });
+
+  return treeContainer;
+}
+
+
          
          // Function to create anchor tags for URLs
          function createLink(value) {
