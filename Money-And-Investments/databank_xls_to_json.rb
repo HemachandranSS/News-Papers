@@ -3,7 +3,7 @@ require 'roo-xls'
 require 'json'
 
 # Load the .xls file
-xls = Roo::Excel.new('Vol4018DataBank.xls')
+xls = Roo::Excel.new('/home/cipl1168/Music/News-Papers/Money-And-Investments/01-Stock-Lists/2025/10-Oct/10/Vol4023DataBank.xls')
 
 # Get header from the first row
 headers = xls.row(1).map(&:to_s)
@@ -33,7 +33,7 @@ end
 grouped_by_sector = data.group_by { |row| row['Sector'].to_s.strip }
 grouped_by_sector = grouped_by_sector.sort_by { |sector, _| sector }.to_h
 
-File.open("27_07_2025_listed_companies_grouped_by_sector.json", "w") do |file|
+File.open("10_10_2025_listed_companies_grouped_by_sector.json", "w") do |file|
   file.write(grouped_by_sector.to_json)
 end
 
