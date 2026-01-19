@@ -1,0 +1,4474 @@
+{
+    "Services": {
+        "stocks": {
+            "Multi Commodity Exchange Of India Ltd.": {
+                "average": 3.36,
+                "count": 19
+            },
+            "Computer Age Management Services Ltd.": {
+                "average": 1.12,
+                "count": 13
+            },
+            "eClerx Services Ltd.": {
+                "average": 1.51,
+                "count": 12
+            },
+            "Delhivery Ltd.": {
+                "average": 1.38,
+                "count": 12
+            },
+            "Firstsource Solutions Ltd.": {
+                "average": 1.29,
+                "count": 12
+            },
+            "Sagility Ltd.": {
+                "average": 0.88,
+                "count": 12
+            },
+            "Vedant Fashions Ltd.": {
+                "average": 0.27,
+                "count": 10
+            },
+            "TBO Tek Ltd.": {
+                "average": 0.7,
+                "count": 9
+            },
+            "Chalet Hotels Ltd.": {
+                "average": 0.9,
+                "count": 9
+            },
+            "Redington Ltd.": {
+                "average": 1.14,
+                "count": 9
+            },
+            "Devyani International Ltd.": {
+                "average": 0.55,
+                "count": 9
+            },
+            "Lemon Tree Hotels Ltd.": {
+                "average": 0.81,
+                "count": 8
+            },
+            "PVR Inox Ltd.": {
+                "average": 0.43,
+                "count": 8
+            },
+            "Aditya Birla Fashion and Retail Ltd.": {
+                "average": 0.3,
+                "count": 8
+            },
+            "Aegis Logistics Ltd.": {
+                "average": 1.03,
+                "count": 8
+            },
+            "Sapphire Foods India Ltd.": {
+                "average": 0.39,
+                "count": 7
+            },
+            "Blue Dart Express Ltd.": {
+                "average": 0.43,
+                "count": 7
+            },
+            "Indiamart Intermesh Ltd.": {
+                "average": 0.38,
+                "count": 7
+            },
+            "Indian Energy Exchange Ltd.": {
+                "average": 0.84,
+                "count": 7
+            },
+            "Aditya Birla Lifestyle Brands Ltd.": {
+                "average": 0.56,
+                "count": 6
+            },
+            "Leela Palaces Hotels & Resorts Ltd.": {
+                "average": 0.37,
+                "count": 6
+            },
+            "Awfis Space Solutions Ltd.": {
+                "average": 1.01,
+                "count": 6
+            },
+            "Ventive Hospitality Ltd.": {
+                "average": 0.44,
+                "count": 6
+            },
+            "Eternal Ltd.": {
+                "average": 1.22,
+                "count": 6
+            },
+            "EIH Ltd.": {
+                "average": 0.83,
+                "count": 6
+            },
+            "Vishal Mega Mart Ltd.": {
+                "average": 1.22,
+                "count": 5
+            },
+            "Sun TV Network Ltd.": {
+                "average": 0.81,
+                "count": 5
+            },
+            "TeamLease Services Ltd.": {
+                "average": 0.59,
+                "count": 5
+            },
+            "V-Mart Retail Ltd.": {
+                "average": 1.08,
+                "count": 5
+            },
+            "Jupiter Wagons Ltd.": {
+                "average": 0.27,
+                "count": 5
+            },
+            "Saregama India Ltd.": {
+                "average": 0.12,
+                "count": 5
+            },
+            "Inventurus Knowledge Solutions Ltd.": {
+                "average": 0.59,
+                "count": 5
+            },
+            "Shoppers Stop Ltd.": {
+                "average": 0.94,
+                "count": 4
+            },
+            "PB Fintech Ltd.": {
+                "average": 1.13,
+                "count": 4
+            },
+            "Swiggy Ltd.": {
+                "average": 2.02,
+                "count": 4
+            },
+            "BSE Ltd.": {
+                "average": 1.44,
+                "count": 4
+            },
+            "Shipping Corporation Of India Ltd.": {
+                "average": 0.2,
+                "count": 4
+            },
+            "BLS International Services Ltd.": {
+                "average": 0.19,
+                "count": 4
+            },
+            "MMTC Ltd.": {
+                "average": 0.05,
+                "count": 4
+            },
+            "Physicswallah Ltd.": {
+                "average": 0.5,
+                "count": 3
+            },
+            "Care Ratings Ltd.": {
+                "average": 0.24,
+                "count": 3
+            },
+            "Just Dial Ltd.": {
+                "average": 0.58,
+                "count": 3
+            },
+            "Apeejay Surrendra Park Hotels Ltd.": {
+                "average": 0.26,
+                "count": 3
+            },
+            "Transport Corporation Of India Ltd.": {
+                "average": 1.19,
+                "count": 3
+            },
+            "VRL Logistics Ltd.": {
+                "average": 0.56,
+                "count": 3
+            },
+            "Gujarat Pipavav Port Ltd.": {
+                "average": 1.61,
+                "count": 3
+            },
+            "Digitide Solutions Ltd.": {
+                "average": 0.25,
+                "count": 3
+            },
+            "Westlife Foodworld Ltd.": {
+                "average": 0.85,
+                "count": 3
+            },
+            "CarTrade Tech Ltd.": {
+                "average": 1.84,
+                "count": 3
+            },
+            "NIIT Learning Systems Ltd.": {
+                "average": 1.09,
+                "count": 2
+            },
+            "ICRA Ltd.": {
+                "average": 0.8,
+                "count": 2
+            },
+            "The Indian Hotels Company Ltd.": {
+                "average": 0.78,
+                "count": 2
+            },
+            "Texmaco Rail & Engineering Ltd.": {
+                "average": 0.6,
+                "count": 2
+            },
+            "Go Fashion (India) Ltd.": {
+                "average": 0.35,
+                "count": 2
+            },
+            "Landmark Cars Ltd.": {
+                "average": 0.08,
+                "count": 2
+            },
+            "SIS Ltd.": {
+                "average": 0.35,
+                "count": 2
+            },
+            "Aditya Vision Ltd.": {
+                "average": 0.74,
+                "count": 2
+            },
+            "Gateway Distriparks Ltd.": {
+                "average": 0.58,
+                "count": 2
+            },
+            "CMS Info Systems Ltd.": {
+                "average": 1.27,
+                "count": 2
+            },
+            "Juniper Hotels Ltd.": {
+                "average": 0.46,
+                "count": 2
+            },
+            "Info Edge (India) Ltd.": {
+                "average": 1.55,
+                "count": 2
+            },
+            "Ethos Ltd.": {
+                "average": 0.84,
+                "count": 2
+            },
+            "Electronics Mart India Ltd.": {
+                "average": 0.39,
+                "count": 2
+            },
+            "Brigade Hotel Ventures Ltd.": {
+                "average": 0.29,
+                "count": 2
+            },
+            "BlackBuck Ltd.": {
+                "average": 0.64,
+                "count": 2
+            },
+            "Bluspring Enterprises Ltd.": {
+                "average": 0.26,
+                "count": 2
+            },
+            "Seshaasai Technologies Ltd.": {
+                "average": 0.41,
+                "count": 2
+            },
+            "Meesho Ltd.": {
+                "average": 0.21,
+                "count": 2
+            },
+            "Interglobe Aviation Ltd.": {
+                "average": 2.57,
+                "count": 2
+            },
+            "DEE Development Engineers Ltd.": {
+                "average": 0.17,
+                "count": 2
+            },
+            "eMudhra Ltd.": {
+                "average": 0.42,
+                "count": 1
+            },
+            "Seamec Ltd.": {
+                "average": 0.15,
+                "count": 1
+            },
+            "R K Swamy Ltd.": {
+                "average": 0.03,
+                "count": 1
+            },
+            "TCI Express Ltd.": {
+                "average": 0.17,
+                "count": 1
+            },
+            "TV Today Network Ltd.": {
+                "average": 0.07,
+                "count": 1
+            },
+            "ZF Commercial Vehicle Control Systems India Ltd.": {
+                "average": 1.08,
+                "count": 1
+            },
+            "Hawkins Cookers Ltd.": {
+                "average": 0.87,
+                "count": 1
+            },
+            "Fine Organic Industries Ltd.": {
+                "average": 0.79,
+                "count": 1
+            },
+            "Clean Science And Technology Ltd.": {
+                "average": 0.56,
+                "count": 1
+            },
+            "VST Industries Ltd.": {
+                "average": 0.45,
+                "count": 1
+            },
+            "Rossari Biotech Ltd.": {
+                "average": 0.4,
+                "count": 1
+            },
+            "Adani Enterprises Ltd.": {
+                "average": 1.86,
+                "count": 1
+            },
+            "Adani Enterprises Ltd. - (Partly Paid-up)": {
+                "average": 0.13,
+                "count": 1
+            },
+            "Graphite India Ltd.": {
+                "average": 0.1,
+                "count": 1
+            },
+            "Sanofi India Ltd.": {
+                "average": 0.1,
+                "count": 1
+            },
+            "Ravindra Energy Ltd.": {
+                "average": 0.07,
+                "count": 1
+            },
+            "Grindwell Norton Ltd.": {
+                "average": 0.53,
+                "count": 1
+            },
+            "Mahanagar Gas Ltd.": {
+                "average": 0.5,
+                "count": 1
+            },
+            "Jain Resource Recycling Ltd.": {
+                "average": 0.41,
+                "count": 1
+            },
+            "CESC Ltd.": {
+                "average": 0.38,
+                "count": 1
+            },
+            "JM Financial Ltd.": {
+                "average": 0.28,
+                "count": 1
+            },
+            "Suprajit Engineering Ltd.": {
+                "average": 0.2,
+                "count": 1
+            },
+            "Engineers India Ltd.": {
+                "average": 0.16,
+                "count": 1
+            },
+            "Equitas Small Finance Bank Ltd.": {
+                "average": 0.1,
+                "count": 1
+            },
+            "Avenue Supermarts Ltd.": {
+                "average": 1.3,
+                "count": 1
+            },
+            "Medi Assist Healthcare Services Ltd.": {
+                "average": 0.81,
+                "count": 1
+            },
+            "Rashi Peripherals Ltd.": {
+                "average": 0.88,
+                "count": 1
+            },
+            "Vintage Coffee & Beverages Ltd.": {
+                "average": 0.5,
+                "count": 1
+            },
+            "EFC Ltd.": {
+                "average": 0.35,
+                "count": 1
+            },
+            "Baazar Style Retail Ltd.": {
+                "average": 0.32,
+                "count": 1
+            },
+            "Updater Services Ltd.": {
+                "average": 0.3,
+                "count": 1
+            },
+            "Spicejet Ltd.": {
+                "average": 0.24,
+                "count": 1
+            },
+            "Ecos (India) Mobility & Hospitality Ltd.": {
+                "average": 0.19,
+                "count": 1
+            },
+            "Yatra Online Ltd.": {
+                "average": 0.03,
+                "count": 1
+            },
+            "Pitti Engineering Ltd.": {
+                "average": 0.17,
+                "count": 1
+            },
+            "Wonderla Holidays Ltd.": {
+                "average": 1.99,
+                "count": 1
+            },
+            "SAMHI Hotels Ltd.": {
+                "average": 1.92,
+                "count": 1
+            },
+            "Smartworks Coworking Spaces Ltd.": {
+                "average": 0.95,
+                "count": 1
+            },
+            "Allcargo Global Ltd.": {
+                "average": 0.33,
+                "count": 1
+            },
+            "Allcargo Logistics Ltd.": {
+                "average": 0.15,
+                "count": 1
+            },
+            "Powergrid Infrastructure Investment Trust": {
+                "average": 0.08,
+                "count": 1
+            },
+            "Transindia Real Estate Ltd.": {
+                "average": 0.08,
+                "count": 1
+            },
+            "WeWork India Management Ltd.": {
+                "average": 2.02,
+                "count": 1
+            },
+            "Trent Ltd.": {
+                "average": 1.75,
+                "count": 1
+            },
+            "Gulf Oil Lubricants India Ltd.": {
+                "average": 0.81,
+                "count": 1
+            },
+            "Galaxy Surfactants Ltd.": {
+                "average": 0.81,
+                "count": 1
+            },
+            "Andhra Paper Ltd.": {
+                "average": 0.72,
+                "count": 1
+            },
+            "Kirloskar Ferrous Industries Ltd.": {
+                "average": 0.58,
+                "count": 1
+            },
+            "NCC Ltd.": {
+                "average": 0.32,
+                "count": 1
+            },
+            "Rain Industries Ltd.": {
+                "average": 0.28,
+                "count": 1
+            },
+            "TTK Prestige Ltd.": {
+                "average": 0.24,
+                "count": 1
+            },
+            "Indiqube Spaces Ltd.": {
+                "average": 0.55,
+                "count": 1
+            },
+            "Tips Music Ltd.": {
+                "average": 1.24,
+                "count": 1
+            },
+            "IIFL Finance Ltd.": {
+                "average": 3.56,
+                "count": 1
+            },
+            "Central Depository Services (India) Ltd.": {
+                "average": 1.81,
+                "count": 1
+            },
+            "P N Gadgil Jewellers Ltd.": {
+                "average": 1.36,
+                "count": 1
+            },
+            "Whirlpool Of India Ltd.": {
+                "average": 0.91,
+                "count": 1
+            },
+            "Kajaria Ceramics Ltd.": {
+                "average": 0.61,
+                "count": 1
+            },
+            "Adani Ports and Special Economic Zone Ltd.": {
+                "average": 1.69,
+                "count": 1
+            },
+            "Kovai Medical Center & Hospital Ltd.": {
+                "average": 1.32,
+                "count": 1
+            },
+            "Kalpataru Projects International Ltd.": {
+                "average": 1.19,
+                "count": 1
+            },
+            "K.P.R. Mill Ltd.": {
+                "average": 0.75,
+                "count": 1
+            },
+            "Navin Fluorine International Ltd.": {
+                "average": 0.56,
+                "count": 1
+            },
+            "One97 Communications Ltd.": {
+                "average": 1.44,
+                "count": 1
+            },
+            "Shreeji Shipping Global Ltd.": {
+                "average": 1.67,
+                "count": 1
+            },
+            "Goodluck India Ltd.": {
+                "average": 1.17,
+                "count": 1
+            },
+            "Godavari Biorefineries Ltd.": {
+                "average": 0.95,
+                "count": 1
+            },
+            "Senco Gold Ltd.": {
+                "average": 0.79,
+                "count": 1
+            },
+            "Castrol India Ltd.": {
+                "average": 0.64,
+                "count": 1
+            },
+            "Le Travenues Technology Ltd.": {
+                "average": 1.46,
+                "count": 1
+            },
+            "Navkar Corporation Ltd.": {
+                "average": 1.73,
+                "count": 1
+            },
+            "JSW Infrastructure Ltd.": {
+                "average": 0.96,
+                "count": 1
+            }
+        }
+    },
+    "Financial": {
+        "stocks": {
+            "Karur Vysya Bank Ltd.": {
+                "average": 2.09,
+                "count": 19
+            },
+            "Cholamandalam Financial Holdings Ltd.": {
+                "average": 1.38,
+                "count": 19
+            },
+            "PNB Housing Finance Ltd.": {
+                "average": 1.43,
+                "count": 17
+            },
+            "City Union Bank Ltd.": {
+                "average": 1.8,
+                "count": 17
+            },
+            "KFin Technologies Ltd.": {
+                "average": 1.17,
+                "count": 15
+            },
+            "Home First Finance Company India Ltd.": {
+                "average": 0.9,
+                "count": 13
+            },
+            "CreditAccess Grameen Ltd.": {
+                "average": 0.79,
+                "count": 12
+            },
+            "Central Depository Services (India) Ltd.": {
+                "average": 1.47,
+                "count": 11
+            },
+            "Ujjivan Small Finance Bank Ltd.": {
+                "average": 1.17,
+                "count": 11
+            },
+            "Angel One Ltd.": {
+                "average": 1.01,
+                "count": 11
+            },
+            "Anand Rathi Wealth Ltd.": {
+                "average": 1.24,
+                "count": 10
+            },
+            "Aptus Value Housing Finance India Ltd.": {
+                "average": 0.76,
+                "count": 10
+            },
+            "Manappuram Finance Ltd.": {
+                "average": 1.21,
+                "count": 10
+            },
+            "RBL Bank Ltd.": {
+                "average": 1.24,
+                "count": 9
+            },
+            "Can Fin Homes Ltd.": {
+                "average": 0.72,
+                "count": 9
+            },
+            "IIFL Finance Ltd.": {
+                "average": 1.19,
+                "count": 9
+            },
+            "UTI Asset Management Company Ltd.": {
+                "average": 0.35,
+                "count": 8
+            },
+            "Equitas Small Finance Bank Ltd.": {
+                "average": 1.11,
+                "count": 8
+            },
+            "Aditya Birla Sun Life AMC Ltd.": {
+                "average": 0.46,
+                "count": 7
+            },
+            "SBFC Finance Ltd.": {
+                "average": 0.77,
+                "count": 7
+            },
+            "Five-Star Business Finance Ltd.": {
+                "average": 0.94,
+                "count": 7
+            },
+            "Axis Bank Ltd.": {
+                "average": 1.34,
+                "count": 6
+            },
+            "Aavas Financiers Ltd.": {
+                "average": 0.38,
+                "count": 6
+            },
+            "Indian Bank": {
+                "average": 1.78,
+                "count": 6
+            },
+            "Aadhar Housing Finance Ltd": {
+                "average": 0.5,
+                "count": 6
+            },
+            "Nuvama Wealth Management Ltd.": {
+                "average": 0.67,
+                "count": 6
+            },
+            "Poonawalla Fincorp Ltd.": {
+                "average": 1.08,
+                "count": 6
+            },
+            "Bandhan Bank Ltd.": {
+                "average": 1,
+                "count": 6
+            },
+            "The Federal Bank Ltd.": {
+                "average": 1.7,
+                "count": 5
+            },
+            "Pine Labs Ltd.": {
+                "average": 0.84,
+                "count": 5
+            },
+            "Capri Global Capital Ltd.": {
+                "average": 0.63,
+                "count": 5
+            },
+            "JM Financial Ltd.": {
+                "average": 0.4,
+                "count": 5
+            },
+            "HDFC Bank Ltd.": {
+                "average": 2.32,
+                "count": 4
+            },
+            "Piramal Finance Ltd.": {
+                "average": 0.9,
+                "count": 4
+            },
+            "DCB Bank Ltd.": {
+                "average": 1.68,
+                "count": 4
+            },
+            "Max Financial Services Ltd.": {
+                "average": 1.13,
+                "count": 4
+            },
+            "Nippon Life India Asset Management Ltd.": {
+                "average": 0.85,
+                "count": 4
+            },
+            "Authum Investment & Infrastructure Ltd.": {
+                "average": 0.83,
+                "count": 4
+            },
+            "Sammaan Capital Ltd.": {
+                "average": 0.56,
+                "count": 4
+            },
+            "Choice International Ltd.": {
+                "average": 0.3,
+                "count": 4
+            },
+            "The Jammu & Kashmir Bank Ltd.": {
+                "average": 0.22,
+                "count": 4
+            },
+            "Central Bank of India": {
+                "average": 0.18,
+                "count": 4
+            },
+            "IFCI Ltd.": {
+                "average": 0.17,
+                "count": 4
+            },
+            "HDB Financial Services Ltd.": {
+                "average": 0.38,
+                "count": 3
+            },
+            "LIC Housing Finance Ltd.": {
+                "average": 0.46,
+                "count": 3
+            },
+            "CSB Bank Ltd.": {
+                "average": 1.29,
+                "count": 3
+            },
+            "India Shelter Finance Corporation Ltd.": {
+                "average": 0.81,
+                "count": 3
+            },
+            "Repco Home Finance Ltd.": {
+                "average": 0.85,
+                "count": 3
+            },
+            "Motilal Oswal Financial Services Ltd.": {
+                "average": 1.01,
+                "count": 3
+            },
+            "Prudent Corporate Advisory Services Ltd.": {
+                "average": 1.11,
+                "count": 3
+            },
+            "Housing & Urban Development Corporation Ltd.": {
+                "average": 1.56,
+                "count": 3
+            },
+            "360 One Wam Ltd.": {
+                "average": 1.21,
+                "count": 3
+            },
+            "State Bank of India": {
+                "average": 1.29,
+                "count": 2
+            },
+            "MAS Financial Services Ltd.": {
+                "average": 1.19,
+                "count": 2
+            },
+            "Canara Robeco Asset Management Company Ltd.": {
+                "average": 0.4,
+                "count": 2
+            },
+            "Indusind Bank Ltd.": {
+                "average": 0.39,
+                "count": 2
+            },
+            "ICICI Prudential Asset Management Company Ltd.": {
+                "average": 0.32,
+                "count": 2
+            },
+            "Union Bank of India": {
+                "average": 0.37,
+                "count": 2
+            },
+            "Bank Of Baroda": {
+                "average": 2.01,
+                "count": 2
+            },
+            "Happy Forgings Ltd.": {
+                "average": 0.66,
+                "count": 2
+            },
+            "The Karnataka Bank Ltd.": {
+                "average": 1.11,
+                "count": 2
+            },
+            "L&T Finance Ltd.": {
+                "average": 1.67,
+                "count": 2
+            },
+            "ICICI Bank Ltd.": {
+                "average": 1.02,
+                "count": 2
+            },
+            "REC Ltd.": {
+                "average": 2.6,
+                "count": 2
+            },
+            "The South Indian Bank Ltd.": {
+                "average": 1.35,
+                "count": 2
+            },
+            "Quess Corp Ltd.": {
+                "average": 0.91,
+                "count": 2
+            },
+            "Bank of India": {
+                "average": 0.7,
+                "count": 2
+            },
+            "IDFC First Bank Ltd.": {
+                "average": 2.85,
+                "count": 2
+            },
+            "AU Small Finance Bank Ltd.": {
+                "average": 1.5,
+                "count": 2
+            },
+            "Orient Electric Ltd.": {
+                "average": 0.64,
+                "count": 2
+            },
+            "Aditya Birla Capital Ltd.": {
+                "average": 1.32,
+                "count": 2
+            },
+            "TSF Investments Ltd.": {
+                "average": 0.56,
+                "count": 1
+            },
+            "National Securities Depository Ltd": {
+                "average": 0.06,
+                "count": 1
+            },
+            "Archean Chemical Industries Ltd.": {
+                "average": 0.69,
+                "count": 1
+            },
+            "KNR Constructions Ltd.": {
+                "average": 0.54,
+                "count": 1
+            },
+            "ACME Solar Holdings Ltd.": {
+                "average": 0.22,
+                "count": 1
+            },
+            "JIO Financial Services Ltd.": {
+                "average": 5.99,
+                "count": 1
+            },
+            "Prime Securities Ltd.": {
+                "average": 0.15,
+                "count": 1
+            },
+            "Sai Silks (Kalamandir) Ltd.": {
+                "average": 0.11,
+                "count": 1
+            },
+            "Ethos Ltd.": {
+                "average": 0.1,
+                "count": 1
+            },
+            "Stanley Lifestyles Ltd.": {
+                "average": 0.09,
+                "count": 1
+            },
+            "Oil And Natural Gas Corporation Ltd.": {
+                "average": 0.08,
+                "count": 1
+            },
+            "Primo Chemicals Ltd.": {
+                "average": 0.07,
+                "count": 1
+            },
+            "Arvind Fashions Ltd.": {
+                "average": 0.56,
+                "count": 1
+            },
+            "Balrampur Chini Mills Ltd.": {
+                "average": 0.44,
+                "count": 1
+            },
+            "Sudeep Pharma Ltd.": {
+                "average": 0.27,
+                "count": 1
+            },
+            "Strides Pharma Science Ltd.": {
+                "average": 0.25,
+                "count": 1
+            },
+            "Kei Industries Ltd.": {
+                "average": 0.23,
+                "count": 1
+            },
+            "Atlanta Electricals Ltd.": {
+                "average": 0.08,
+                "count": 1
+            },
+            "Aequs Ltd.": {
+                "average": 0.07,
+                "count": 1
+            },
+            "Shriram Finance Ltd": {
+                "average": 1.66,
+                "count": 1
+            },
+            "Anand Rathi Share and Stock Brokers Ltd.": {
+                "average": 0.2,
+                "count": 1
+            },
+            "Power Finance Corporation Ltd.": {
+                "average": 0.85,
+                "count": 1
+            },
+            "Fedbank Financial Services Ltd.": {
+                "average": 0.56,
+                "count": 1
+            },
+            "Edelweiss Financial Services Ltd.": {
+                "average": 0.13,
+                "count": 1
+            },
+            "Satin Creditcare Network Ltd.": {
+                "average": 0.12,
+                "count": 1
+            },
+            "Rane Holdings Ltd.": {
+                "average": 0.11,
+                "count": 1
+            },
+            "Suryoday Small Finance Bank Ltd.": {
+                "average": 0.09,
+                "count": 1
+            },
+            "Finbud Financial Services Ltd.": {
+                "average": 0.03,
+                "count": 1
+            },
+            "DAM Capital Advisors Ltd.": {
+                "average": 0.02,
+                "count": 1
+            },
+            "Music Broadcast Ltd. - Preference shares": {
+                "average": 0.19,
+                "count": 1
+            },
+            "Bajaj Finance Ltd.": {
+                "average": 1.13,
+                "count": 1
+            },
+            "Sundaram - Clayton Dcd Ltd.": {
+                "average": 1.63,
+                "count": 1
+            },
+            "Cummins India Ltd.": {
+                "average": 0.88,
+                "count": 1
+            },
+            "Oil India Ltd.": {
+                "average": 0.76,
+                "count": 1
+            },
+            "Astrazeneca Pharma India Ltd.": {
+                "average": 0.23,
+                "count": 1
+            },
+            "Chemplast Sanmar Ltd.": {
+                "average": 0.11,
+                "count": 1
+            },
+            "Arman Financial Services Ltd.": {
+                "average": 0.18,
+                "count": 1
+            },
+            "The Ramco Cements Ltd.": {
+                "average": 2.73,
+                "count": 1
+            },
+            "Oswal Pumps Ltd.": {
+                "average": 1.79,
+                "count": 1
+            },
+            "Aditya Birla Real Estate Ltd.": {
+                "average": 1.73,
+                "count": 1
+            },
+            "Belrise Industries Ltd.": {
+                "average": 1.55,
+                "count": 1
+            },
+            "Voltamp Transformers Ltd.": {
+                "average": 1.49,
+                "count": 1
+            },
+            "Globus Spirits Ltd.": {
+                "average": 1.23,
+                "count": 1
+            },
+            "Asahi India Glass Ltd.": {
+                "average": 1.02,
+                "count": 1
+            },
+            "Engineers India Ltd.": {
+                "average": 0.82,
+                "count": 1
+            },
+            "Swaraj Engines Ltd.": {
+                "average": 0.71,
+                "count": 1
+            },
+            "Greenpanel Industries Ltd.": {
+                "average": 1.45,
+                "count": 1
+            },
+            "Senco Gold Ltd.": {
+                "average": 1.07,
+                "count": 1
+            },
+            "Bank of Maharashtra": {
+                "average": 0.55,
+                "count": 1
+            },
+            "SBI Cards And Payment Services Ltd.": {
+                "average": 1.34,
+                "count": 1
+            },
+            "Computer Age Management Services Ltd.": {
+                "average": 1.22,
+                "count": 1
+            },
+            "Krishna Institute of Medical Sciences Ltd": {
+                "average": 1.21,
+                "count": 1
+            },
+            "Tinna Rubber And Infrastructure Ltd.": {
+                "average": 1.07,
+                "count": 1
+            },
+            "KSB Ltd.": {
+                "average": 0.64,
+                "count": 1
+            },
+            "Advanced Enzyme Technologies Ltd.": {
+                "average": 0.41,
+                "count": 1
+            },
+            "Kaynes Technology India Ltd.": {
+                "average": 0.33,
+                "count": 1
+            },
+            "Kernex Microsystems (India) Ltd.": {
+                "average": 0.15,
+                "count": 1
+            },
+            "Sundaram Finance Ltd.": {
+                "average": 1.18,
+                "count": 1
+            }
+        }
+    },
+    "Capital Goods": {
+        "stocks": {
+            "Kirloskar Oil Engines Ltd.": {
+                "average": 1.17,
+                "count": 14
+            },
+            "KEC International Ltd.": {
+                "average": 0.74,
+                "count": 13
+            },
+            "Timken India Ltd.": {
+                "average": 0.83,
+                "count": 12
+            },
+            "PG Electroplast Ltd.": {
+                "average": 0.67,
+                "count": 11
+            },
+            "Techno Electric & Engineering Company Ltd.": {
+                "average": 1.03,
+                "count": 11
+            },
+            "KSB Ltd.": {
+                "average": 0.76,
+                "count": 11
+            },
+            "Kalpataru Projects International Ltd.": {
+                "average": 1.14,
+                "count": 10
+            },
+            "Kirloskar Pneumatic Company Ltd.": {
+                "average": 1.14,
+                "count": 10
+            },
+            "Kaynes Technology India Ltd.": {
+                "average": 0.86,
+                "count": 10
+            },
+            "Jyoti CNC Automation Ltd.": {
+                "average": 0.87,
+                "count": 10
+            },
+            "Finolex Cables Ltd.": {
+                "average": 0.4,
+                "count": 9
+            },
+            "Inox Wind Ltd.": {
+                "average": 0.79,
+                "count": 9
+            },
+            "Data Patterns (India) Ltd.": {
+                "average": 0.81,
+                "count": 9
+            },
+            "Syrma SGS Technology Ltd.": {
+                "average": 0.81,
+                "count": 9
+            },
+            "BEML Ltd.": {
+                "average": 0.7,
+                "count": 8
+            },
+            "Amara Raja Energy & Mobility Ltd": {
+                "average": 0.88,
+                "count": 8
+            },
+            "Voltamp Transformers Ltd.": {
+                "average": 0.96,
+                "count": 7
+            },
+            "Praj Industries Ltd.": {
+                "average": 0.3,
+                "count": 7
+            },
+            "Kei Industries Ltd.": {
+                "average": 2.02,
+                "count": 7
+            },
+            "Sundram Fasteners Ltd.": {
+                "average": 0.79,
+                "count": 6
+            },
+            "Dixon Technologies (India) Ltd.": {
+                "average": 0.92,
+                "count": 6
+            },
+            "Rolex Rings Ltd": {
+                "average": 0.48,
+                "count": 6
+            },
+            "Graphite India Ltd.": {
+                "average": 0.57,
+                "count": 6
+            },
+            "Schneider Electric Infrastructure Ltd.": {
+                "average": 0.56,
+                "count": 6
+            },
+            "Kirloskar Brothers Ltd.": {
+                "average": 0.37,
+                "count": 5
+            },
+            "Avalon Technologies Ltd.": {
+                "average": 0.9,
+                "count": 5
+            },
+            "MTAR Technologies Ltd.": {
+                "average": 1.32,
+                "count": 5
+            },
+            "Elgi Equipments Ltd.": {
+                "average": 0.67,
+                "count": 5
+            },
+            "Elecon Engineering Company Ltd.": {
+                "average": 0.34,
+                "count": 5
+            },
+            "Action Construction Equipment Ltd.": {
+                "average": 0.23,
+                "count": 5
+            },
+            "Garden Reach Shipbuilders & Engineers Ltd.": {
+                "average": 0.5,
+                "count": 5
+            },
+            "TD Power Systems Ltd.": {
+                "average": 1.89,
+                "count": 4
+            },
+            "Ion Exchange (India) Ltd.": {
+                "average": 0.66,
+                "count": 4
+            },
+            "Hitachi Energy India Ltd.": {
+                "average": 1.15,
+                "count": 4
+            },
+            "Bharat Dynamics Ltd.": {
+                "average": 0.6,
+                "count": 4
+            },
+            "GE Vernova T&D India Ltd": {
+                "average": 2,
+                "count": 4
+            },
+            "Exide Industries Ltd.": {
+                "average": 0.69,
+                "count": 4
+            },
+            "Carraro India Ltd.": {
+                "average": 0.93,
+                "count": 4
+            },
+            "Ingersoll-Rand (India) Ltd.": {
+                "average": 0.86,
+                "count": 4
+            },
+            "HBL Engineering Ltd.": {
+                "average": 0.52,
+                "count": 4
+            },
+            "Reliance Infrastructure Ltd.": {
+                "average": 0.24,
+                "count": 4
+            },
+            "Transformers And Rectifiers India Ltd.": {
+                "average": 0.15,
+                "count": 4
+            },
+            "Schaeffler India Ltd.": {
+                "average": 0.85,
+                "count": 3
+            },
+            "Rishabh Instruments Ltd.": {
+                "average": 0.12,
+                "count": 3
+            },
+            "SKF India (Industrial) Ltd.": {
+                "average": 1.05,
+                "count": 3
+            },
+            "GMM Pfaudler Ltd.": {
+                "average": 0.41,
+                "count": 3
+            },
+            "Shivalik Bimetal Controls Ltd.": {
+                "average": 0.73,
+                "count": 3
+            },
+            "Shakti Pumps (India) Ltd.": {
+                "average": 1.5,
+                "count": 3
+            },
+            "Bharat Heavy Electricals Ltd.": {
+                "average": 1.25,
+                "count": 2
+            },
+            "Hindustan Aeronautics Ltd.": {
+                "average": 0.77,
+                "count": 2
+            },
+            "Esab India Ltd.": {
+                "average": 0.94,
+                "count": 2
+            },
+            "Honda India Power Products Ltd.": {
+                "average": 0.7,
+                "count": 2
+            },
+            "Harsha Engineers International Ltd.": {
+                "average": 0.89,
+                "count": 2
+            },
+            "LMW Ltd.": {
+                "average": 0.38,
+                "count": 2
+            },
+            "Bajel Projects Ltd.": {
+                "average": 0.09,
+                "count": 2
+            },
+            "SKF India Ltd.": {
+                "average": 0.88,
+                "count": 2
+            },
+            "Oswal Pumps Ltd.": {
+                "average": 0.19,
+                "count": 2
+            },
+            "Vidya Wires Ltd.": {
+                "average": 0.55,
+                "count": 2
+            },
+            "Swaraj Engines Ltd.": {
+                "average": 1.41,
+                "count": 2
+            },
+            "Pitti Engineering Ltd.": {
+                "average": 0.64,
+                "count": 2
+            },
+            "Quality Power Electrical Equipments Ltd.": {
+                "average": 1.66,
+                "count": 2
+            },
+            "ISGEC Heavy Engineering Ltd.": {
+                "average": 0.57,
+                "count": 1
+            },
+            "Genus Power Infrastructures Ltd.": {
+                "average": 0.39,
+                "count": 1
+            },
+            "Cyient DLM Ltd.": {
+                "average": 0.08,
+                "count": 1
+            },
+            "The Anup Engineering Ltd.": {
+                "average": 0.73,
+                "count": 1
+            },
+            "NRB Bearings Ltd.": {
+                "average": 0.62,
+                "count": 1
+            },
+            "Happiest Minds Technologies Ltd.": {
+                "average": 0.93,
+                "count": 1
+            },
+            "V-Mart Retail Ltd.": {
+                "average": 0.2,
+                "count": 1
+            },
+            "Adani Green Energy Ltd.": {
+                "average": 1.85,
+                "count": 1
+            },
+            "Vishnu Prakash R Punglia Ltd.": {
+                "average": 0.1,
+                "count": 1
+            },
+            "UNO Minda Ltd.": {
+                "average": 0.48,
+                "count": 1
+            },
+            "Rainbow Children's Medicare Ltd.": {
+                "average": 0.43,
+                "count": 1
+            },
+            "Aditya Vision Ltd.": {
+                "average": 0.41,
+                "count": 1
+            },
+            "PNC Infratech Ltd.": {
+                "average": 0.37,
+                "count": 1
+            },
+            "Havells India Ltd.": {
+                "average": 0.35,
+                "count": 1
+            },
+            "Heidelberg Cement India Ltd.": {
+                "average": 0.34,
+                "count": 1
+            },
+            "Fortis Healthcare Ltd.": {
+                "average": 0.22,
+                "count": 1
+            },
+            "PDS Ltd.": {
+                "average": 0.21,
+                "count": 1
+            },
+            "Canara Robeco Asset Management Company Ltd.": {
+                "average": 0.08,
+                "count": 1
+            },
+            "WPIL Ltd.": {
+                "average": 0.46,
+                "count": 1
+            },
+            "Kilburn Engineering Ltd.": {
+                "average": 0.27,
+                "count": 1
+            },
+            "Inox Green Energy Services Ltd.": {
+                "average": 0.27,
+                "count": 1
+            },
+            "GK Energy Ltd.": {
+                "average": 0.02,
+                "count": 1
+            },
+            "HLE Glascoat Ltd.": {
+                "average": 0.62,
+                "count": 1
+            },
+            "JNK India Ltd.": {
+                "average": 0.22,
+                "count": 1
+            },
+            "Polycab India Ltd.": {
+                "average": 1.3,
+                "count": 1
+            },
+            "Suzlon Energy Ltd.": {
+                "average": 0.67,
+                "count": 1
+            },
+            "Stanley Lifestyles Ltd.": {
+                "average": 0.15,
+                "count": 1
+            },
+            "Bharat Electronics Ltd.": {
+                "average": 1.43,
+                "count": 1
+            },
+            "Triveni Turbine Ltd.": {
+                "average": 0.84,
+                "count": 1
+            },
+            "Gateway Distriparks Ltd.": {
+                "average": 0.82,
+                "count": 1
+            },
+            "CMS Info Systems Ltd.": {
+                "average": 0.81,
+                "count": 1
+            },
+            "Engineers India Ltd.": {
+                "average": 0.63,
+                "count": 1
+            },
+            "Divgi TorqTransfer Systems Ltd.": {
+                "average": 0.37,
+                "count": 1
+            },
+            "Jyothy Labs Ltd.": {
+                "average": 0.11,
+                "count": 1
+            },
+            "Thermax Ltd.": {
+                "average": 0.76,
+                "count": 1
+            },
+            "Shriram Pistons & Rings Ltd": {
+                "average": 1.79,
+                "count": 1
+            },
+            "CreditAccess Grameen Ltd.": {
+                "average": 1.56,
+                "count": 1
+            },
+            "Mrs. Bectors Food Specialities Ltd.": {
+                "average": 1.46,
+                "count": 1
+            },
+            "Zensar Technologies Ltd.": {
+                "average": 1.29,
+                "count": 1
+            },
+            "Stove Kraft Ltd.": {
+                "average": 1.13,
+                "count": 1
+            },
+            "Bajaj Auto Ltd.": {
+                "average": 0.9,
+                "count": 1
+            },
+            "E.I.D. - Parry (India) Ltd.": {
+                "average": 0.66,
+                "count": 1
+            },
+            "ICICI Prudential Asset Management Company Ltd.": {
+                "average": 0.1,
+                "count": 1
+            },
+            "Ceat Ltd.": {
+                "average": 1.18,
+                "count": 1
+            },
+            "UTI Asset Management Company Ltd.": {
+                "average": 0.93,
+                "count": 1
+            },
+            "Sobha Ltd.": {
+                "average": 0.79,
+                "count": 1
+            },
+            "Carborundum Universal Ltd.": {
+                "average": 0.71,
+                "count": 1
+            },
+            "Electronics Mart India Ltd.": {
+                "average": 0.67,
+                "count": 1
+            },
+            "VA Tech Wabag Ltd.": {
+                "average": 1.46,
+                "count": 1
+            },
+            "Mazagon Dock Shipbuilders Ltd.": {
+                "average": 1.06,
+                "count": 1
+            },
+            "Vikran Engineering Ltd.": {
+                "average": 1.23,
+                "count": 1
+            },
+            "WeWork India Management Ltd.": {
+                "average": 1.01,
+                "count": 1
+            },
+            "Steelcast Ltd.": {
+                "average": 0.94,
+                "count": 1
+            },
+            "Atlanta Electricals Ltd.": {
+                "average": 0.62,
+                "count": 1
+            },
+            "Rane Holdings Ltd.": {
+                "average": 0.55,
+                "count": 1
+            },
+            "Azad Engineering Ltd.": {
+                "average": 2.13,
+                "count": 1
+            },
+            "Apollo Micro Systems Ltd.": {
+                "average": 3.47,
+                "count": 1
+            },
+            "Bharat Bijlee Ltd.": {
+                "average": 1.76,
+                "count": 1
+            },
+            "KSH International Ltd.": {
+                "average": 1.41,
+                "count": 1
+            },
+            "Kennametal India Ltd.": {
+                "average": 1.39,
+                "count": 1
+            },
+            "Ador Welding Ltd.": {
+                "average": 0.6,
+                "count": 1
+            },
+            "Roto Pumps Ltd.": {
+                "average": 0.32,
+                "count": 1
+            }
+        }
+    },
+    "Consumer Staples": {
+        "stocks": {
+            "Radico Khaitan Ltd.": {
+                "average": 1.75,
+                "count": 17
+            },
+            "Aditya Birla Real Estate Ltd.": {
+                "average": 0.9,
+                "count": 15
+            },
+            "Apar Industries Ltd.": {
+                "average": 0.98,
+                "count": 12
+            },
+            "E.I.D. - Parry (India) Ltd.": {
+                "average": 1.22,
+                "count": 11
+            },
+            "Bikaji Foods International Ltd.": {
+                "average": 1.07,
+                "count": 11
+            },
+            "Emami Ltd.": {
+                "average": 0.57,
+                "count": 10
+            },
+            "Balrampur Chini Mills Ltd.": {
+                "average": 0.68,
+                "count": 10
+            },
+            "DOMS Industries Ltd.": {
+                "average": 0.93,
+                "count": 10
+            },
+            "CCL Products (India) Ltd.": {
+                "average": 1.34,
+                "count": 9
+            },
+            "Jyothy Labs Ltd.": {
+                "average": 0.31,
+                "count": 8
+            },
+            "Century Plyboards (India) Ltd.": {
+                "average": 0.85,
+                "count": 8
+            },
+            "Campus Activewear Ltd.": {
+                "average": 0.43,
+                "count": 7
+            },
+            "Godrej Agrovet Ltd.": {
+                "average": 0.29,
+                "count": 6
+            },
+            "Bata India Ltd.": {
+                "average": 0.26,
+                "count": 6
+            },
+            "LT Foods Ltd.": {
+                "average": 0.94,
+                "count": 6
+            },
+            "Triveni Engineering & Industries Ltd.": {
+                "average": 0.5,
+                "count": 6
+            },
+            "Greenply Industries Ltd.": {
+                "average": 0.67,
+                "count": 6
+            },
+            "Gillette India Ltd.": {
+                "average": 0.86,
+                "count": 6
+            },
+            "Dodla Dairy Ltd": {
+                "average": 1.43,
+                "count": 5
+            },
+            "Mrs. Bectors Food Specialities Ltd.": {
+                "average": 1.12,
+                "count": 5
+            },
+            "Bombay Burmah Trading Corporation Ltd.": {
+                "average": 0.17,
+                "count": 5
+            },
+            "Brainbees Solutions Ltd.": {
+                "average": 0.26,
+                "count": 5
+            },
+            "Urban Company Ltd.": {
+                "average": 0.52,
+                "count": 4
+            },
+            "Greenpanel Industries Ltd.": {
+                "average": 0.34,
+                "count": 4
+            },
+            "Honasa Consumer Ltd.": {
+                "average": 0.2,
+                "count": 4
+            },
+            "ITC Ltd.": {
+                "average": 1.03,
+                "count": 3
+            },
+            "Allied Blenders And Distillers Ltd.": {
+                "average": 1.67,
+                "count": 3
+            },
+            "Greenlam Industries Ltd.": {
+                "average": 0.6,
+                "count": 3
+            },
+            "Stylam Industries Ltd.": {
+                "average": 0.93,
+                "count": 3
+            },
+            "Metro Brands Ltd.": {
+                "average": 0.69,
+                "count": 3
+            },
+            "Zydus Wellness Ltd.": {
+                "average": 1.26,
+                "count": 2
+            },
+            "AWL Agri Business Ltd.": {
+                "average": 0.52,
+                "count": 2
+            },
+            "Orkla India Ltd.": {
+                "average": 1.06,
+                "count": 2
+            },
+            "Bajaj Consumer Care Ltd.": {
+                "average": 0.35,
+                "count": 2
+            },
+            "West Coast Paper Mills Ltd.": {
+                "average": 0.38,
+                "count": 2
+            },
+            "Sula Vineyards Ltd.": {
+                "average": 0.33,
+                "count": 2
+            },
+            "TCPL Packaging Ltd.": {
+                "average": 0.59,
+                "count": 2
+            },
+            "Godrej Industries Ltd.": {
+                "average": 2.26,
+                "count": 2
+            },
+            "Heritage Foods Ltd.": {
+                "average": 0.59,
+                "count": 2
+            },
+            "Hindustan Foods Ltd.": {
+                "average": 1.12,
+                "count": 2
+            },
+            "Godfrey Phillips India Ltd.": {
+                "average": 0.62,
+                "count": 2
+            },
+            "Manorama Industries Ltd.": {
+                "average": 1.85,
+                "count": 2
+            },
+            "Hindustan Unilever Ltd.": {
+                "average": 0.93,
+                "count": 1
+            },
+            "Tata Consumer Products Ltd.": {
+                "average": 0.63,
+                "count": 1
+            },
+            "Raymond Lifestyle Ltd.": {
+                "average": 0.14,
+                "count": 1
+            },
+            "3M India Ltd.": {
+                "average": 0.09,
+                "count": 1
+            },
+            "Hatsun Agro Product Ltd.": {
+                "average": 0.09,
+                "count": 1
+            },
+            "Jubilant Ingrevia Ltd.": {
+                "average": 0.01,
+                "count": 1
+            },
+            "Godrej Consumer Products Ltd.": {
+                "average": 1.62,
+                "count": 1
+            },
+            "Redtape Ltd.": {
+                "average": 0.74,
+                "count": 1
+            },
+            "D.B. Corp Ltd.": {
+                "average": 0.34,
+                "count": 1
+            },
+            "Jagran Prakashan Ltd.": {
+                "average": 0.04,
+                "count": 1
+            },
+            "Relaxo Footwears Ltd.": {
+                "average": 1.32,
+                "count": 1
+            },
+            "Chemplast Sanmar Ltd.": {
+                "average": 0.79,
+                "count": 1
+            },
+            "Billionbrains Garage Ventures Ltd.": {
+                "average": 0.35,
+                "count": 1
+            },
+            "Mahindra Lifespace Developers Ltd.": {
+                "average": 0.5,
+                "count": 1
+            },
+            "Azad Engineering Ltd.": {
+                "average": 0.43,
+                "count": 1
+            },
+            "Gland Pharma Ltd.": {
+                "average": 0.3,
+                "count": 1
+            },
+            "LG Electronics India Ltd.": {
+                "average": 0.15,
+                "count": 1
+            },
+            "Tilaknagar Industries Ltd.": {
+                "average": 0.35,
+                "count": 1
+            },
+            "Flair Writing Industries Ltd.": {
+                "average": 0.18,
+                "count": 1
+            },
+            "JK Paper Ltd.": {
+                "average": 0.05,
+                "count": 1
+            },
+            "Shankara Buildpro Ltd.": {
+                "average": 0.45,
+                "count": 1
+            },
+            "Sundrop Brands Ltd.": {
+                "average": 1.08,
+                "count": 1
+            },
+            "Eveready Industries India Ltd.": {
+                "average": 0.51,
+                "count": 1
+            },
+            "Honeywell Automation India Ltd.": {
+                "average": 0.83,
+                "count": 1
+            },
+            "DLF Ltd.": {
+                "average": 0.68,
+                "count": 1
+            },
+            "Aarti Industries Ltd.": {
+                "average": 0.49,
+                "count": 1
+            },
+            "Alembic Pharmaceuticals Ltd.": {
+                "average": 0.48,
+                "count": 1
+            },
+            "Maharashtra Seamless Ltd.": {
+                "average": 0.09,
+                "count": 1
+            },
+            "Neuland Laboratories Ltd.": {
+                "average": 2.33,
+                "count": 1
+            },
+            "Arvind Ltd.": {
+                "average": 1.96,
+                "count": 1
+            },
+            "Arvind Fashions Ltd.": {
+                "average": 1.66,
+                "count": 1
+            },
+            "Sagility Ltd.": {
+                "average": 1.39,
+                "count": 1
+            },
+            "Deepak Fertilisers And Petrochemicals Corporation Ltd.": {
+                "average": 1.23,
+                "count": 1
+            },
+            "Glaxosmithkline Pharmaceuticals Ltd.": {
+                "average": 1.08,
+                "count": 1
+            },
+            "Ipca Laboratories Ltd.": {
+                "average": 0.86,
+                "count": 1
+            },
+            "Sapphire Foods India Ltd.": {
+                "average": 0.63,
+                "count": 1
+            },
+            "Larsen & Toubro Ltd.": {
+                "average": 1.44,
+                "count": 1
+            },
+            "Cyient Ltd.": {
+                "average": 1.05,
+                "count": 1
+            },
+            "Laxmi Dental Ltd.": {
+                "average": 0.69,
+                "count": 1
+            },
+            "Sanstar Ltd.": {
+                "average": 0.15,
+                "count": 1
+            }
+        }
+    },
+    "Energy": {
+        "stocks": {
+            "CESC Ltd.": {
+                "average": 0.89,
+                "count": 11
+            },
+            "Castrol India Ltd.": {
+                "average": 0.6,
+                "count": 8
+            },
+            "The Great Eastern Shipping Company Ltd.": {
+                "average": 0.92,
+                "count": 8
+            },
+            "Gujarat State Petronet Ltd.": {
+                "average": 0.7,
+                "count": 8
+            },
+            "ACME Solar Holdings Ltd.": {
+                "average": 0.33,
+                "count": 6
+            },
+            "Reliance Power Ltd.": {
+                "average": 0.78,
+                "count": 6
+            },
+            "Aegis Vopak Terminals Ltd.": {
+                "average": 0.16,
+                "count": 5
+            },
+            "Mahanagar Gas Ltd.": {
+                "average": 0.39,
+                "count": 5
+            },
+            "Jaiprakash Power Ventures Ltd.": {
+                "average": 0.42,
+                "count": 4
+            },
+            "Gujarat Mineral Development Corporation Ltd.": {
+                "average": 0.25,
+                "count": 4
+            },
+            "Chennai Petroleum Corporation Ltd.": {
+                "average": 0.2,
+                "count": 4
+            },
+            "Mangalore Refinery And Petrochemicals Ltd.": {
+                "average": 0.14,
+                "count": 4
+            },
+            "Reliance Industries Ltd.": {
+                "average": 3.96,
+                "count": 3
+            },
+            "Tata Power Company Ltd.": {
+                "average": 0.99,
+                "count": 3
+            },
+            "NTPC Green Energy Ltd.": {
+                "average": 0.73,
+                "count": 3
+            },
+            "NLC India Ltd.": {
+                "average": 0.62,
+                "count": 2
+            },
+            "Saatvik Green Energy Ltd.": {
+                "average": 0.39,
+                "count": 2
+            },
+            "Vikram Solar Ltd.": {
+                "average": 0.33,
+                "count": 2
+            },
+            "TruAlt Bioenergy Ltd.": {
+                "average": 0.24,
+                "count": 2
+            },
+            "IRM Energy Ltd.": {
+                "average": 0.1,
+                "count": 2
+            },
+            "Coal India Ltd.": {
+                "average": 0.47,
+                "count": 1
+            },
+            "NTPC Ltd.": {
+                "average": 0.41,
+                "count": 1
+            },
+            "Siemens Energy India Ltd.": {
+                "average": 0.17,
+                "count": 1
+            },
+            "Fujiyama Power Systems Ltd.": {
+                "average": 0.16,
+                "count": 1
+            },
+            "CCL Products (India) Ltd.": {
+                "average": 0.2,
+                "count": 1
+            },
+            "Adani Power Ltd.": {
+                "average": 2.9,
+                "count": 1
+            },
+            "Exicom Tele-Systems Ltd.": {
+                "average": 0.17,
+                "count": 1
+            },
+            "Tata Consumer Products Ltd.": {
+                "average": 0.5,
+                "count": 1
+            },
+            "Amber Enterprises India Ltd.": {
+                "average": 0.42,
+                "count": 1
+            },
+            "PG Electroplast Ltd.": {
+                "average": 0.38,
+                "count": 1
+            },
+            "Gulf Oil Lubricants India Ltd.": {
+                "average": 0.12,
+                "count": 1
+            },
+            "Amara Raja Energy & Mobility Ltd": {
+                "average": 0.81,
+                "count": 1
+            },
+            "Finolex Industries Ltd.": {
+                "average": 0.76,
+                "count": 1
+            },
+            "PNC Infratech Ltd.": {
+                "average": 0.6,
+                "count": 1
+            },
+            "Balkrishna Industries Ltd.": {
+                "average": 0.5,
+                "count": 1
+            },
+            "Nitin Spinners Ltd.": {
+                "average": 0.75,
+                "count": 1
+            },
+            "LMW Ltd.": {
+                "average": 0.22,
+                "count": 1
+            },
+            "Neogen Chemicals Ltd.": {
+                "average": 1.11,
+                "count": 1
+            },
+            "Hindustan Petroleum Corporation Ltd.": {
+                "average": 1.21,
+                "count": 1
+            },
+            "Transrail Lighting Ltd.": {
+                "average": 0.75,
+                "count": 1
+            },
+            "Titagarh Rail Systems Ltd.": {
+                "average": 1.01,
+                "count": 1
+            },
+            "Vinati Organics Ltd.": {
+                "average": 0.62,
+                "count": 1
+            },
+            "Oil India Ltd.": {
+                "average": 0.43,
+                "count": 1
+            }
+        }
+    },
+    "Automobile": {
+        "stocks": {
+            "ZF Commercial Vehicle Control Systems India Ltd.": {
+                "average": 1.01,
+                "count": 12
+            },
+            "Craftsman Automation Ltd.": {
+                "average": 1.11,
+                "count": 11
+            },
+            "Ather Energy Ltd.": {
+                "average": 1.28,
+                "count": 9
+            },
+            "JK Tyre & Industries Ltd.": {
+                "average": 0.49,
+                "count": 8
+            },
+            "Minda Corporation Ltd.": {
+                "average": 0.87,
+                "count": 8
+            },
+            "Sansera Engineering Ltd.": {
+                "average": 1.14,
+                "count": 7
+            },
+            "Titagarh Rail Systems Ltd.": {
+                "average": 0.59,
+                "count": 7
+            },
+            "Motherson Sumi Wiring India Ltd.": {
+                "average": 0.74,
+                "count": 7
+            },
+            "Ceat Ltd.": {
+                "average": 0.57,
+                "count": 6
+            },
+            "SJS Enterprises Ltd.": {
+                "average": 1.99,
+                "count": 5
+            },
+            "Tube Investments Of India Ltd.": {
+                "average": 0.77,
+                "count": 4
+            },
+            "Sharda Motor Industries Ltd.": {
+                "average": 0.51,
+                "count": 4
+            },
+            "Gabriel India Ltd.": {
+                "average": 2.34,
+                "count": 4
+            },
+            "Force Motors Ltd.": {
+                "average": 0.49,
+                "count": 4
+            },
+            "Maharashtra Scooters Ltd.": {
+                "average": 0.39,
+                "count": 4
+            },
+            "Ola Electric Mobility Ltd.": {
+                "average": 0.32,
+                "count": 4
+            },
+            "Olectra Greentech Ltd.": {
+                "average": 0.24,
+                "count": 4
+            },
+            "JBM Auto Ltd.": {
+                "average": 0.13,
+                "count": 4
+            },
+            "Lumax Auto Technologies Ltd.": {
+                "average": 2.15,
+                "count": 3
+            },
+            "Samvardhana Motherson International Ltd.": {
+                "average": 0.61,
+                "count": 3
+            },
+            "Sandhar Technologies Ltd.": {
+                "average": 0.53,
+                "count": 3
+            },
+            "Subros Ltd.": {
+                "average": 0.76,
+                "count": 3
+            },
+            "Sona BLW Precision Forgings Ltd.": {
+                "average": 0.86,
+                "count": 3
+            },
+            "Jamna Auto Industries Ltd.": {
+                "average": 1.12,
+                "count": 3
+            },
+            "UNO Minda Ltd.": {
+                "average": 1.33,
+                "count": 3
+            },
+            "V.S.T. Tillers Tractors Ltd.": {
+                "average": 1.05,
+                "count": 2
+            },
+            "Belrise Industries Ltd.": {
+                "average": 1.26,
+                "count": 2
+            },
+            "LG Balakrishnan & Bros Ltd.": {
+                "average": 0.79,
+                "count": 2
+            },
+            "Automotive Axles Ltd.": {
+                "average": 0.22,
+                "count": 2
+            },
+            "Suprajit Engineering Ltd.": {
+                "average": 1.55,
+                "count": 2
+            },
+            "Fiem Industries Ltd.": {
+                "average": 1.77,
+                "count": 2
+            },
+            "GNA Axles Ltd.": {
+                "average": 0.14,
+                "count": 2
+            },
+            "TVS Srichakra Ltd.": {
+                "average": 1.04,
+                "count": 2
+            },
+            "TVS Holdings Ltd.": {
+                "average": 1.3,
+                "count": 2
+            },
+            "Pricol Ltd.": {
+                "average": 1.72,
+                "count": 2
+            },
+            "Tenneco Clean Air India Ltd": {
+                "average": 1.02,
+                "count": 2
+            },
+            "ASK Automotive Ltd.": {
+                "average": 0.72,
+                "count": 2
+            },
+            "JTEKT India Ltd.": {
+                "average": 0.44,
+                "count": 1
+            },
+            "Tata Motors Ltd.": {
+                "average": 0.12,
+                "count": 1
+            },
+            "Divgi TorqTransfer Systems Ltd.": {
+                "average": 0.1,
+                "count": 1
+            },
+            "Studds Accessories Ltd.": {
+                "average": 0.04,
+                "count": 1
+            },
+            "Lumax Industries Ltd.": {
+                "average": 0.6,
+                "count": 1
+            },
+            "Goodyear India Ltd.": {
+                "average": 0.28,
+                "count": 1
+            },
+            "TTK Prestige Ltd.": {
+                "average": 1.06,
+                "count": 1
+            },
+            "Hatsun Agro Product Ltd.": {
+                "average": 0.82,
+                "count": 1
+            },
+            "Alembic Pharmaceuticals Ltd.": {
+                "average": 0.47,
+                "count": 1
+            },
+            "Healthcare Global Enterprises Ltd.": {
+                "average": 0.42,
+                "count": 1
+            },
+            "Alicon Castalloy Ltd.": {
+                "average": 0.31,
+                "count": 1
+            },
+            "Container Corporation Of India Ltd.": {
+                "average": 0.18,
+                "count": 1
+            },
+            "Aditya Infotech Ltd.": {
+                "average": 0.05,
+                "count": 1
+            },
+            "Steel Strips Wheels Ltd.": {
+                "average": 0.17,
+                "count": 1
+            },
+            "Shriram Pistons & Rings Ltd": {
+                "average": 2.07,
+                "count": 1
+            },
+            "Hero Motocorp Ltd.": {
+                "average": 1.16,
+                "count": 1
+            },
+            "ICRA Ltd.": {
+                "average": 0.59,
+                "count": 1
+            },
+            "Tamil Nadu Newsprint & Papers Ltd.": {
+                "average": 0.49,
+                "count": 1
+            },
+            "Sagar Cements Ltd.": {
+                "average": 0.42,
+                "count": 1
+            },
+            "Kalyani Steels Ltd.": {
+                "average": 0.37,
+                "count": 1
+            },
+            "GHCL Ltd.": {
+                "average": 0.27,
+                "count": 1
+            },
+            "Endurance Technologies Ltd.": {
+                "average": 0.95,
+                "count": 1
+            },
+            "Godfrey Phillips India Ltd.": {
+                "average": 2,
+                "count": 1
+            },
+            "PNB Housing Finance Ltd.": {
+                "average": 1.77,
+                "count": 1
+            },
+            "Welspun Corp Ltd.": {
+                "average": 1.53,
+                "count": 1
+            },
+            "DOMS Industries Ltd.": {
+                "average": 0.88,
+                "count": 1
+            },
+            "Medi Assist Healthcare Services Ltd.": {
+                "average": 1.38,
+                "count": 1
+            },
+            "Deepak Nitrite Ltd.": {
+                "average": 1.16,
+                "count": 1
+            },
+            "Vidya Wires Ltd.": {
+                "average": 0.97,
+                "count": 1
+            }
+        }
+    },
+    "Chemicals": {
+        "stocks": {
+            "Navin Fluorine International Ltd.": {
+                "average": 1.81,
+                "count": 17
+            },
+            "Sumitomo Chemical India Ltd.": {
+                "average": 0.74,
+                "count": 12
+            },
+            "Jubilant Ingrevia Ltd.": {
+                "average": 1.02,
+                "count": 11
+            },
+            "Aarti Industries Ltd.": {
+                "average": 0.48,
+                "count": 10
+            },
+            "Clean Science And Technology Ltd.": {
+                "average": 0.39,
+                "count": 9
+            },
+            "Akzo Nobel India Ltd.": {
+                "average": 0.57,
+                "count": 8
+            },
+            "Deepak Fertilisers And Petrochemicals Corporation Ltd.": {
+                "average": 0.77,
+                "count": 8
+            },
+            "Atul Ltd.": {
+                "average": 0.91,
+                "count": 8
+            },
+            "Bayer CropScience Ltd.": {
+                "average": 0.52,
+                "count": 7
+            },
+            "Finolex Industries Ltd.": {
+                "average": 0.59,
+                "count": 7
+            },
+            "Himadri Speciality Chemical Ltd.": {
+                "average": 0.79,
+                "count": 7
+            },
+            "PCBL Chemical Ltd.": {
+                "average": 0.55,
+                "count": 7
+            },
+            "Tata Chemicals Ltd.": {
+                "average": 1.1,
+                "count": 7
+            },
+            "Chambal Fertilisers and Chemicals Ltd.": {
+                "average": 0.47,
+                "count": 6
+            },
+            "Sudarshan Chemical Industries Ltd.": {
+                "average": 1.11,
+                "count": 6
+            },
+            "BASF India Ltd.": {
+                "average": 0.65,
+                "count": 6
+            },
+            "Alkyl Amines Chemicals Ltd.": {
+                "average": 0.18,
+                "count": 5
+            },
+            "Fine Organic Industries Ltd.": {
+                "average": 0.58,
+                "count": 4
+            },
+            "DCM Shriram Ltd.": {
+                "average": 0.25,
+                "count": 4
+            },
+            "Rashtriya Chemicals and Fertilizers Ltd.": {
+                "average": 0.1,
+                "count": 4
+            },
+            "Elantas Beck India Ltd.": {
+                "average": 0.99,
+                "count": 3
+            },
+            "Paradeep Phosphates Ltd.": {
+                "average": 0.82,
+                "count": 3
+            },
+            "Galaxy Surfactants Ltd.": {
+                "average": 0.89,
+                "count": 3
+            },
+            "Archean Chemical Industries Ltd.": {
+                "average": 0.6,
+                "count": 3
+            },
+            "Vinati Organics Ltd.": {
+                "average": 0.73,
+                "count": 3
+            },
+            "Chemplast Sanmar Ltd.": {
+                "average": 0.48,
+                "count": 3
+            },
+            "Time Technoplast Ltd.": {
+                "average": 1.36,
+                "count": 3
+            },
+            "Mold-Tek Packaging Ltd.": {
+                "average": 0.65,
+                "count": 3
+            },
+            "Asian Paints Ltd.": {
+                "average": 0.92,
+                "count": 2
+            },
+            "Indigo Paints Ltd.": {
+                "average": 0.58,
+                "count": 2
+            },
+            "Linde India Ltd.": {
+                "average": 0.82,
+                "count": 2
+            },
+            "Styrenix Performance Materials Ltd.": {
+                "average": 0.33,
+                "count": 2
+            },
+            "Deepak Nitrite Ltd.": {
+                "average": 1.06,
+                "count": 2
+            },
+            "Sharda Cropchem Ltd.": {
+                "average": 1.08,
+                "count": 2
+            },
+            "Indian Energy Exchange Ltd.": {
+                "average": 0.76,
+                "count": 2
+            },
+            "Electronics Mart India Ltd.": {
+                "average": 0.4,
+                "count": 2
+            },
+            "EPL Ltd.": {
+                "average": 0.8,
+                "count": 2
+            },
+            "Gujarat State Fertilizers & Chemicals Ltd.": {
+                "average": 0.81,
+                "count": 2
+            },
+            "Dhanuka Agritech Ltd.": {
+                "average": 1.32,
+                "count": 2
+            },
+            "Nilkamal Ltd.": {
+                "average": 0.76,
+                "count": 2
+            },
+            "Apollo Pipes Ltd.": {
+                "average": 0.36,
+                "count": 2
+            },
+            "Shaily Engineering Plastics Ltd.": {
+                "average": 1.06,
+                "count": 2
+            },
+            "SH Kelkar And Company Ltd.": {
+                "average": 0.72,
+                "count": 2
+            },
+            "Vishnu Chemicals Ltd.": {
+                "average": 0.48,
+                "count": 2
+            },
+            "Garware Hi-Tech Films Ltd.": {
+                "average": 0.86,
+                "count": 2
+            },
+            "GHCL Ltd.": {
+                "average": 0.63,
+                "count": 2
+            },
+            "Supreme Petrochem Ltd.": {
+                "average": 1.23,
+                "count": 2
+            },
+            "Rossari Biotech Ltd.": {
+                "average": 0.6,
+                "count": 2
+            },
+            "Neogen Chemicals Ltd.": {
+                "average": 0.39,
+                "count": 2
+            },
+            "Aether Industries Ltd.": {
+                "average": 0.65,
+                "count": 2
+            },
+            "Solar Industries India Ltd.": {
+                "average": 1.9,
+                "count": 2
+            },
+            "Polyplex Corporation Ltd.": {
+                "average": 0.08,
+                "count": 1
+            },
+            "Fineotex Chemical Ltd.": {
+                "average": 0.05,
+                "count": 1
+            },
+            "Astec Lifesciences Ltd.": {
+                "average": 0.05,
+                "count": 1
+            },
+            "Insecticides (India) Ltd.": {
+                "average": 0.5,
+                "count": 1
+            },
+            "Privi Speciality Chemicals Ltd.": {
+                "average": 1.47,
+                "count": 1
+            },
+            "GR Infraprojects Ltd.": {
+                "average": 0.76,
+                "count": 1
+            },
+            "Sheela Foam Ltd.": {
+                "average": 0.53,
+                "count": 1
+            },
+            "Ajax Engineering Ltd.": {
+                "average": 0.32,
+                "count": 1
+            },
+            "Gujarat Fluorochemicals Ltd.": {
+                "average": 0.64,
+                "count": 1
+            },
+            "Birlasoft Ltd.": {
+                "average": 0.54,
+                "count": 1
+            },
+            "Tech Mahindra Ltd.": {
+                "average": 0.52,
+                "count": 1
+            },
+            "Ujjivan Small Finance Bank Ltd.": {
+                "average": 0.44,
+                "count": 1
+            },
+            "Jyothy Labs Ltd.": {
+                "average": 0.3,
+                "count": 1
+            },
+            "Epigral Ltd.": {
+                "average": 0.44,
+                "count": 1
+            },
+            "Pondy Oxides & Chemicals Ltd.": {
+                "average": 0.17,
+                "count": 1
+            },
+            "Thirumalai Chemicals Ltd.": {
+                "average": 0.07,
+                "count": 1
+            },
+            "Ellenbarrie Industrial Gases Ltd.": {
+                "average": 0.07,
+                "count": 1
+            },
+            "Godavari Biorefineries Ltd.": {
+                "average": 0.05,
+                "count": 1
+            },
+            "Prince Pipes and Fittings Ltd.": {
+                "average": 0.71,
+                "count": 1
+            },
+            "Wim Plast Ltd.": {
+                "average": 0.13,
+                "count": 1
+            },
+            "Rallis India Ltd.": {
+                "average": 0.13,
+                "count": 1
+            },
+            "Gujarat Narmada Valley Fertilizers & Chemicals Ltd.": {
+                "average": 1.46,
+                "count": 1
+            },
+            "Gujarat Alkalies And Chemicals Ltd.": {
+                "average": 1.05,
+                "count": 1
+            },
+            "Kansai Nerolac Paints Ltd.": {
+                "average": 0.78,
+                "count": 1
+            },
+            "Can Fin Homes Ltd.": {
+                "average": 0.76,
+                "count": 1
+            },
+            "Nuvoco Vistas Corporation Ltd.": {
+                "average": 0.51,
+                "count": 1
+            },
+            "United Breweries Ltd.": {
+                "average": 0.49,
+                "count": 1
+            },
+            "JTEKT India Ltd.": {
+                "average": 0.28,
+                "count": 1
+            },
+            "Vardhman Special Steels Ltd.": {
+                "average": 0.27,
+                "count": 1
+            },
+            "Windlas Biotech Ltd.": {
+                "average": 0.25,
+                "count": 1
+            },
+            "Gufic Biosciences Ltd.": {
+                "average": 0.2,
+                "count": 1
+            },
+            "Affle 3I Ltd.": {
+                "average": 0.11,
+                "count": 1
+            },
+            "MM Forgings Ltd.": {
+                "average": 0.1,
+                "count": 1
+            },
+            "SRF Ltd.": {
+                "average": 0.78,
+                "count": 1
+            },
+            "AGI Greenpac Ltd.": {
+                "average": 0.13,
+                "count": 1
+            },
+            "JSW Energy Ltd.": {
+                "average": 1.59,
+                "count": 1
+            },
+            "Kilburn Engineering Ltd.": {
+                "average": 1.3,
+                "count": 1
+            },
+            "Laurus Labs Ltd.": {
+                "average": 1.22,
+                "count": 1
+            },
+            "Amber Enterprises India Ltd.": {
+                "average": 1.16,
+                "count": 1
+            },
+            "Venus Pipes & Tubes Ltd.": {
+                "average": 1.1,
+                "count": 1
+            },
+            "Hindustan Dorr-Oliver Ltd.": {
+                "average": 0.4,
+                "count": 1
+            },
+            "KSH International Ltd.": {
+                "average": 1.03,
+                "count": 1
+            },
+            "Unicommerce ESolutions Ltd.": {
+                "average": 0.93,
+                "count": 1
+            },
+            "Mrs. Bectors Food Specialities Ltd.": {
+                "average": 0.4,
+                "count": 1
+            },
+            "PG Electroplast Ltd.": {
+                "average": 0.24,
+                "count": 1
+            },
+            "Bharat Rasayan Ltd.": {
+                "average": 1.49,
+                "count": 1
+            },
+            "PI Industries Ltd.": {
+                "average": 0.95,
+                "count": 1
+            },
+            "Foseco India Ltd.": {
+                "average": 0.33,
+                "count": 1
+            }
+        }
+    },
+    "Healthcare": {
+        "stocks": {
+            "Aster DM Healthcare Ltd.": {
+                "average": 1.74,
+                "count": 17
+            },
+            "Krishna Institute of Medical Sciences Ltd": {
+                "average": 1.61,
+                "count": 17
+            },
+            "JB Chemicals & Pharmaceuticals Ltd.": {
+                "average": 1.33,
+                "count": 16
+            },
+            "Sai Life Sciences Ltd.": {
+                "average": 1.26,
+                "count": 14
+            },
+            "Neuland Laboratories Ltd.": {
+                "average": 1.17,
+                "count": 13
+            },
+            "Eris Lifesciences Ltd.": {
+                "average": 1.14,
+                "count": 12
+            },
+            "Wockhardt Ltd.": {
+                "average": 1.31,
+                "count": 12
+            },
+            "Vijaya Diagnostic Centre Ltd.": {
+                "average": 1.05,
+                "count": 11
+            },
+            "Gland Pharma Ltd.": {
+                "average": 1,
+                "count": 10
+            },
+            "Metropolis Healthcare Ltd.": {
+                "average": 0.61,
+                "count": 10
+            },
+            "Narayana Hrudayalaya Ltd.": {
+                "average": 0.84,
+                "count": 10
+            },
+            "Piramal Pharma Ltd.": {
+                "average": 0.92,
+                "count": 10
+            },
+            "Dr. Lal Pathlabs Ltd.": {
+                "average": 0.89,
+                "count": 9
+            },
+            "Laurus Labs Ltd.": {
+                "average": 2.53,
+                "count": 9
+            },
+            "Pfizer Ltd.": {
+                "average": 0.87,
+                "count": 8
+            },
+            "Cohance Lifesciences Ltd.": {
+                "average": 0.56,
+                "count": 8
+            },
+            "Concord Biotech Ltd.": {
+                "average": 0.37,
+                "count": 8
+            },
+            "Natco Pharma Ltd.": {
+                "average": 0.73,
+                "count": 8
+            },
+            "Poly Medicure Ltd.": {
+                "average": 0.58,
+                "count": 7
+            },
+            "Jubilant Pharmova Ltd.": {
+                "average": 0.71,
+                "count": 7
+            },
+            "Onesource Specialty Pharma Ltd.": {
+                "average": 0.66,
+                "count": 7
+            },
+            "Emcure Pharmaceuticals Ltd.": {
+                "average": 0.28,
+                "count": 7
+            },
+            "Rainbow Children's Medicare Ltd.": {
+                "average": 0.45,
+                "count": 6
+            },
+            "Anthem Biosciences Ltd.": {
+                "average": 0.62,
+                "count": 6
+            },
+            "Alembic Pharmaceuticals Ltd.": {
+                "average": 0.56,
+                "count": 6
+            },
+            "Akums Drugs And Pharmaceuticals Ltd.": {
+                "average": 0.24,
+                "count": 6
+            },
+            "Dr. Agarwal's Health Care Ltd.": {
+                "average": 0.66,
+                "count": 6
+            },
+            "Astrazeneca Pharma India Ltd.": {
+                "average": 0.4,
+                "count": 5
+            },
+            "Acutaas Chemicals Ltd.": {
+                "average": 2.17,
+                "count": 5
+            },
+            "Granules India Ltd.": {
+                "average": 0.61,
+                "count": 5
+            },
+            "Caplin Point Laboratories Ltd.": {
+                "average": 0.44,
+                "count": 5
+            },
+            "Blue Jet Healthcare Ltd.": {
+                "average": 0.19,
+                "count": 5
+            },
+            "Ajanta Pharma Ltd.": {
+                "average": 1.44,
+                "count": 4
+            },
+            "Sanofi Consumer Healthcare India Ltd.": {
+                "average": 0.97,
+                "count": 4
+            },
+            "Fortis Healthcare Ltd.": {
+                "average": 1.58,
+                "count": 4
+            },
+            "Orchid Pharma Ltd.": {
+                "average": 0.46,
+                "count": 4
+            },
+            "Indegene Ltd.": {
+                "average": 0.27,
+                "count": 4
+            },
+            "FDC Ltd.": {
+                "average": 0.44,
+                "count": 3
+            },
+            "Indoco Remedies Ltd.": {
+                "average": 0.26,
+                "count": 3
+            },
+            "Medplus Health Services Ltd.": {
+                "average": 1.11,
+                "count": 3
+            },
+            "Innova Captab Ltd.": {
+                "average": 0.5,
+                "count": 3
+            },
+            "Ipca Laboratories Ltd.": {
+                "average": 1.12,
+                "count": 3
+            },
+            "Global Health Ltd.": {
+                "average": 1.57,
+                "count": 3
+            },
+            "Procter & Gamble Health Ltd.": {
+                "average": 1.52,
+                "count": 2
+            },
+            "Syngene International Ltd.": {
+                "average": 0.57,
+                "count": 2
+            },
+            "Strides Pharma Science Ltd.": {
+                "average": 0.88,
+                "count": 2
+            },
+            "Alivus Life Sciences Ltd": {
+                "average": 0.6,
+                "count": 2
+            },
+            "Mankind Pharma Ltd.": {
+                "average": 0.53,
+                "count": 2
+            },
+            "Jupiter Life Line Hospitals Ltd.": {
+                "average": 0.31,
+                "count": 2
+            },
+            "Glenmark Pharmaceuticals Ltd.": {
+                "average": 1.67,
+                "count": 2
+            },
+            "Shilpa Medicare Ltd.": {
+                "average": 0.36,
+                "count": 2
+            },
+            "Marksans Pharma Ltd.": {
+                "average": 0.73,
+                "count": 2
+            },
+            "Krsnaa Diagnostics Ltd.": {
+                "average": 0.93,
+                "count": 2
+            },
+            "Artemis Medicare Services Ltd.": {
+                "average": 0.93,
+                "count": 2
+            },
+            "Sudeep Pharma Ltd.": {
+                "average": 0.25,
+                "count": 2
+            },
+            "Dr. Reddy's Laboratories Ltd.": {
+                "average": 0.59,
+                "count": 1
+            },
+            "Healthcare Global Enterprises Ltd.": {
+                "average": 0.43,
+                "count": 1
+            },
+            "Thyrocare Technologies Ltd.": {
+                "average": 0.34,
+                "count": 1
+            },
+            "Sanofi India Ltd.": {
+                "average": 0.13,
+                "count": 1
+            },
+            "Unichem Laboratories Ltd.": {
+                "average": 0.64,
+                "count": 1
+            },
+            "Sequent Scientific Ltd.": {
+                "average": 1.58,
+                "count": 1
+            },
+            "Suven Life Sciences Ltd.": {
+                "average": 0.26,
+                "count": 1
+            },
+            "SMS Pharmaceuticals Ltd.": {
+                "average": 0.19,
+                "count": 1
+            },
+            "Best Agrolife Ltd.": {
+                "average": 0.09,
+                "count": 1
+            },
+            "Carborundum Universal Ltd.": {
+                "average": 0.51,
+                "count": 1
+            },
+            "Orient Electric Ltd.": {
+                "average": 0.46,
+                "count": 1
+            },
+            "Tenneco Clean Air India Ltd": {
+                "average": 0.42,
+                "count": 1
+            },
+            "Premier Energies Ltd.": {
+                "average": 0.42,
+                "count": 1
+            },
+            "Firstsource Solutions Ltd.": {
+                "average": 0.3,
+                "count": 1
+            },
+            "SBFC Finance Ltd.": {
+                "average": 0.25,
+                "count": 1
+            },
+            "KNR Constructions Ltd.": {
+                "average": 0.25,
+                "count": 1
+            },
+            "CG Power and Industrial Solutions Ltd.": {
+                "average": 0.22,
+                "count": 1
+            },
+            "Torrent Pharmaceuticals Ltd.": {
+                "average": 0.51,
+                "count": 1
+            },
+            "Suraksha Diagnostic Ltd.": {
+                "average": 0.48,
+                "count": 1
+            },
+            "Yatharth Hospital & Trauma Care Services Ltd.": {
+                "average": 1.37,
+                "count": 1
+            },
+            "Aurobindo Pharma Ltd.": {
+                "average": 0.4,
+                "count": 1
+            },
+            "GPT Healthcare Ltd.": {
+                "average": 0.24,
+                "count": 1
+            },
+            "Amanta Healthcare Ltd.": {
+                "average": 0.09,
+                "count": 1
+            },
+            "Windlas Biotech Ltd.": {
+                "average": 0.05,
+                "count": 1
+            },
+            "Nephrocare Health Services Ltd.": {
+                "average": 0.05,
+                "count": 1
+            },
+            "Aarti Drugs Ltd.": {
+                "average": 1.55,
+                "count": 1
+            },
+            "Amrutanjan Health Care Ltd.": {
+                "average": 0.58,
+                "count": 1
+            },
+            "Senores Pharmaceuticals Ltd.": {
+                "average": 0.21,
+                "count": 1
+            },
+            "Max Healthcare Institute Ltd.": {
+                "average": 0.94,
+                "count": 1
+            },
+            "Hikal Ltd.": {
+                "average": 0.66,
+                "count": 1
+            },
+            "CORONA Remedies Ltd.": {
+                "average": 1.88,
+                "count": 1
+            },
+            "Apollo Hospitals Enterprise Ltd.": {
+                "average": 1.16,
+                "count": 1
+            },
+            "DCM Shriram Ltd.": {
+                "average": 0.51,
+                "count": 1
+            },
+            "Heidelberg Cement India Ltd.": {
+                "average": 0.48,
+                "count": 1
+            },
+            "TeamLease Services Ltd.": {
+                "average": 0.25,
+                "count": 1
+            },
+            "Century Enka Ltd.": {
+                "average": 0.2,
+                "count": 1
+            },
+            "BASF India Ltd.": {
+                "average": 0.18,
+                "count": 1
+            },
+            "Divi's Laboratories Ltd.": {
+                "average": 2.28,
+                "count": 1
+            },
+            "ZF Commercial Vehicle Control Systems India Ltd.": {
+                "average": 2.04,
+                "count": 1
+            },
+            "Kirloskar Brothers Ltd.": {
+                "average": 1.19,
+                "count": 1
+            },
+            "Gokaldas Exports Ltd.": {
+                "average": 1.07,
+                "count": 1
+            },
+            "Aadhar Housing Finance Ltd": {
+                "average": 1.05,
+                "count": 1
+            },
+            "Sun TV Network Ltd.": {
+                "average": 0.98,
+                "count": 1
+            },
+            "Equitas Small Finance Bank Ltd.": {
+                "average": 0.83,
+                "count": 1
+            },
+            "Tega Industries Ltd.": {
+                "average": 1.27,
+                "count": 1
+            },
+            "TD Power Systems Ltd.": {
+                "average": 0.8,
+                "count": 1
+            },
+            "ICICI Prudential Asset Management Company Ltd.": {
+                "average": 1.15,
+                "count": 1
+            },
+            "Gufic Biosciences Ltd.": {
+                "average": 0.64,
+                "count": 1
+            },
+            "Central Depository Services (India) Ltd.": {
+                "average": 0.46,
+                "count": 1
+            }
+        }
+    },
+    "Construction": {
+        "stocks": {
+            "Brigade Enterprises Ltd.": {
+                "average": 1.22,
+                "count": 15
+            },
+            "RHI Magnesita India Ltd.": {
+                "average": 0.46,
+                "count": 13
+            },
+            "The Ramco Cements Ltd.": {
+                "average": 0.96,
+                "count": 12
+            },
+            "Kajaria Ceramics Ltd.": {
+                "average": 0.71,
+                "count": 11
+            },
+            "Sobha Ltd.": {
+                "average": 1.1,
+                "count": 10
+            },
+            "Afcons Infrastructure Ltd.": {
+                "average": 0.69,
+                "count": 9
+            },
+            "JK Lakshmi Cement Ltd.": {
+                "average": 1.05,
+                "count": 9
+            },
+            "Triveni Turbine Ltd.": {
+                "average": 0.82,
+                "count": 9
+            },
+            "NBCC (India) Ltd.": {
+                "average": 1.03,
+                "count": 8
+            },
+            "Cera Sanitaryware Ltd.": {
+                "average": 0.53,
+                "count": 8
+            },
+            "Anant Raj Ltd.": {
+                "average": 0.78,
+                "count": 7
+            },
+            "JSW Cement Ltd.": {
+                "average": 0.18,
+                "count": 6
+            },
+            "NCC Ltd.": {
+                "average": 0.44,
+                "count": 6
+            },
+            "JK Cement Ltd.": {
+                "average": 1.21,
+                "count": 6
+            },
+            "Engineers India Ltd.": {
+                "average": 0.47,
+                "count": 6
+            },
+            "Asahi India Glass Ltd.": {
+                "average": 0.64,
+                "count": 5
+            },
+            "Birla Corporation Ltd.": {
+                "average": 0.57,
+                "count": 5
+            },
+            "Rites Ltd.": {
+                "average": 0.19,
+                "count": 5
+            },
+            "PNC Infratech Ltd.": {
+                "average": 0.44,
+                "count": 5
+            },
+            "Power Mech Projects Ltd.": {
+                "average": 0.57,
+                "count": 5
+            },
+            "Ahluwalia Contracts (India) Ltd.": {
+                "average": 0.95,
+                "count": 5
+            },
+            "Signatureglobal (India) Ltd.": {
+                "average": 0.26,
+                "count": 5
+            },
+            "The India Cements Ltd.": {
+                "average": 0.26,
+                "count": 5
+            },
+            "HEG Ltd.": {
+                "average": 0.45,
+                "count": 5
+            },
+            "Max Estates Ltd.": {
+                "average": 0.35,
+                "count": 4
+            },
+            "Swan Corp Ltd.": {
+                "average": 0.33,
+                "count": 4
+            },
+            "Ircon International Ltd.": {
+                "average": 0.29,
+                "count": 4
+            },
+            "Nuvoco Vistas Corporation Ltd.": {
+                "average": 0.18,
+                "count": 4
+            },
+            "Valor Estate Ltd.": {
+                "average": 0.14,
+                "count": 4
+            },
+            "H.G. Infra Engineering Ltd.": {
+                "average": 0.26,
+                "count": 3
+            },
+            "Vesuvius India Ltd.": {
+                "average": 0.65,
+                "count": 3
+            },
+            "GR Infraprojects Ltd.": {
+                "average": 0.45,
+                "count": 3
+            },
+            "La Opala RG Ltd.": {
+                "average": 0.55,
+                "count": 3
+            },
+            "Keystone Realtors Ltd": {
+                "average": 0.85,
+                "count": 3
+            },
+            "Mahindra Lifespace Developers Ltd.": {
+                "average": 0.84,
+                "count": 3
+            },
+            "Ambuja Cements Ltd.": {
+                "average": 1.16,
+                "count": 2
+            },
+            "IFGL Refractories Ltd.": {
+                "average": 0.38,
+                "count": 2
+            },
+            "PVR Inox Ltd.": {
+                "average": 0.62,
+                "count": 2
+            },
+            "The Phoenix Mills Ltd.": {
+                "average": 0.99,
+                "count": 2
+            },
+            "Somany Ceramics Ltd.": {
+                "average": 0.49,
+                "count": 2
+            },
+            "Prestige Estates Projects Ltd.": {
+                "average": 0.88,
+                "count": 2
+            },
+            "Nesco Ltd.": {
+                "average": 0.92,
+                "count": 2
+            },
+            "KNR Constructions Ltd.": {
+                "average": 0.42,
+                "count": 2
+            },
+            "CESC Ltd.": {
+                "average": 0.72,
+                "count": 2
+            },
+            "Cemindia Projects Ltd.": {
+                "average": 1.31,
+                "count": 2
+            },
+            "Raymond Realty Ltd.": {
+                "average": 0.09,
+                "count": 1
+            },
+            "Pokarna Ltd.": {
+                "average": 0.08,
+                "count": 1
+            },
+            "Westlife Foodworld Ltd.": {
+                "average": 1.08,
+                "count": 1
+            },
+            "Honeywell Automation India Ltd.": {
+                "average": 0.98,
+                "count": 1
+            },
+            "RBL Bank Ltd.": {
+                "average": 0.74,
+                "count": 1
+            },
+            "Rajratan Global Wire Ltd.": {
+                "average": 0.51,
+                "count": 1
+            },
+            "Marathon Nextgen Realty Ltd.": {
+                "average": 1.21,
+                "count": 1
+            },
+            "Welspun Enterprises Ltd.": {
+                "average": 1.17,
+                "count": 1
+            },
+            "IRB Infrastructure Developers Ltd.": {
+                "average": 0.47,
+                "count": 1
+            },
+            "Man Infraconstruction Ltd.": {
+                "average": 0.26,
+                "count": 1
+            },
+            "Capacit'e Infraprojects Ltd.": {
+                "average": 0.17,
+                "count": 1
+            },
+            "Embassy Developments Ltd.": {
+                "average": 0.16,
+                "count": 1
+            },
+            "Mahindra Holidays & Resorts India Ltd.": {
+                "average": 0.11,
+                "count": 1
+            },
+            "Oriental Hotels Ltd.": {
+                "average": 0.09,
+                "count": 1
+            },
+            "Deepak Fertilisers And Petrochemicals Corporation Ltd.": {
+                "average": 0.52,
+                "count": 1
+            },
+            "Hindalco Industries Ltd.": {
+                "average": 0.48,
+                "count": 1
+            },
+            "GE Vernova T&D India Ltd": {
+                "average": 0.36,
+                "count": 1
+            },
+            "Titagarh Rail Systems Ltd.": {
+                "average": 0.33,
+                "count": 1
+            },
+            "Whirlpool Of India Ltd.": {
+                "average": 0.24,
+                "count": 1
+            },
+            "Aadhar Housing Finance Ltd": {
+                "average": 0.23,
+                "count": 1
+            },
+            "Aditya Birla Real Estate Ltd.": {
+                "average": 0.15,
+                "count": 1
+            },
+            "TARC Ltd.": {
+                "average": 1.2,
+                "count": 1
+            },
+            "Arvind Smartspaces Ltd.": {
+                "average": 0.58,
+                "count": 1
+            },
+            "Kolte-Patil Developers Ltd.": {
+                "average": 0.45,
+                "count": 1
+            },
+            "Grasim Industries Ltd.": {
+                "average": 0.45,
+                "count": 1
+            },
+            "Sunteck Realty Ltd.": {
+                "average": 0.33,
+                "count": 1
+            },
+            "Borosil Ltd.": {
+                "average": 0.68,
+                "count": 1
+            },
+            "Carysil Ltd.": {
+                "average": 0.53,
+                "count": 1
+            },
+            "Oberoi Realty Ltd.": {
+                "average": 0.95,
+                "count": 1
+            },
+            "Ramco Industries Ltd.": {
+                "average": 0.63,
+                "count": 1
+            },
+            "Sri Lotus Developers and Realty Ltd.": {
+                "average": 0.39,
+                "count": 1
+            },
+            "Ultratech Cement Ltd.": {
+                "average": 2.45,
+                "count": 1
+            },
+            "Larsen & Toubro Ltd.": {
+                "average": 1.84,
+                "count": 1
+            },
+            "3M India Ltd.": {
+                "average": 0.83,
+                "count": 1
+            },
+            "Rolex Rings Ltd": {
+                "average": 0.65,
+                "count": 1
+            },
+            "Automotive Axles Ltd.": {
+                "average": 0.6,
+                "count": 1
+            },
+            "Glaxosmithkline Pharmaceuticals Ltd.": {
+                "average": 0.53,
+                "count": 1
+            },
+            "The Great Eastern Shipping Company Ltd.": {
+                "average": 0.5,
+                "count": 1
+            },
+            "Nirlon Ltd.": {
+                "average": 0.48,
+                "count": 1
+            },
+            "UTI Asset Management Company Ltd.": {
+                "average": 0.45,
+                "count": 1
+            },
+            "Sundram Fasteners Ltd.": {
+                "average": 0.41,
+                "count": 1
+            },
+            "Indiamart Intermesh Ltd.": {
+                "average": 0.31,
+                "count": 1
+            },
+            "Birlasoft Ltd.": {
+                "average": 0.25,
+                "count": 1
+            },
+            "Shree Cement Ltd.": {
+                "average": 1.05,
+                "count": 1
+            },
+            "M&B Engineering Ltd.": {
+                "average": 0.78,
+                "count": 1
+            },
+            "Usha Martin Ltd.": {
+                "average": 2.49,
+                "count": 1
+            },
+            "Ajanta Pharma Ltd.": {
+                "average": 1.06,
+                "count": 1
+            },
+            "Acutaas Chemicals Ltd.": {
+                "average": 0.99,
+                "count": 1
+            },
+            "Wakefit Innovations Ltd.": {
+                "average": 0.58,
+                "count": 1
+            },
+            "Angel One Ltd.": {
+                "average": 1.46,
+                "count": 1
+            },
+            "ZF Commercial Vehicle Control Systems India Ltd.": {
+                "average": 1.43,
+                "count": 1
+            },
+            "Esab India Ltd.": {
+                "average": 1.01,
+                "count": 1
+            }
+        }
+    },
+    "Consumer Discretionary": {
+        "stocks": {
+            "Crompton Greaves Consumer Electricals Ltd.": {
+                "average": 1,
+                "count": 14
+            },
+            "Amber Enterprises India Ltd.": {
+                "average": 1.21,
+                "count": 14
+            },
+            "Blue Star Ltd.": {
+                "average": 1.14,
+                "count": 11
+            },
+            "Whirlpool Of India Ltd.": {
+                "average": 0.55,
+                "count": 9
+            },
+            "R R Kabel Ltd.": {
+                "average": 0.46,
+                "count": 8
+            },
+            "Safari Industries (India) Ltd.": {
+                "average": 1.21,
+                "count": 8
+            },
+            "V-Guard Industries Ltd.": {
+                "average": 0.8,
+                "count": 7
+            },
+            "Welspun Living Ltd.": {
+                "average": 0.45,
+                "count": 6
+            },
+            "International Gemmological Institute (India) Ltd.": {
+                "average": 0.66,
+                "count": 6
+            },
+            "Orient Electric Ltd.": {
+                "average": 0.37,
+                "count": 4
+            },
+            "BlueStone Jewellery and Lifestyle Ltd.": {
+                "average": 0.45,
+                "count": 3
+            },
+            "P N Gadgil Jewellers Ltd.": {
+                "average": 0.5,
+                "count": 3
+            },
+            "Wakefit Innovations Ltd.": {
+                "average": 0.06,
+                "count": 3
+            },
+            "Sheela Foam Ltd.": {
+                "average": 0.46,
+                "count": 3
+            },
+            "TTK Prestige Ltd.": {
+                "average": 0.34,
+                "count": 2
+            },
+            "Bajaj Electricals Ltd.": {
+                "average": 0.51,
+                "count": 2
+            },
+            "Cello World Ltd.": {
+                "average": 0.93,
+                "count": 2
+            },
+            "Sky Gold And Diamonds Ltd.": {
+                "average": 1.35,
+                "count": 2
+            },
+            "Thangamayil Jewellery Ltd.": {
+                "average": 1.87,
+                "count": 2
+            },
+            "LG Electronics India Ltd.": {
+                "average": 0.57,
+                "count": 2
+            },
+            "Voltas Ltd.": {
+                "average": 0.5,
+                "count": 1
+            },
+            "Stanley Lifestyles Ltd.": {
+                "average": 0.07,
+                "count": 1
+            },
+            "Brigade Enterprises Ltd.": {
+                "average": 1.15,
+                "count": 1
+            },
+            "HEG Ltd.": {
+                "average": 0.99,
+                "count": 1
+            },
+            "Sansera Engineering Ltd.": {
+                "average": 0.83,
+                "count": 1
+            },
+            "Star Cement Ltd.": {
+                "average": 0.51,
+                "count": 1
+            },
+            "Om Infra Ltd.": {
+                "average": 0.04,
+                "count": 1
+            },
+            "Cohance Lifesciences Ltd.": {
+                "average": 0.52,
+                "count": 1
+            },
+            "Niva Bupa Health Insurance Company Ltd.": {
+                "average": 0.45,
+                "count": 1
+            },
+            "Jyoti CNC Automation Ltd.": {
+                "average": 0.42,
+                "count": 1
+            },
+            "Midwest Ltd.": {
+                "average": 0.24,
+                "count": 1
+            },
+            "Prudent Corporate Advisory Services Ltd.": {
+                "average": 0.13,
+                "count": 1
+            },
+            "Hawkins Cookers Ltd.": {
+                "average": 0.84,
+                "count": 1
+            },
+            "Senco Gold Ltd.": {
+                "average": 0.75,
+                "count": 1
+            },
+            "EPACK Durable Ltd.": {
+                "average": 0.41,
+                "count": 1
+            },
+            "Stove Kraft Ltd.": {
+                "average": 0.34,
+                "count": 1
+            },
+            "All Time Plastics Ltd.": {
+                "average": 0.08,
+                "count": 1
+            },
+            "Butterfly Gandhimathi Appliances Ltd.": {
+                "average": 0.02,
+                "count": 1
+            },
+            "IFB Industries Ltd.": {
+                "average": 1.61,
+                "count": 1
+            },
+            "Kalyan Jewellers India Ltd.": {
+                "average": 1.82,
+                "count": 1
+            },
+            "VIP Industries Ltd.": {
+                "average": 1.58,
+                "count": 1
+            },
+            "Sharda Motor Industries Ltd.": {
+                "average": 0.44,
+                "count": 1
+            },
+            "NOCIL Ltd.": {
+                "average": 0.22,
+                "count": 1
+            },
+            "Lenskart Solutions Ltd.": {
+                "average": 0.16,
+                "count": 1
+            },
+            "AGI Greenpac Ltd.": {
+                "average": 1.34,
+                "count": 1
+            },
+            "Tilaknagar Industries Ltd.": {
+                "average": 1.09,
+                "count": 1
+            },
+            "Kei Industries Ltd.": {
+                "average": 0.91,
+                "count": 1
+            },
+            "Tega Industries Ltd.": {
+                "average": 0.3,
+                "count": 1
+            },
+            "Gujarat State Petronet Ltd.": {
+                "average": 1.14,
+                "count": 1
+            },
+            "Emami Ltd.": {
+                "average": 1.05,
+                "count": 1
+            },
+            "JB Chemicals & Pharmaceuticals Ltd.": {
+                "average": 0.83,
+                "count": 1
+            },
+            "GNG Electronics Ltd.": {
+                "average": 1.07,
+                "count": 1
+            },
+            "CMS Info Systems Ltd.": {
+                "average": 0.72,
+                "count": 1
+            }
+        }
+    },
+    "Insurance": {
+        "stocks": {
+            "Star Health and Allied Insurance Company Ltd.": {
+                "average": 0.6,
+                "count": 6
+            },
+            "Go Digit General Insurance Ltd.": {
+                "average": 0.77,
+                "count": 6
+            },
+            "Niva Bupa Health Insurance Company Ltd.": {
+                "average": 0.34,
+                "count": 5
+            },
+            "HDFC Life Insurance Co Ltd.": {
+                "average": 0.63,
+                "count": 2
+            },
+            "Canara HSBC Life Insurance Company Ltd.": {
+                "average": 0.76,
+                "count": 2
+            },
+            "Time Technoplast Ltd.": {
+                "average": 0.44,
+                "count": 1
+            },
+            "ICICI Lombard General Insurance Company Ltd.": {
+                "average": 1.36,
+                "count": 1
+            },
+            "General Insurance Corporation of India": {
+                "average": 0.71,
+                "count": 1
+            }
+        }
+    },
+    "Technology": {
+        "stocks": {
+            "Affle 3I Ltd.": {
+                "average": 1.29,
+                "count": 15
+            },
+            "Cyient Ltd.": {
+                "average": 0.97,
+                "count": 14
+            },
+            "Zensar Technologies Ltd.": {
+                "average": 0.88,
+                "count": 12
+            },
+            "Birlasoft Ltd.": {
+                "average": 0.51,
+                "count": 9
+            },
+            "Sonata Software Ltd.": {
+                "average": 0.72,
+                "count": 9
+            },
+            "Intellect Design Arena Ltd.": {
+                "average": 0.53,
+                "count": 6
+            },
+            "Newgen Software Technologies Ltd.": {
+                "average": 0.43,
+                "count": 6
+            },
+            "Latent View Analytics Ltd.": {
+                "average": 0.4,
+                "count": 6
+            },
+            "KPIT Technologies Ltd.": {
+                "average": 0.95,
+                "count": 5
+            },
+            "CE Info Systems Ltd.": {
+                "average": 0.68,
+                "count": 5
+            },
+            "Netweb Technologies India Ltd.": {
+                "average": 0.3,
+                "count": 5
+            },
+            "Persistent Systems Ltd.": {
+                "average": 0.72,
+                "count": 4
+            },
+            "Zen Technologies Ltd.": {
+                "average": 0.31,
+                "count": 4
+            },
+            "Happiest Minds Technologies Ltd.": {
+                "average": 0.19,
+                "count": 4
+            },
+            "RateGain Travel Technologies Ltd.": {
+                "average": 1.73,
+                "count": 2
+            },
+            "Tata Consultancy Services Ltd.": {
+                "average": 0.6,
+                "count": 2
+            },
+            "Coforge Ltd.": {
+                "average": 0.77,
+                "count": 2
+            },
+            "Hexaware Technologies Ltd.": {
+                "average": 0.76,
+                "count": 2
+            },
+            "Mastek Ltd.": {
+                "average": 0.69,
+                "count": 2
+            },
+            "NIIT Ltd.": {
+                "average": 0.15,
+                "count": 1
+            },
+            "Protean eGov Technologies Ltd.": {
+                "average": 0.1,
+                "count": 1
+            },
+            "Aequs Ltd.": {
+                "average": 0.05,
+                "count": 1
+            },
+            "Indiamart Intermesh Ltd.": {
+                "average": 0.89,
+                "count": 1
+            },
+            "Black Box Ltd.": {
+                "average": 0.33,
+                "count": 1
+            },
+            "Neogen Chemicals Ltd.": {
+                "average": 0.54,
+                "count": 1
+            },
+            "Inventurus Knowledge Solutions Ltd.": {
+                "average": 0.54,
+                "count": 1
+            },
+            "R R Kabel Ltd.": {
+                "average": 0.52,
+                "count": 1
+            },
+            "Ather Energy Ltd.": {
+                "average": 0.06,
+                "count": 1
+            },
+            "E2E Networks Ltd.": {
+                "average": 0.33,
+                "count": 1
+            },
+            "STL Networks Ltd.": {
+                "average": 0.03,
+                "count": 1
+            },
+            "R Systems International Ltd.": {
+                "average": 0.49,
+                "count": 1
+            },
+            "Tech Mahindra Ltd.": {
+                "average": 1.04,
+                "count": 1
+            },
+            "Tata Elxsi Ltd.": {
+                "average": 0.32,
+                "count": 1
+            },
+            "Network People Services Technologies Ltd.": {
+                "average": 1.89,
+                "count": 1
+            },
+            "Apcotex Industries Ltd.": {
+                "average": 0.25,
+                "count": 1
+            },
+            "Ivalue Infosolutions Ltd.": {
+                "average": 0.64,
+                "count": 1
+            },
+            "Karur Vysya Bank Ltd.": {
+                "average": 1.28,
+                "count": 1
+            },
+            "Westlife Foodworld Ltd.": {
+                "average": 1.2,
+                "count": 1
+            },
+            "Birla Corporation Ltd.": {
+                "average": 1.04,
+                "count": 1
+            },
+            "Amber Enterprises India Ltd.": {
+                "average": 0.52,
+                "count": 1
+            },
+            "Zaggle Prepaid Ocean Services Ltd.": {
+                "average": 1.26,
+                "count": 1
+            },
+            "Siemens Energy India Ltd.": {
+                "average": 1.06,
+                "count": 1
+            },
+            "Balrampur Chini Mills Ltd.": {
+                "average": 0.87,
+                "count": 1
+            },
+            "Capillary Technologies India Ltd.": {
+                "average": 1.36,
+                "count": 1
+            }
+        }
+    },
+    "Metals & Mining": {
+        "stocks": {
+            "Carborundum Universal Ltd.": {
+                "average": 0.78,
+                "count": 14
+            },
+            "Welspun Corp Ltd.": {
+                "average": 1.05,
+                "count": 10
+            },
+            "Ratnamani Metals & Tubes Ltd.": {
+                "average": 0.91,
+                "count": 8
+            },
+            "CIE Automotive India Ltd.": {
+                "average": 0.74,
+                "count": 7
+            },
+            "Jindal Saw Ltd.": {
+                "average": 0.18,
+                "count": 7
+            },
+            "Usha Martin Ltd.": {
+                "average": 1.13,
+                "count": 7
+            },
+            "PTC Industries Ltd.": {
+                "average": 0.76,
+                "count": 6
+            },
+            "Maharashtra Seamless Ltd.": {
+                "average": 0.14,
+                "count": 5
+            },
+            "Godawari Power And Ispat Ltd.": {
+                "average": 0.41,
+                "count": 5
+            },
+            "National Aluminium Company Ltd.": {
+                "average": 1,
+                "count": 5
+            },
+            "NMDC Steel Ltd.": {
+                "average": 0.36,
+                "count": 5
+            },
+            "Inox India Ltd.": {
+                "average": 0.42,
+                "count": 5
+            },
+            "Gravita India Ltd.": {
+                "average": 0.54,
+                "count": 5
+            },
+            "Hindustan Copper Ltd.": {
+                "average": 0.88,
+                "count": 5
+            },
+            "Grindwell Norton Ltd.": {
+                "average": 0.63,
+                "count": 4
+            },
+            "Kirloskar Ferrous Industries Ltd.": {
+                "average": 0.81,
+                "count": 4
+            },
+            "Tega Industries Ltd.": {
+                "average": 1.87,
+                "count": 4
+            },
+            "Eureka Forbes Ltd.": {
+                "average": 1.41,
+                "count": 4
+            },
+            "Shyam Metalics And Energy Ltd.": {
+                "average": 0.3,
+                "count": 4
+            },
+            "Ramkrishna Forgings Ltd.": {
+                "average": 0.27,
+                "count": 4
+            },
+            "Sarda Energy & Minerals Ltd.": {
+                "average": 0.24,
+                "count": 4
+            },
+            "Vedanta Ltd.": {
+                "average": 0.79,
+                "count": 3
+            },
+            "Happy Forgings Ltd.": {
+                "average": 0.61,
+                "count": 3
+            },
+            "MOIL Ltd.": {
+                "average": 0.69,
+                "count": 3
+            },
+            "Aeroflex Industries Ltd.": {
+                "average": 0.71,
+                "count": 2
+            },
+            "Tata Steel Ltd.": {
+                "average": 0.85,
+                "count": 2
+            },
+            "Bansal Wire Industries Ltd.": {
+                "average": 0.46,
+                "count": 2
+            },
+            "Hi-Tech Pipes Ltd.": {
+                "average": 0.38,
+                "count": 2
+            },
+            "Jain Resource Recycling Ltd.": {
+                "average": 0.57,
+                "count": 2
+            },
+            "APL Apollo Tubes Ltd.": {
+                "average": 2.91,
+                "count": 2
+            },
+            "Ganesha Ecosphere Ltd.": {
+                "average": 0.81,
+                "count": 2
+            },
+            "Mishra Dhatu Nigam Ltd.": {
+                "average": 0.13,
+                "count": 1
+            },
+            "Venus Pipes & Tubes Ltd.": {
+                "average": 0.1,
+                "count": 1
+            },
+            "Thangamayil Jewellery Ltd.": {
+                "average": 1.17,
+                "count": 1
+            },
+            "Go Fashion (India) Ltd.": {
+                "average": 0.48,
+                "count": 1
+            },
+            "Orissa Minerals Development Company Ltd.": {
+                "average": 0.18,
+                "count": 1
+            },
+            "Anant Raj Ltd.": {
+                "average": 0.52,
+                "count": 1
+            },
+            "Chalet Hotels Ltd.": {
+                "average": 0.5,
+                "count": 1
+            },
+            "Rolex Rings Ltd": {
+                "average": 0.48,
+                "count": 1
+            },
+            "Delhivery Ltd.": {
+                "average": 0.38,
+                "count": 1
+            },
+            "Ellenbarrie Industrial Gases Ltd.": {
+                "average": 0.31,
+                "count": 1
+            },
+            "Aarti Industries Ltd.": {
+                "average": 0.12,
+                "count": 1
+            },
+            "Pennar Industries Ltd.": {
+                "average": 0.19,
+                "count": 1
+            },
+            "Alicon Castalloy Ltd.": {
+                "average": 0.14,
+                "count": 1
+            },
+            "Kalyani Steels Ltd.": {
+                "average": 0.77,
+                "count": 1
+            },
+            "Vardhman Special Steels Ltd.": {
+                "average": 0.6,
+                "count": 1
+            },
+            "MM Forgings Ltd.": {
+                "average": 0.5,
+                "count": 1
+            },
+            "GR Infraprojects Ltd.": {
+                "average": 0.54,
+                "count": 1
+            },
+            "Kewal Kiran Clothing Ltd.": {
+                "average": 0.34,
+                "count": 1
+            },
+            "Brigade Enterprises Ltd.": {
+                "average": 0.26,
+                "count": 1
+            },
+            "Radico Khaitan Ltd.": {
+                "average": 2.44,
+                "count": 1
+            },
+            "KFin Technologies Ltd.": {
+                "average": 1.51,
+                "count": 1
+            },
+            "NHPC Ltd.": {
+                "average": 0.23,
+                "count": 1
+            },
+            "R Systems International Ltd.": {
+                "average": 1.27,
+                "count": 1
+            },
+            "Prudent Corporate Advisory Services Ltd.": {
+                "average": 1.1,
+                "count": 1
+            },
+            "Lloyds Metals & Energy Ltd.": {
+                "average": 2.9,
+                "count": 1
+            },
+            "Steel Authority Of India Ltd.": {
+                "average": 1.68,
+                "count": 1
+            },
+            "Aequs Ltd.": {
+                "average": 1.12,
+                "count": 1
+            }
+        }
+    },
+    "Textiles": {
+        "stocks": {
+            "K.P.R. Mill Ltd.": {
+                "average": 1.05,
+                "count": 9
+            },
+            "Vardhman Textiles Ltd.": {
+                "average": 0.49,
+                "count": 8
+            },
+            "Arvind Ltd.": {
+                "average": 1.36,
+                "count": 6
+            },
+            "Gokaldas Exports Ltd.": {
+                "average": 0.83,
+                "count": 5
+            },
+            "S.P. Apparels Ltd.": {
+                "average": 0.51,
+                "count": 4
+            },
+            "Trident Ltd.": {
+                "average": 0.17,
+                "count": 4
+            },
+            "Alok Industries Ltd.": {
+                "average": 0.1,
+                "count": 4
+            },
+            "Sanathan Textiles Ltd.": {
+                "average": 0.69,
+                "count": 3
+            },
+            "Kewal Kiran Clothing Ltd.": {
+                "average": 0.47,
+                "count": 3
+            },
+            "Arvind Fashions Ltd.": {
+                "average": 1.08,
+                "count": 3
+            },
+            "Nitin Spinners Ltd.": {
+                "average": 0.44,
+                "count": 2
+            },
+            "Garware Technical Fibres Ltd.": {
+                "average": 1.25,
+                "count": 2
+            },
+            "Indo Count Industries Ltd.": {
+                "average": 0.64,
+                "count": 2
+            },
+            "Raymond Ltd.": {
+                "average": 0.08,
+                "count": 1
+            },
+            "Credo Brands Marketing Ltd.": {
+                "average": 0.02,
+                "count": 1
+            },
+            "Pearl Global Industries Ltd.": {
+                "average": 1.17,
+                "count": 1
+            },
+            "Indian Hume Pipe Company Ltd.": {
+                "average": 0.11,
+                "count": 1
+            },
+            "RateGain Travel Technologies Ltd.": {
+                "average": 0.55,
+                "count": 1
+            },
+            "Filatex India Ltd.": {
+                "average": 0.1,
+                "count": 1
+            },
+            "Mayur Uniquoters Ltd.": {
+                "average": 0.07,
+                "count": 1
+            },
+            "GHCL Textiles Ltd.": {
+                "average": 0.19,
+                "count": 1
+            },
+            "Ganesha Ecosphere Ltd.": {
+                "average": 0.43,
+                "count": 1
+            },
+            "Page Industries Ltd.": {
+                "average": 1.21,
+                "count": 1
+            },
+            "Matrimony.Com Ltd.": {
+                "average": 0.34,
+                "count": 1
+            },
+            "Universal Cables Ltd.": {
+                "average": 0.19,
+                "count": 1
+            },
+            "Firstsource Solutions Ltd.": {
+                "average": 1.82,
+                "count": 1
+            },
+            "Supreme Petrochem Ltd.": {
+                "average": 1.63,
+                "count": 1
+            },
+            "Triveni Turbine Ltd.": {
+                "average": 1.06,
+                "count": 1
+            },
+            "DCB Bank Ltd.": {
+                "average": 0.74,
+                "count": 1
+            },
+            "Kei Industries Ltd.": {
+                "average": 0.72,
+                "count": 1
+            },
+            "SKF India (Industrial) Ltd.": {
+                "average": 0.69,
+                "count": 1
+            },
+            "Ethos Ltd.": {
+                "average": 0.85,
+                "count": 1
+            }
+        }
+    },
+    "Communication": {
+        "stocks": {
+            "Tejas Networks Ltd.": {
+                "average": 0.22,
+                "count": 5
+            },
+            "HFCL Ltd.": {
+                "average": 0.7,
+                "count": 5
+            },
+            "Zee Entertainment Enterprises Ltd.": {
+                "average": 0.35,
+                "count": 5
+            },
+            "Railtel Corporation Of India Ltd.": {
+                "average": 0.16,
+                "count": 4
+            },
+            "ITI Ltd.": {
+                "average": 0.15,
+                "count": 4
+            },
+            "Tata Teleservices (Maharashtra) Ltd.": {
+                "average": 0.12,
+                "count": 4
+            },
+            "Aditya Infotech Ltd.": {
+                "average": 1.01,
+                "count": 3
+            },
+            "Astra Microwave Products Ltd.": {
+                "average": 0.32,
+                "count": 1
+            },
+            "Vindhya Telelinks Ltd.": {
+                "average": 0.2,
+                "count": 1
+            },
+            "Hi-Tech Pipes Ltd.": {
+                "average": 0.04,
+                "count": 1
+            },
+            "Bharti Hexacom Ltd.": {
+                "average": 1.48,
+                "count": 1
+            },
+            "Tata Communications Ltd.": {
+                "average": 0.57,
+                "count": 1
+            },
+            "Pace Digitek Ltd.": {
+                "average": 0.5,
+                "count": 1
+            },
+            "Indus Towers Ltd.": {
+                "average": 0.15,
+                "count": 1
+            },
+            "Sterlite Technologies Ltd.": {
+                "average": 0.13,
+                "count": 1
+            },
+            "Skipper Ltd.": {
+                "average": 0.11,
+                "count": 1
+            }
+        }
+    },
+    "Others": {
+        "stocks": {
+            "Nava Ltd.": {
+                "average": 0.39,
+                "count": 4
+            },
+            "Concord Enviro Systems Ltd.": {
+                "average": 1.03,
+                "count": 2
+            }
+        }
+    },
+    "NA": {
+        "stocks": {
+            "Multi Commodity Exchange Of India Ltd.": {
+                "average": 3.79,
+                "count": 1
+            },
+            "RHI Magnesita India Ltd.": {
+                "average": 1.47,
+                "count": 1
+            },
+            "Birlasoft Ltd.": {
+                "average": 0.61,
+                "count": 1
+            }
+        }
+    }
+}

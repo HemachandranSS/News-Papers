@@ -157,3 +157,54 @@ end
 File.open("29_01_2025_top-B-schools-in-india_grouped.json", "w") do |file|
   file.write(grouped_data.to_json)
 end
+
+
+--------------------------------------------------------------------------------------------------
+
+
+import json 
+from datetime import datetime
+
+search_ids = ["icici-prudential-value-direct-growth",
+ "sbi-contra-fund-direct-growth",
+ "invesco-india-contra-fund-direct-growth",
+ "hsbc-value-fund-direct-growth",
+ "bandhan-value-fund-direct-growth",
+ "uti-value-fund-direct-growth",
+ "nippon-india-value-fund-direct-growth",
+ "tata-value-fund-direct-growth",
+ "hdfc-value-fund-direct-plan-growth",
+ "aditya-birla-sun-life-value-direct-fund-growth",
+ "kotak-contra-fund-direct-growth",
+ "templeton-india-growth-fund-direct-growth",
+ "quant-value-fund-direct-growth",
+ "sundaram-value-fund-direct-growth",
+ "canara-robeco-value-fund-direct-growth",
+ "quantum-value-fund-direct-growth",
+ "dsp-value-fund-direct-growth",
+ "baroda-bnp-paribas-value-fund-direct-growth",
+ "baroda-bnp-paribas-value-fund-direct-growth",
+ "motilal-oswal-bse-enhanced-value-index-fund-direct-growth",
+ "axis-value-fund-direct-growth",
+ "nippon-india-nifty-50-value-20-index-fund-direct-growth",
+ "jm-basic-fund-direct-growth",
+ "mahindra-manulife-value-fund-direct-growth",
+ "uti-nifty-500-value-50-index-fund-direct-growth",
+ "union-value-fund-direct-growth",
+ "iti-value-fund-direct-growth",
+ "lic-mf-value-fund-direct-growth",
+ "icici-prudential-nifty50-value-20-index-fund-direct-growth",
+ "axis-nifty500-value-50-index-fund-directgrowth",
+ "axis-nifty500-value-50-index-fund-directgrowth",
+ "groww-value-fund-direct-growth"]
+
+result = []
+for search_id in search_ids:
+  fetch(f'https://groww.in/mutual-funds/{search_id}')
+  arr = response.xpath("/html/body/div[1]/div[2]/div[2]/div/div[1]/div/div/div[1]/div[1]/section[2]/div/table/tbody/tr/td/a/span/text()").getall()
+  result.extend(arr)
+
+result = list(set(result))
+
+with open("%s_value_oriented_mutualfund_invested_companies.json" % (datetime.now().strftime('%d_%m_%Y')), "w") as outfile: 
+    json.dump(result, outfile)
