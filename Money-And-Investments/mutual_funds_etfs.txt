@@ -27,7 +27,7 @@ PARAMS = {
 }
 
 all_records = []
-total_records = 1621 # Total number of records to fetch
+total_records = 1633 # Total number of records to fetch
 batch_size = PARAMS[:size]
 
 # Loop through all pages
@@ -54,7 +54,7 @@ puts "Saved #{all_records.size} records to 'all_records.json'"
 
 
 -------------------------------------------------------------------------
-file_path = "jan_01_2026_groww_all_mutual_fund_records.json"
+file_path = "jan_30_2026_groww_all_mutual_fund_records.json"
 file_content = File.read(file_path)
 # Parse JSON
 funds_data = JSON.parse(file_content)

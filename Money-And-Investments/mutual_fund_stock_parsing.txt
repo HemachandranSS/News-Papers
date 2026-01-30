@@ -1,37 +1,60 @@
 import json 
 from datetime import datetime
-search_ids = ["icici-prudential-value-direct-growth",
- "sbi-contra-fund-direct-growth",
- "invesco-india-contra-fund-direct-growth",
- "hsbc-value-fund-direct-growth",
- "bandhan-value-fund-direct-growth",
- "uti-value-fund-direct-growth",
- "nippon-india-value-fund-direct-growth",
- "tata-value-fund-direct-growth",
- "hdfc-value-fund-direct-plan-growth",
- "aditya-birla-sun-life-value-direct-fund-growth",
- "kotak-contra-fund-direct-growth",
- "templeton-india-growth-fund-direct-growth",
- "quant-value-fund-direct-growth",
- "sundaram-value-fund-direct-growth",
- "canara-robeco-value-fund-direct-growth",
- "quantum-value-fund-direct-growth",
- "dsp-value-fund-direct-growth",
- "baroda-bnp-paribas-value-fund-direct-growth",
- "baroda-bnp-paribas-value-fund-direct-growth",
- "motilal-oswal-bse-enhanced-value-index-fund-direct-growth",
- "axis-value-fund-direct-growth",
- "nippon-india-nifty-50-value-20-index-fund-direct-growth",
- "jm-basic-fund-direct-growth",
- "mahindra-manulife-value-fund-direct-growth",
- "uti-nifty-500-value-50-index-fund-direct-growth",
- "union-value-fund-direct-growth",
- "iti-value-fund-direct-growth",
- "lic-mf-value-fund-direct-growth",
- "icici-prudential-nifty50-value-20-index-fund-direct-growth",
- "axis-nifty500-value-50-index-fund-directgrowth",
- "axis-nifty500-value-50-index-fund-directgrowth",
- "groww-value-fund-direct-growth"]
+search_ids = ["hdfc-mid-cap-fund-direct-growth",
+ "kotak-emerging-equity-scheme-direct-growth",
+ "nippon-india-growth-mid-cap-fund-direct-growth",
+ "motilal-oswal-most-focused-midcap-30-fund-direct-growth",
+ "axis-midcap-fund-direct-growth",
+ "sbi-mid-cap-direct-plan-growth",
+ "dsp-blackrock-small-and-midcap-fund-direct-growth",
+ "edelweiss-mid-and-small-cap-fund-direct-growth",
+ "sundaram-select-midcap-direct-growth",
+ "franklin-india-mid-cap-fund-direct-growth",
+ "hsbc-midcap-fund-direct-growth",
+ "uti-mid-cap-fund-direct-growth",
+ "pgim-india-midcap-fund-direct-growth",
+ "invesco-india-mid-cap-fund-direct-growth",
+ "quant-mid-cap-fund-direct-growth",
+ "icici-prudential-midcap-fund-direct-growth",
+ "birla-sun-life-mid-cap-fund-plan-a-direct-growth",
+ "tata-mid-cap-direct-plan-growth",
+ "whiteoak-capital-mid-cap-fund-direct-growth",
+ "mahindra-manulife-mid-cap-fund-direct-growth",
+ "canara-robeco-mid-cap-fund-direct-growth",
+ "baroda-bnp-paribas-midcap-fund-direct-growth",
+ "nippon-india-nifty-midcap-150-index-fund-direct-growth",
+ "bandhan-midcap-fund-direct-growth",
+ "union-midcap-fund-direct-growth",
+ "edelweiss-nifty-midcap150-momentum-50-index-fund-direct-growth",
+ "iti-mid-cap-fund-direct-growth",
+ "jm-midcap-fund-direct-growth",
+ "tata-nifty-midcap-150-momentum-50-index-fund-direct-growth",
+ "icici-prudential-nifty-midcap-150-index-fund-direct-growth",
+ "sbi-nifty-midcap-150-index-fund-direct-growth",
+ "bank-of-india-mid-cap-fund-direct-growth",
+ "axis-nifty-midcap-50-index-fund-direct-growth",
+ "dsp-nifty-midcap-150-quality-50-index-fund-direct-growth",
+ "aditya-birla-sun-life-nifty-midcap-150-index-fund-direct-growth",
+ "navi-nifty-midcap-150-index-fund-direct-growth",
+ "lic-mf-midcap-fund-direct-growth",
+ "kotak-nifty-midcap-150-momentum-50-index-fund-direct-growth",
+ "uti-nifty-midcap-150-quality-50-index-fund-direct-growth",
+ "mirae-asset-nifty-midsmallcap400-momentum-quality-100-etf-fof-direct-growth",
+ "tata-nifty-midcap-150-index-fund-direct-growth",
+ "jioblackrock-nifty-midcap-150-index-fund-direct-growth",
+ "taurus-mid-cap-fund-direct-growth",
+ "uti-nifty-midsmallcap-400-momentum-quality-100-index-fund-direct-growth",
+ "kotak-nifty-midcap-50-index-fund-direct-growth",
+ "bandhan-nifty-midcap-150-index-fund-direct-growth",
+ "kotak-nifty-midcap-150-index-fund-direct-growth",
+ "navi-nifty-midsmallcap-400-index-fund-direct-growth",
+ "groww-nifty-midcap-150-index-fund-direct-growth",
+ "baroda-bnp-paribas-nifty-midcap-150-index-fund-direct-growth",
+ "dsp-nifty-midcap-150-index-fund-direct-growth",
+ "mirae-asset-midcap-fund-direct-growth",
+ "motilal-oswal-nifty-midcap-150-index-fund-direct-growth"]
+
+
 
 result = []
 for search_id in search_ids:
@@ -46,14 +69,22 @@ for search_id in search_ids:
   assets = response.xpath("/html/body/div[1]/div[2]/div[2]/div/div[1]/div/div/div[1]/div[1]/section[2]/div/table/tbody/tr/td[4]/text()").getall()
 
   for i in range(len(stock)):
-      result.append({"stock": stock[i], "sector": sector[i], "instruments": instruments[i], "assets": assets[i]})
+     result.append({"stock": stock[i], "sector": sector[i], "instruments": instruments[i], "assets": assets[i], "mutual fund": search_id})
 
-with open("%s_midcap_mutualfund_invested_companies.json" % (datetime.now().strftime('%d_%m_%Y')), "w") as outfile: 
+with open("%s_mid_cap_mutualfund_invested_companies.json" % (datetime.now().strftime('%d_%m_%Y')), "w") as outfile: 
     json.dump(result, outfile)
 
 
 ruby
 ----------------
+def asset_value(record)
+  record["assets"].to_s.strip.delete("%,").to_f
+end
+
+#Read File
+file = File.read('31_01_2026_mid_cap_mutualfund_invested_companies.json')
+require 'json'
+data = JSON.parse(file)
 grouped = data
   .group_by { |i| i["sector"] }
   .transform_values do |items|
@@ -64,10 +95,6 @@ grouped = data
       end
   end
 
-def asset_value(record)
-  record["assets"].to_s.strip.delete("%,").to_f
-end
-
 result = data
   .group_by { |i| i["sector"] }
   .transform_values do |sector_records|
@@ -76,9 +103,21 @@ result = data
       .transform_values do |stock_records|
         values = stock_records.map { |r| asset_value(r) }
 
+        avg = (values.sum / values.size.to_f).round(2)
+        min = values.min
+        max = values.max
+
         {
-          average: (values.sum / values.size).round(2),
-          count: values.size
+          average: "#{avg}%",
+          min: "#{min}%",
+          max: "#{max}%",
+          count: values.size,
+          mutual_funds: stock_records.map do |r|
+            {
+              name: r["mutual fund"],
+              asset: "#{asset_value(r)}%"
+            }
+          end
         }
       end
 
@@ -90,6 +129,11 @@ result = data
   end
 
 
-File.open("value_stocks_by_mutual_funds.json", "w") do |file|
+#-----------------------------------------------------------------------------
+File.open("thematic_stocks_by_mutual_funds.json", "w") do |file|
   file.write(grouped.to_json)
+end
+
+File.open("thematic_stocks_by_mutual_funds_avg_coung.json", "w") do |file|
+  file.write(result.to_json)
 end

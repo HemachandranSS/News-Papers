@@ -1,0 +1,294 @@
+{
+    "Financial": {
+        "stocks": {
+            "Geninnov Global Master Fund": {
+                "average": "94.57%",
+                "min": "94.57%",
+                "max": "94.57%",
+                "count": 2,
+                "mutual_funds": [
+                    {
+                        "name": "kotak-global-innovation-overseas-equity-omni-fof-direct-growth",
+                        "asset": "94.57%"
+                    },
+                    {
+                        "name": "kotak-global-innovation-fof-direct-growth",
+                        "asset": "94.57%"
+                    }
+                ]
+            },
+            "CI Emerging Markets Fund I": {
+                "average": "93.55%",
+                "min": "93.55%",
+                "max": "93.55%",
+                "count": 2,
+                "mutual_funds": [
+                    {
+                        "name": "kotak-global-emerging-market-overseas-equity-omni-fof-direct-growth",
+                        "asset": "93.55%"
+                    },
+                    {
+                        "name": "kotak-global-emerging-market-fund-direct-growth",
+                        "asset": "93.55%"
+                    }
+                ]
+            },
+            "Smam Asia REIT Sub Trust": {
+                "average": "98.29%",
+                "min": "98.29%",
+                "max": "98.29%",
+                "count": 2,
+                "mutual_funds": [
+                    {
+                        "name": "kotak-international-reit-overseas-equity-omni-fof-direct-growth",
+                        "asset": "98.29%"
+                    },
+                    {
+                        "name": "kotak-international-reit-fof-direct-growth",
+                        "asset": "98.29%"
+                    }
+                ]
+            },
+            "ICICI Bank Ltd.": {
+                "average": "5.91%",
+                "min": "5.91%",
+                "max": "5.91%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "franklin-asian-equity-fund-direct-growth",
+                        "asset": "5.91%"
+                    }
+                ]
+            },
+            "Oberoi Realty Ltd.": {
+                "average": "3.7%",
+                "min": "3.7%",
+                "max": "3.7%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "franklin-asian-equity-fund-direct-growth",
+                        "asset": "3.7%"
+                    }
+                ]
+            },
+            "Infosys Ltd.": {
+                "average": "1.86%",
+                "min": "1.86%",
+                "max": "1.86%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "franklin-asian-equity-fund-direct-growth",
+                        "asset": "1.86%"
+                    }
+                ]
+            }
+        }
+    },
+    "Technology": {
+        "stocks": {
+            "HDFC Bank Ltd.": {
+                "average": "9.87%",
+                "min": "9.87%",
+                "max": "9.87%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "franklin-asian-equity-fund-direct-growth",
+                        "asset": "9.87%"
+                    }
+                ]
+            },
+            "HDFC Life Insurance Co Ltd.": {
+                "average": "5.54%",
+                "min": "5.54%",
+                "max": "5.54%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "franklin-asian-equity-fund-direct-growth",
+                        "asset": "5.54%"
+                    }
+                ]
+            },
+            "Max Healthcare Institute Ltd.": {
+                "average": "2.72%",
+                "min": "2.72%",
+                "max": "2.72%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "franklin-asian-equity-fund-direct-growth",
+                        "asset": "2.72%"
+                    }
+                ]
+            }
+        }
+    },
+    "Capital Goods": {
+        "stocks": {
+            "The Indian Hotels Company Ltd.": {
+                "average": "4.96%",
+                "min": "4.96%",
+                "max": "4.96%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "franklin-asian-equity-fund-direct-growth",
+                        "asset": "4.96%"
+                    }
+                ]
+            },
+            "Larsen & Toubro Ltd.": {
+                "average": "4.6%",
+                "min": "4.6%",
+                "max": "4.6%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "franklin-asian-equity-fund-direct-growth",
+                        "asset": "4.6%"
+                    }
+                ]
+            },
+            "Eternal Ltd.": {
+                "average": "2.73%",
+                "min": "2.73%",
+                "max": "2.73%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "franklin-asian-equity-fund-direct-growth",
+                        "asset": "2.73%"
+                    }
+                ]
+            }
+        }
+    },
+    "Services": {
+        "stocks": {
+            "Tata Motors Ltd.": {
+                "average": "2.73%",
+                "min": "2.73%",
+                "max": "2.73%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "franklin-asian-equity-fund-direct-growth",
+                        "asset": "2.73%"
+                    }
+                ]
+            },
+            "360 One Wam Ltd.": {
+                "average": "2.35%",
+                "min": "2.35%",
+                "max": "2.35%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "franklin-asian-equity-fund-direct-growth",
+                        "asset": "2.35%"
+                    }
+                ]
+            },
+            "Tata Power Company Ltd.": {
+                "average": "1.98%",
+                "min": "1.98%",
+                "max": "1.98%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "franklin-asian-equity-fund-direct-growth",
+                        "asset": "1.98%"
+                    }
+                ]
+            },
+            "Lodha Developers Ltd.": {
+                "average": "1.96%",
+                "min": "1.96%",
+                "max": "1.96%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "franklin-asian-equity-fund-direct-growth",
+                        "asset": "1.96%"
+                    }
+                ]
+            }
+        }
+    },
+    "Automobile": {
+        "stocks": {
+            "Mahindra & Mahindra Ltd.": {
+                "average": "2.41%",
+                "min": "2.41%",
+                "max": "2.41%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "franklin-asian-equity-fund-direct-growth",
+                        "asset": "2.41%"
+                    }
+                ]
+            },
+            "Meesho Ltd.": {
+                "average": "1.73%",
+                "min": "1.73%",
+                "max": "1.73%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "franklin-asian-equity-fund-direct-growth",
+                        "asset": "1.73%"
+                    }
+                ]
+            }
+        }
+    },
+    "Insurance": {
+        "stocks": {
+            "Endurance Technologies Ltd.": {
+                "average": "2.38%",
+                "min": "2.38%",
+                "max": "2.38%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "franklin-asian-equity-fund-direct-growth",
+                        "asset": "2.38%"
+                    }
+                ]
+            }
+        }
+    },
+    "Construction": {
+        "stocks": {
+            "Torrent Pharmaceuticals Ltd.": {
+                "average": "2.27%",
+                "min": "2.27%",
+                "max": "2.27%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "franklin-asian-equity-fund-direct-growth",
+                        "asset": "2.27%"
+                    }
+                ]
+            },
+            "Hindalco Industries Ltd.": {
+                "average": "2.04%",
+                "min": "2.04%",
+                "max": "2.04%",
+                "count": 1,
+                "mutual_funds": [
+                    {
+                        "name": "franklin-asian-equity-fund-direct-growth",
+                        "asset": "2.04%"
+                    }
+                ]
+            }
+        }
+    }
+}
